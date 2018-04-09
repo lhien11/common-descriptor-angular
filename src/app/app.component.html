@@ -6,10 +6,13 @@
 <mat-card>
   <h3>Here is a form to help you start:</h3>
   <json-schema-form
-    [schema]="exampleSchema"
-    [data]="exampleData"
-    (onSubmit)="exampleOnSubmitFn($event)">
-  </json-schema-form>
+  [schema]="schema"
+  [layout]="layout"
+  [data]="data"
+  (onSubmit)="exampleOnSubmitFn($event)">
+></json-schema-form>
+
+
   <h4>Submitted data:</h4>
   <pre *ngIf="!displayData">(none)</pre>
   <pre *ngIf="displayData">{{displayData | json}}</pre>
