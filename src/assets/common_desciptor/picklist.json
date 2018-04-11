@@ -1,0 +1,6551 @@
+{
+  "PickListDef": {
+    "#comment": [{}, {}, {}, {}],
+    "PickList": [{
+      "@name": "ReportType_pl",
+      "Item": {
+        "Code": "Wanted",
+        "Description": "Wanted Poster"
+      }
+    }, {
+      "@name": "yesNo_pl",
+      "Item": [{
+        "Code": "true",
+        "Description": "Yes"
+      }, {
+        "Code": "false",
+        "Description": "No"
+      }]
+    }, {
+      "@name": "state_pl",
+      "Item": [{
+        "Code": "AK",
+        "Description": "Alaska"
+      }, {
+        "Code": "AL",
+        "Description": "Alabama"
+      }, {
+        "Code": "AR",
+        "Description": "Arkansas"
+      }, {
+        "Code": "AZ",
+        "Description": "Arizona"
+      }, {
+        "Code": "CA",
+        "Description": "California"
+      }, {
+        "Code": "CO",
+        "Description": "Colorado"
+      }, {
+        "Code": "CT",
+        "Description": "Connecticut"
+      }, {
+        "Code": "DE",
+        "Description": "Delaware"
+      }, {
+        "Code": "FL",
+        "Description": "Florida"
+      }, {
+        "Code": "GA",
+        "Description": "Georgia"
+      }, {
+        "Code": "HI",
+        "Description": "Hawaii"
+      }, {
+        "Code": "IA",
+        "Description": "Iowa"
+      }, {
+        "Code": "ID",
+        "Description": "Idaho"
+      }, {
+        "Code": "IL",
+        "Description": "Illinois"
+      }, {
+        "Code": "IN",
+        "Description": "Indiana"
+      }, {
+        "Code": "KY",
+        "Description": "Kentucky"
+      }, {
+        "Code": "LA",
+        "Description": "Louisiana"
+      }, {
+        "Code": "MA",
+        "Description": "Massachusetts"
+      }, {
+        "Code": "MD",
+        "Description": "Maryland"
+      }, {
+        "Code": "ME",
+        "Description": "Maine"
+      }, {
+        "Code": "MI",
+        "Description": "Michigan"
+      }, {
+        "Code": "MN",
+        "Description": "Minnesota"
+      }, {
+        "Code": "MO",
+        "Description": "Missouri"
+      }, {
+        "Code": "MS",
+        "Description": "Mississippi"
+      }, {
+        "Code": "MT",
+        "Description": "Montana"
+      }, {
+        "Code": "NB",
+        "Description": "Nebraska"
+      }, {
+        "Code": "NC",
+        "Description": "North Carolina"
+      }, {
+        "Code": "ND",
+        "Description": "North Dakota"
+      }, {
+        "Code": "NH",
+        "Description": "New Hampshire"
+      }, {
+        "Code": "NJ",
+        "Description": "New Jersey"
+      }, {
+        "Code": "NM",
+        "Description": "New Mexico"
+      }, {
+        "Code": "NV",
+        "Description": "Nevada"
+      }, {
+        "Code": "NY",
+        "Description": "New York"
+      }, {
+        "Code": "OH",
+        "Description": "Ohio"
+      }, {
+        "Code": "OK",
+        "Description": "Oklahoma"
+      }, {
+        "Code": "OR",
+        "Description": "Oregon"
+      }, {
+        "Code": "PA",
+        "Description": "Pennsylvania"
+      }, {
+        "Code": "RI",
+        "Description": "Rhode Island"
+      }, {
+        "Code": "SC",
+        "Description": "South Carolina"
+      }, {
+        "Code": "SD",
+        "Description": "South Dakota"
+      }, {
+        "Code": "TN",
+        "Description": "Tennessee"
+      }, {
+        "Code": "TX",
+        "Description": "Texas"
+      }, {
+        "Code": "UT",
+        "Description": "Utah"
+      }, {
+        "Code": "VA",
+        "Description": "Virginia"
+      }, {
+        "Code": "VT",
+        "Description": "Vermont"
+      }, {
+        "Code": "WA",
+        "Description": "Washington"
+      }, {
+        "Code": "WI",
+        "Description": "Wisconsin"
+      }, {
+        "Code": "WV",
+        "Description": "West Virginia"
+      }, {
+        "Code": "WY",
+        "Description": "Wyoming"
+      }]
+    }, {
+      "@name": "smt_pl",
+      "Item": [{
+        "Code": "ART ARM",
+        "Description": "Artificial arm, nonspecific"
+      }, {
+        "Code": "ART ELBOW",
+        "Description": "Artificial elbow joint"
+      }, {
+        "Code": "ART HIP",
+        "Description": "Artificial hip joint"
+      }, {
+        "Code": "ART KNEE",
+        "Description": "Artificial knee joint"
+      }, {
+        "Code": "ART L ARM",
+        "Description": "Artificial arm, left"
+      }, {
+        "Code": "ART L EAR",
+        "Description": "Artificial ear, left"
+      }, {
+        "Code": "ART L EYE",
+        "Description": "Artificial eye, left"
+      }, {
+        "Code": "ART L FT",
+        "Description": "Artificial foot, left"
+      }, {
+        "Code": "ART L HND",
+        "Description": "Artificial hand, left"
+      }, {
+        "Code": "ART L LEG",
+        "Description": "Artificial leg, left"
+      }, {
+        "Code": "ART LARYNX",
+        "Description": "Artificial larynx"
+      }, {
+        "Code": "ART R ARM",
+        "Description": "Artificial arm, right"
+      }, {
+        "Code": "ART R EAR",
+        "Description": "Artificial ear, right"
+      }, {
+        "Code": "ART R EYE",
+        "Description": "Artificial eye, right"
+      }, {
+        "Code": "ART R FT",
+        "Description": "Artificial foot, right"
+      }, {
+        "Code": "ART R HND",
+        "Description": "Artificial hand, right"
+      }, {
+        "Code": "ART R LEG",
+        "Description": "Artificial leg, right"
+      }, {
+        "Code": "ART SHLD",
+        "Description": "Artificial shoulder joint"
+      }, {
+        "Code": "BALD",
+        "Description": "Bald/balding"
+      }, {
+        "Code": "BLIND",
+        "Description": "Blind eyes, left and right"
+      }, {
+        "Code": "BLND EYE",
+        "Description": "Blind, one eye nonspecific"
+      }, {
+        "Code": "BLND L EYE",
+        "Description": "Blind, eye, left"
+      }, {
+        "Code": "BLND R EYE",
+        "Description": "Blind, eye, right"
+      }, {
+        "Code": "BRA LR ARM",
+        "Description": "Brace, left and right arms"
+      }, {
+        "Code": "BRA LR LEG",
+        "Description": "Brace, left and right legs"
+      }, {
+        "Code": "BRAC ARM",
+        "Description": "Brace, one arm nonspecific"
+      }, {
+        "Code": "BRAC L ARM",
+        "Description": "Brace, left arm"
+      }, {
+        "Code": "BRAC L LEG",
+        "Description": "Brace, left leg"
+      }, {
+        "Code": "BRAC LEG",
+        "Description": "Brace, one leg nonspecific"
+      }, {
+        "Code": "BRAC R ARM",
+        "Description": "Brace, right arm"
+      }, {
+        "Code": "BRAC R LEG",
+        "Description": "Brace, right leg"
+      }, {
+        "Code": "BRAC TEETH",
+        "Description": "Brace, teeth"
+      }, {
+        "Code": "BRACE BACK",
+        "Description": "Brace, back"
+      }, {
+        "Code": "BRACE NECK",
+        "Description": "Brace, neck"
+      }, {
+        "Code": "CANE",
+        "Description": "Cane"
+      }, {
+        "Code": "CARD PACEM",
+        "Description": "Cardiac pacemaker"
+      }, {
+        "Code": "CATA L EYE",
+        "Description": "Cataract, left eye"
+      }, {
+        "Code": "CATA R EYE",
+        "Description": "Cataract, right eye"
+      }, {
+        "Code": "CATARACT",
+        "Description": "Cataract, nonspecific"
+      }, {
+        "Code": "CAUL L EAR",
+        "Description": "Cauliflower ear, left"
+      }, {
+        "Code": "CAUL R EAR",
+        "Description": "Cauliflower ear, right"
+      }, {
+        "Code": "CL LIP",
+        "Description": "Cleft lip, harelip"
+      }, {
+        "Code": "CLEFT CHIN",
+        "Description": "Cleft chin"
+      }, {
+        "Code": "CLEFT PAL",
+        "Description": "Cleft palate"
+      }, {
+        "Code": "COLOST APP",
+        "Description": "Colostomy appliances"
+      }, {
+        "Code": "CON LENSES",
+        "Description": "Contact lenses"
+      }, {
+        "Code": "CRIP L ARM",
+        "Description": "Crippled arm, left"
+      }, {
+        "Code": "CRIP L FGR",
+        "Description": "Crippled finger(s), left hand"
+      }, {
+        "Code": "CRIP L FT",
+        "Description": "Crippled foot, left"
+      }, {
+        "Code": "CRIP L HND",
+        "Description": "Crippled hand, left"
+      }, {
+        "Code": "CRIP L LEG",
+        "Description": "Crippled leg, left"
+      }, {
+        "Code": "CRIP L TOE",
+        "Description": "Crippled toe(s), left"
+      }, {
+        "Code": "CRIP R ARM",
+        "Description": "Crippled arm, right"
+      }, {
+        "Code": "CRIP R FGR",
+        "Description": "Crippled finger(s), right hand"
+      }, {
+        "Code": "CRIP R FT",
+        "Description": "Crippled foot, right"
+      }, {
+        "Code": "CRIP R HND",
+        "Description": "Crippled hand, right"
+      }, {
+        "Code": "CRIP R LEG",
+        "Description": "Crippled leg, right"
+      }, {
+        "Code": "CRIP R TOE",
+        "Description": "Crippled toe(s), right"
+      }, {
+        "Code": "CROSSEYED",
+        "Description": "Cross-eyed"
+      }, {
+        "Code": "CRUTCHES",
+        "Description": "Crutches"
+      }, {
+        "Code": "DA ALCOHOL",
+        "Description": "Drug abuse, alcohol"
+      }, {
+        "Code": "DA AMPHETA",
+        "Description": "Drug abuse, amphetamines"
+      }, {
+        "Code": "DA BARBITU",
+        "Description": "Drug abuse, barbiturates"
+      }, {
+        "Code": "DA COCAINE",
+        "Description": "Drug abuse, cocaine"
+      }, {
+        "Code": "DA GLUE",
+        "Description": "Drug abuse, glue"
+      }, {
+        "Code": "DA HALLUCI",
+        "Description": "Drug abuse, hallucinogens"
+      }, {
+        "Code": "DA MARIJUA",
+        "Description": "Drug abuse, marijuana"
+      }, {
+        "Code": "DA NARCOTI",
+        "Description": "Drug abuse, narcotics"
+      }, {
+        "Code": "DA OTHER",
+        "Description": "Drug abuse, other"
+      }, {
+        "Code": "DA PAINT",
+        "Description": "Drug abuse, paint"
+      }, {
+        "Code": "DA RITALEN",
+        "Description": "Drug abuse, ritalen"
+      }, {
+        "Code": "DA ROHYPNL",
+        "Description": "Drug abuse, rohypnol"
+      }, {
+        "Code": "DEAF",
+        "Description": "Deaf, left and right ear"
+      }, {
+        "Code": "DEAF EAR",
+        "Description": "Deaf, ear nonspecific"
+      }, {
+        "Code": "DEAF L EAR",
+        "Description": "Deaf, left ear"
+      }, {
+        "Code": "DEAF MUTE",
+        "Description": "Deaf and mute"
+      }, {
+        "Code": "DEAF R EAR",
+        "Description": "Deaf, right ear"
+      }, {
+        "Code": "DENT LOW",
+        "Description": "Denture, lower"
+      }, {
+        "Code": "DENT UP",
+        "Description": "Denture, upper"
+      }, {
+        "Code": "DENT UP LO",
+        "Description": "Denture, upper and lower"
+      }, {
+        "Code": "DEV SEPTUM",
+        "Description": "Deviated septum"
+      }, {
+        "Code": "DIMP CHIN",
+        "Description": "Dimple, chin"
+      }, {
+        "Code": "DIMP L CHK",
+        "Description": "Dimple, left cheek (face)"
+      }, {
+        "Code": "DIMP R CHK",
+        "Description": "Dimple, right cheek (face)"
+      }, {
+        "Code": "DISC ABDOM",
+        "Description": "Discolor abdomen (stomach)"
+      }, {
+        "Code": "DISC ANKLE",
+        "Description": "Discolor ankle, nonspecific"
+      }, {
+        "Code": "DISC ARM",
+        "Description": "Discolor arm, nonspecific"
+      }, {
+        "Code": "DISC BACK",
+        "Description": "Discolor back"
+      }, {
+        "Code": "DISC BRST",
+        "Description": "Discolor breast, nonsecific"
+      }, {
+        "Code": "DISC BUTTK",
+        "Description": "Discolor buttocks, nonspecific"
+      }, {
+        "Code": "DISC CHEEK",
+        "Description": "Discolor cheek (face) nonspecific"
+      }, {
+        "Code": "DISC CHEST",
+        "Description": "Discolor chest"
+      }, {
+        "Code": "DISC CHIN",
+        "Description": "Discolor chin"
+      }, {
+        "Code": "DISC EAR",
+        "Description": "Discolor ear, nonspecific"
+      }, {
+        "Code": "DISC EYE",
+        "Description": "Discolor eyebrow, nonspecific"
+      }, {
+        "Code": "DISC FACE",
+        "Description": "Discolor face, nonspecific"
+      }, {
+        "Code": "DISC FGR",
+        "Description": "Discolor finger, nonspecific"
+      }, {
+        "Code": "DISC FHD",
+        "Description": "Discolor forehead"
+      }, {
+        "Code": "DISC FOOT",
+        "Description": "Discolor foot, nonspecific"
+      }, {
+        "Code": "DISC HEAD",
+        "Description": "Discolor head"
+      }, {
+        "Code": "DISC HIP",
+        "Description": "Discolor hip, nonspecific"
+      }, {
+        "Code": "DISC KNEE",
+        "Description": "Discolor knee, nonspecific"
+      }, {
+        "Code": "DISC L ANK",
+        "Description": "Discolor ankle, left"
+      }, {
+        "Code": "DISC L ARM",
+        "Description": "Discolor arm, left"
+      }, {
+        "Code": "DISC L BRS",
+        "Description": "Discolor left breast"
+      }, {
+        "Code": "DISC L BUT",
+        "Description": "Discolor buttock, left"
+      }, {
+        "Code": "DISC L CHK",
+        "Description": "Discolor cheek, left"
+      }, {
+        "Code": "DISC L EAR",
+        "Description": "Discolor ear, left"
+      }, {
+        "Code": "DISC L EYE",
+        "Description": "Discolor eyebrow or eye, left"
+      }, {
+        "Code": "DISC L FGR",
+        "Description": "Discolor fingers, left hand"
+      }, {
+        "Code": "DISC L FT",
+        "Description": "Discolor foot, left"
+      }, {
+        "Code": "DISC L HIP",
+        "Description": "Discolor hip, left"
+      }, {
+        "Code": "DISC L HND",
+        "Description": "Discolor hand, left"
+      }, {
+        "Code": "DISC L LEG",
+        "Description": "Discolor leg, left"
+      }, {
+        "Code": "DISC L LIP",
+        "Description": "Discolor lip, lower"
+      }, {
+        "Code": "DISC L WRS",
+        "Description": "Discolor wrist, left"
+      }, {
+        "Code": "DISC LEG",
+        "Description": "Discolor leg, nonspecific"
+      }, {
+        "Code": "DISC LIP",
+        "Description": "Discolor lip, nonspecific"
+      }, {
+        "Code": "DISC LKNEE",
+        "Description": "Discolor knee, left"
+      }, {
+        "Code": "DISC LSHLD",
+        "Description": "Discolor shoulder, left"
+      }, {
+        "Code": "DISC LTHGH",
+        "Description": "Discolor thigh, left"
+      }, {
+        "Code": "DISC NECK",
+        "Description": "Discolor neck"
+      }, {
+        "Code": "DISC NOSE",
+        "Description": "Discolor nose"
+      }, {
+        "Code": "DISC PENIS",
+        "Description": "Discolor penis"
+      }, {
+        "Code": "DISC R ANK",
+        "Description": "Discolor ankle, right"
+      }, {
+        "Code": "DISC R ARM",
+        "Description": "Discolor arm, right"
+      }, {
+        "Code": "DISC R BRS",
+        "Description": "Discolor breast, right"
+      }, {
+        "Code": "DISC R BUT",
+        "Description": "Discolor buttock, right"
+      }, {
+        "Code": "DISC R CHK",
+        "Description": "Discolor cheek, right"
+      }, {
+        "Code": "DISC R EAR",
+        "Description": "Discolor ear, right"
+      }, {
+        "Code": "DISC R EYE",
+        "Description": "Discolor eyebrow or eye, right"
+      }, {
+        "Code": "DISC R FGR",
+        "Description": "Discolor fingers, right hand"
+      }, {
+        "Code": "DISC R FT",
+        "Description": "Discolor foot, right"
+      }, {
+        "Code": "DISC R HIP",
+        "Description": "Discolor hip, right"
+      }, {
+        "Code": "DISC R HND",
+        "Description": "Discolor hand, right"
+      }, {
+        "Code": "DISC R LEG",
+        "Description": "Discolor leg, right"
+      }, {
+        "Code": "DISC R WRS",
+        "Description": "Discolor wrist, right"
+      }, {
+        "Code": "DISC RKNEE",
+        "Description": "Discolor knee, right"
+      }, {
+        "Code": "DISC RSHLD",
+        "Description": "Discolor shoulder, right"
+      }, {
+        "Code": "DISC RTHGH",
+        "Description": "Discolor thigh, right"
+      }, {
+        "Code": "DISC SHLD",
+        "Description": "Discolor shoulder, nonspecific"
+      }, {
+        "Code": "DISC THGH",
+        "Description": "Discolor thigh, nonspecific"
+      }, {
+        "Code": "DISC U LIP",
+        "Description": "Discolor lip, upper"
+      }, {
+        "Code": "DISC WRIST",
+        "Description": "Discolor wrist, nonspecific"
+      }, {
+        "Code": "EAR TUBES",
+        "Description": "Ear tubes"
+      }, {
+        "Code": "EXTR BRST",
+        "Description": "Extra breast, nonspecific"
+      }, {
+        "Code": "EXTR C NIP",
+        "Description": "Extra nipple, center"
+      }, {
+        "Code": "EXTR C VRT",
+        "Description": "Extra cervical vertebra(e)"
+      }, {
+        "Code": "EXTR CBRST",
+        "Description": "Extra breast, center"
+      }, {
+        "Code": "EXTR L FGR",
+        "Description": "Extra finger(s), left hand"
+      }, {
+        "Code": "EXTR L NIP",
+        "Description": "Extra nipple, left"
+      }, {
+        "Code": "EXTR L TOE",
+        "Description": "Extra toe(s), left foot"
+      }, {
+        "Code": "EXTR L VRT",
+        "Description": "Extra lumbar vertebra(e)"
+      }, {
+        "Code": "EXTR LBRST",
+        "Description": "Extra breast, left"
+      }, {
+        "Code": "EXTR NIP",
+        "Description": "Extra nipple, nonspecific"
+      }, {
+        "Code": "EXTR R FGR",
+        "Description": "Extra finger(s), right hand"
+      }, {
+        "Code": "EXTR R NIP",
+        "Description": "Extra nipple, right"
+      }, {
+        "Code": "EXTR R TOE",
+        "Description": "Extra toe(s), rirht foot"
+      }, {
+        "Code": "EXTR RBRST",
+        "Description": "Extra breast, right"
+      }, {
+        "Code": "EXTR VRT",
+        "Description": "Extra vertebra(e) nonspecific"
+      }, {
+        "Code": "FRC ANKL",
+        "Description": "Freckles ankle, nonspecific"
+      }, {
+        "Code": "FRC ARM",
+        "Description": "Freckles arm, nonspecific"
+      }, {
+        "Code": "FRC BACK",
+        "Description": "Freckles back"
+      }, {
+        "Code": "FRC CLAVIC",
+        "Description": "Freckles clavicle, nonspecific"
+      }, {
+        "Code": "FRC FGR",
+        "Description": "Freckles fingers, nonspecific"
+      }, {
+        "Code": "FRC HAND",
+        "Description": "Freckles hand, nonspecific"
+      }, {
+        "Code": "FRC JAW",
+        "Description": "Freckles jaw, nonspecific"
+      }, {
+        "Code": "FRC KNEE",
+        "Description": "Freckles knee, nonspecific"
+      }, {
+        "Code": "FRC L ANKL",
+        "Description": "Freckles ankle, left"
+      }, {
+        "Code": "FRC L FGR",
+        "Description": "Freckles finger(s), left hand"
+      }, {
+        "Code": "FRC L FOOT",
+        "Description": "Freckles foot, left"
+      }, {
+        "Code": "FRC L HAND",
+        "Description": "Freckles hand, left"
+      }, {
+        "Code": "FRC L KNEE",
+        "Description": "Freckles knee, left"
+      }, {
+        "Code": "FRC L RIB",
+        "Description": "Freckles rib cage, left"
+      }, {
+        "Code": "FRC L SHLD",
+        "Description": "Freckles shoulder, left"
+      }, {
+        "Code": "FRC L TOE",
+        "Description": "Freckles toe(s), left foot"
+      }, {
+        "Code": "FRC L WRST",
+        "Description": "Freckles wrist, left"
+      }, {
+        "Code": "FRC LCLAVI",
+        "Description": "Freckles clavicle, left"
+      }, {
+        "Code": "FRC LEG",
+        "Description": "Freckles leg, nonspecific"
+      }, {
+        "Code": "FRC LL ARM",
+        "Description": "Freckles arm, lower left"
+      }, {
+        "Code": "FRC LL JAW",
+        "Description": "Freckles jaw, lower left"
+      }, {
+        "Code": "FRC LL LEG",
+        "Description": "Freckles leg, lower left"
+      }, {
+        "Code": "FRC LPELVI",
+        "Description": "Freckles pelvic bone, left"
+      }, {
+        "Code": "FRC LR ARM",
+        "Description": "Freckles arm, lower right"
+      }, {
+        "Code": "FRC LR JAW",
+        "Description": "Freckles jaw, lower right"
+      }, {
+        "Code": "FRC LR LEG",
+        "Description": "Freckles leg, lower right"
+      }, {
+        "Code": "FRC NECK",
+        "Description": "Freckles neck"
+      }, {
+        "Code": "FRC NOSE",
+        "Description": "Freckles nose"
+      }, {
+        "Code": "FRC PELVIS",
+        "Description": "Freckles pelvis, nonspecific"
+      }, {
+        "Code": "FRC R ANKL",
+        "Description": "Freckles ankle, right"
+      }, {
+        "Code": "FRC R FGR",
+        "Description": "Freckles finger(s), right hand"
+      }, {
+        "Code": "FRC R FOOT",
+        "Description": "Freckles foot, right"
+      }, {
+        "Code": "FRC R HAND",
+        "Description": "Freckles hand, right"
+      }, {
+        "Code": "FRC R KNEE",
+        "Description": "Freckles knee, right"
+      }, {
+        "Code": "FRC R RIB",
+        "Description": "Freckles rib cage, right"
+      }, {
+        "Code": "FRC R SHLD",
+        "Description": "Freckles shoulder, right"
+      }, {
+        "Code": "FRC R TOE",
+        "Description": "Freckles toe(s), right foot"
+      }, {
+        "Code": "FRC R WRST",
+        "Description": "Freckles wrist, right"
+      }, {
+        "Code": "FRC RCLAVI",
+        "Description": "Freckles clavicle, right"
+      }, {
+        "Code": "FRC RIBS",
+        "Description": "Freckles ribs, nonspecific"
+      }, {
+        "Code": "FRC RPELVI",
+        "Description": "Freckles pelvic bone, right"
+      }, {
+        "Code": "FRC SHLD",
+        "Description": "Freckles shoulder, nonspecific"
+      }, {
+        "Code": "FRC SKULL",
+        "Description": "Freckles skull"
+      }, {
+        "Code": "FRC SPINE",
+        "Description": "Freckles spine"
+      }, {
+        "Code": "FRC STERN",
+        "Description": "Freckles sternum"
+      }, {
+        "Code": "FRC TOE",
+        "Description": "Freckles toes, nonspecific"
+      }, {
+        "Code": "FRC UL ARM",
+        "Description": "Freckles arm, upper left"
+      }, {
+        "Code": "FRC UL JAW",
+        "Description": "Freckles jaw, upper left"
+      }, {
+        "Code": "FRC UL LEG",
+        "Description": "Freckles leg, upper left"
+      }, {
+        "Code": "FRC UR ARM",
+        "Description": "Freckles arm, upper right"
+      }, {
+        "Code": "FRC UR JAW",
+        "Description": "Freckles jaw, upper right"
+      }, {
+        "Code": "FRC UR LEG",
+        "Description": "Freckles leg, upper right"
+      }, {
+        "Code": "FRC WRIST",
+        "Description": "Freckles wrist, nonspecific"
+      }, {
+        "Code": "FRECKLES",
+        "Description": "Freckles"
+      }, {
+        "Code": "GLASSES",
+        "Description": "Glasses (prescription)"
+      }, {
+        "Code": "GLAUCOMA",
+        "Description": "Glaucoma"
+      }, {
+        "Code": "GOLD TOOTH",
+        "Description": "Gold tooth"
+      }, {
+        "Code": "HAIR IMPL",
+        "Description": "Hair implants"
+      }, {
+        "Code": "HEAR AID",
+        "Description": "Hearing aid"
+      }, {
+        "Code": "HFR ANKL",
+        "Description": "Healed fracture, ankle nonspec"
+      }, {
+        "Code": "HFR ARM",
+        "Description": "Healed fracture, arm nonspecif"
+      }, {
+        "Code": "HFR BACK",
+        "Description": "Healed fracture, back"
+      }, {
+        "Code": "HFR CLAVIC",
+        "Description": "Healed fracture, clavicle nons"
+      }, {
+        "Code": "HFR FGR",
+        "Description": "Healed fracture, finger(s) non"
+      }, {
+        "Code": "HFR FOOT",
+        "Description": "Healed fracture, foot nonspeci"
+      }, {
+        "Code": "HFR HAND",
+        "Description": "Healed fracture, hand nonspeci"
+      }, {
+        "Code": "HFR JAW",
+        "Description": "Healed fracture, jaw nonspecif"
+      }, {
+        "Code": "HFR KNEE",
+        "Description": "Healed fracture, knee nonspeci"
+      }, {
+        "Code": "HFR L ANKL",
+        "Description": "Healed fracture, left ankle"
+      }, {
+        "Code": "HFR L FGR",
+        "Description": "Healed fracture, left hand fin"
+      }, {
+        "Code": "HFR L FOOT",
+        "Description": "Healed fracture, left foot"
+      }, {
+        "Code": "HFR L HAND",
+        "Description": "Healed fracture, left hand"
+      }, {
+        "Code": "HFR L KNEE",
+        "Description": "Healed fracture, left knee"
+      }, {
+        "Code": "HFR L RIB",
+        "Description": "Healed fracture, left rib(s)"
+      }, {
+        "Code": "HFR L SHLD",
+        "Description": "Healed fracture, left shoulder"
+      }, {
+        "Code": "HFR L TOE",
+        "Description": "Healed fracture, left foot toe"
+      }, {
+        "Code": "HFR L WRST",
+        "Description": "Healed fracture, left wrist"
+      }, {
+        "Code": "HFR LCLAVI",
+        "Description": "Healed fracture, left clavicle"
+      }, {
+        "Code": "HFR LEG",
+        "Description": "Healed fracture, leg nonspecif"
+      }, {
+        "Code": "HFR LL ARM",
+        "Description": "Healed fracture, lower left ar"
+      }, {
+        "Code": "HFR LL JAW",
+        "Description": "Healed fracture, lower left ja"
+      }, {
+        "Code": "HFR LL LEG",
+        "Description": "Healed fracture, lower left le"
+      }, {
+        "Code": "HFR LPELVI",
+        "Description": "Healed fracture, left pelvic b"
+      }, {
+        "Code": "HFR LR ARM",
+        "Description": "Healed fracture, lower right a"
+      }, {
+        "Code": "HFR LR JAW",
+        "Description": "Healed fracture, lower right j"
+      }, {
+        "Code": "HFR LR LEG",
+        "Description": "Healed fracture, lower right l"
+      }, {
+        "Code": "HFR NECK",
+        "Description": "Healed fracture, neck"
+      }, {
+        "Code": "HFR NOSE",
+        "Description": "Healed fracture, nose"
+      }, {
+        "Code": "HFR PELVIS",
+        "Description": "Healed fracture, pelvis nonspe"
+      }, {
+        "Code": "HFR R ANKL",
+        "Description": "Healed fracture, right ankle"
+      }, {
+        "Code": "HFR R FGR",
+        "Description": "Healed fracture, right hand fi"
+      }, {
+        "Code": "HFR R FOOT",
+        "Description": "Healed fracture, right foot"
+      }, {
+        "Code": "HFR R HAND",
+        "Description": "Healed fracture, right hand"
+      }, {
+        "Code": "HFR R KNEE",
+        "Description": "Healed fracture, right knee"
+      }, {
+        "Code": "HFR R RIB",
+        "Description": "Healed fracture, right rib(s)"
+      }, {
+        "Code": "HFR R SHLD",
+        "Description": "Healed fracture, right shoulde"
+      }, {
+        "Code": "HFR R TOE",
+        "Description": "Healed fracture, right foot to"
+      }, {
+        "Code": "HFR R WRST",
+        "Description": "Healed fracture, right wrist"
+      }, {
+        "Code": "HFR RCLAVI",
+        "Description": "Healed fracture, right clavicl"
+      }, {
+        "Code": "HFR RIBS",
+        "Description": "Healed fracture, rib(s) nonspe"
+      }, {
+        "Code": "HFR RPELVI",
+        "Description": "Healed fracture, right pelvic"
+      }, {
+        "Code": "HFR SHLD",
+        "Description": "Healed fracture, shoulder nons"
+      }, {
+        "Code": "HFR SKULL",
+        "Description": "Healed fracture, skull"
+      }, {
+        "Code": "HFR SPINE",
+        "Description": "Healed fracture, spine"
+      }, {
+        "Code": "HFR STERN",
+        "Description": "Healed fracture, sternum"
+      }, {
+        "Code": "HFR TOE",
+        "Description": "Healed fracture, toe(s) nonspe"
+      }, {
+        "Code": "HFR UL ARM",
+        "Description": "Healed fracture, upper left ar"
+      }, {
+        "Code": "HFR UL JAW",
+        "Description": "Healed fracture, upper left ja"
+      }, {
+        "Code": "HFR UL LEG",
+        "Description": "Healed fracture, upper left le"
+      }, {
+        "Code": "HFR UR ARM",
+        "Description": "Healed fracture, upper right a"
+      }, {
+        "Code": "HFR UR JAW",
+        "Description": "Healed fracture, upper right j"
+      }, {
+        "Code": "HFR UR LEG",
+        "Description": "Healed fracture, upper right l"
+      }, {
+        "Code": "HFR WRIST",
+        "Description": "Healed fracture, wrist nonspec"
+      }, {
+        "Code": "HUMPBACKED",
+        "Description": "Humpbacked"
+      }, {
+        "Code": "INTRA ROD",
+        "Description": "Intramedullary rod"
+      }, {
+        "Code": "IUD",
+        "Description": "Intrauterine device"
+      }, {
+        "Code": "MC ACNE",
+        "Description": "Medical condition, acne"
+      }, {
+        "Code": "MC ADD",
+        "Description": "Medical condition, attention d"
+      }, {
+        "Code": "MC ALCOHOL",
+        "Description": "Medical condition, alcoholism"
+      }, {
+        "Code": "MC ALLERGY",
+        "Description": "Medical condition, allergy"
+      }, {
+        "Code": "MC ALZHMRS",
+        "Description": "Medical condition, alzheimers"
+      }, {
+        "Code": "MC ARTHRTS",
+        "Description": "Medical condition, arthritis"
+      }, {
+        "Code": "MC BEHAVIO",
+        "Description": "Medical condition, behavior"
+      }, {
+        "Code": "MC BLOOD",
+        "Description": "Medical condition, disease"
+      }, {
+        "Code": "MC CANCER",
+        "Description": "Medical condition, cancer"
+      }, {
+        "Code": "MC DIABTIC",
+        "Description": "Medical condition, diabetic"
+      }, {
+        "Code": "MC DOWNSYN",
+        "Description": "Medical condition, down's synd"
+      }, {
+        "Code": "MC DRUGAB",
+        "Description": "Medical condition, drug abuse"
+      }, {
+        "Code": "MC EATDIS",
+        "Description": "Medical condition, eating diso"
+      }, {
+        "Code": "MC HEART",
+        "Description": "Medical condition, heart"
+      }, {
+        "Code": "MC KIDNEY",
+        "Description": "Medical condition, kidney"
+      }, {
+        "Code": "MC LIVER",
+        "Description": "Medical condition, liver disea"
+      }, {
+        "Code": "MC NERVOUS",
+        "Description": "Medical condition, nervous"
+      }, {
+        "Code": "MC NRLGCAL",
+        "Description": "Medical condition,neurological"
+      }, {
+        "Code": "MC OTHER",
+        "Description": "Medical condition,  other"
+      }, {
+        "Code": "MC PARPLGC",
+        "Description": "Medical condition, paraplegic"
+      }, {
+        "Code": "MC PASTPRE",
+        "Description": "Medical condition, pregnamcy -"
+      }, {
+        "Code": "MC PLMNARY",
+        "Description": "Medical condition, pulmonary"
+      }, {
+        "Code": "MC PREGNAN",
+        "Description": "Medical condition, pregnancy -"
+      }, {
+        "Code": "MC QUADPLG",
+        "Description": "Medical condition,quadriplegic"
+      }, {
+        "Code": "MC SKIN",
+        "Description": "Medical condition, disease"
+      }, {
+        "Code": "MC TB",
+        "Description": "Medical condition,tuberculosis"
+      }, {
+        "Code": "MC THYROID",
+        "Description": "Medical condition, thyroid"
+      }, {
+        "Code": "MC TOURETE",
+        "Description": "Medical cond tourette syndrome"
+      }, {
+        "Code": "MISS ADND",
+        "Description": "Missing adenoids"
+      }, {
+        "Code": "MISS APPNX",
+        "Description": "Missing appendix"
+      }, {
+        "Code": "MISS BRSTS",
+        "Description": "Missing breasts"
+      }, {
+        "Code": "MISS C VRT",
+        "Description": "Missing cervical vertebra(e)"
+      }, {
+        "Code": "MISS GALL",
+        "Description": "Missing gallbladder"
+      }, {
+        "Code": "MISS INTES",
+        "Description": "Missing intestines"
+      }, {
+        "Code": "MISS L ARM",
+        "Description": "Missing arm, left"
+      }, {
+        "Code": "MISS L EAR",
+        "Description": "Missing ear, left"
+      }, {
+        "Code": "MISS L EYE",
+        "Description": "Missing eye, left"
+      }, {
+        "Code": "MISS L FGR",
+        "Description": "Missing finger(s), left hand"
+      }, {
+        "Code": "MISS L FJT",
+        "Description": "Missing finger joint, left hnd"
+      }, {
+        "Code": "MISS L FT",
+        "Description": "Missing foot, left"
+      }, {
+        "Code": "MISS L HND",
+        "Description": "Missing hand, left"
+      }, {
+        "Code": "MISS L KID",
+        "Description": "Missing kidney, left"
+      }, {
+        "Code": "MISS L LEG",
+        "Description": "Missing leg, left"
+      }, {
+        "Code": "MISS L TES",
+        "Description": "Missing testis, left"
+      }, {
+        "Code": "MISS L TOE",
+        "Description": "Missing toes, left foot"
+      }, {
+        "Code": "MISS L VRT",
+        "Description": "Missing lumbar vertebra(e)"
+      }, {
+        "Code": "MISS LBRST",
+        "Description": "Missing breast, left"
+      }, {
+        "Code": "MISS LLARM",
+        "Description": "Missing arm, lower left"
+      }, {
+        "Code": "MISS LLLEG",
+        "Description": "Missing leg, lower left"
+      }, {
+        "Code": "MISS LLUNG",
+        "Description": "Missing lung, left"
+      }, {
+        "Code": "MISS LOVAR",
+        "Description": "Missing ovary, left"
+      }, {
+        "Code": "MISS LRARM",
+        "Description": "Missing arm, lower right"
+      }, {
+        "Code": "MISS LRLEG",
+        "Description": "Missing leg, lower right"
+      }, {
+        "Code": "MISS LRYNX",
+        "Description": "Missing larynx"
+      }, {
+        "Code": "MISS NOSE",
+        "Description": "Missing nose"
+      }, {
+        "Code": "MISS OVARS",
+        "Description": "Missing ovaries"
+      }, {
+        "Code": "MISS PANCR",
+        "Description": "Missing pancreas"
+      }, {
+        "Code": "MISS PENIS",
+        "Description": "Missing penis"
+      }, {
+        "Code": "MISS PROST",
+        "Description": "Missing prostrate gland"
+      }, {
+        "Code": "MISS R ARM",
+        "Description": "Missing arm, right"
+      }, {
+        "Code": "MISS R EAR",
+        "Description": "Missing ear, right"
+      }, {
+        "Code": "MISS R EYE",
+        "Description": "Missing eye, right"
+      }, {
+        "Code": "MISS R FGR",
+        "Description": "Missing finger(s), right hand"
+      }, {
+        "Code": "MISS R FJT",
+        "Description": "Missing finger joint right hnd"
+      }, {
+        "Code": "MISS R FT",
+        "Description": "Missing foot, right"
+      }, {
+        "Code": "MISS R HND",
+        "Description": "Missing hand, right"
+      }, {
+        "Code": "MISS R KID",
+        "Description": "Missing kidney, right"
+      }, {
+        "Code": "MISS R LEG",
+        "Description": "Missing leg, right"
+      }, {
+        "Code": "MISS R TES",
+        "Description": "Missing testis, right"
+      }, {
+        "Code": "MISS R TOE",
+        "Description": "Missing toes, right foot"
+      }, {
+        "Code": "MISS RBRST",
+        "Description": "Missing breast, right"
+      }, {
+        "Code": "MISS RLUNG",
+        "Description": "Missing lung, right"
+      }, {
+        "Code": "MISS ROVAR",
+        "Description": "Missing ovary, right"
+      }, {
+        "Code": "MISS SPLEN",
+        "Description": "Missing spleen"
+      }, {
+        "Code": "MISS STOMA",
+        "Description": "Missing stomach"
+      }, {
+        "Code": "MISS THYRD",
+        "Description": "Missing thyroid"
+      }, {
+        "Code": "MISS TONG",
+        "Description": "Missing tongue"
+      }, {
+        "Code": "MISS TONSL",
+        "Description": "Missing tonsils"
+      }, {
+        "Code": "MISS UTRUS",
+        "Description": "Missing uterus"
+      }, {
+        "Code": "MISS VRT",
+        "Description": "Missing vertebra(e) nonspecifi"
+      }, {
+        "Code": "MOLE ABDOM",
+        "Description": "Mole abdomen"
+      }, {
+        "Code": "MOLE ANKLE",
+        "Description": "Mole ankle"
+      }, {
+        "Code": "MOLE BACK",
+        "Description": "Mole back"
+      }, {
+        "Code": "MOLE BRST",
+        "Description": "Mole breast, nonspecific"
+      }, {
+        "Code": "MOLE BUTTK",
+        "Description": "Mole buttocks, nonspecific"
+      }, {
+        "Code": "MOLE CHEST",
+        "Description": "Mole chest"
+      }, {
+        "Code": "MOLE CHIN",
+        "Description": "Mole chin"
+      }, {
+        "Code": "MOLE CHK",
+        "Description": "Mole cheek (face), nonspecific"
+      }, {
+        "Code": "MOLE EAR",
+        "Description": "Mole ear, nonspecific"
+      }, {
+        "Code": "MOLE FGR",
+        "Description": "Mole finger, nonspecific"
+      }, {
+        "Code": "MOLE FHD",
+        "Description": "Mole forehead"
+      }, {
+        "Code": "MOLE FOOT",
+        "Description": "Mole foot, nonspecific"
+      }, {
+        "Code": "MOLE GROIN",
+        "Description": "Mole groin area"
+      }, {
+        "Code": "MOLE HAND",
+        "Description": "Mole hand"
+      }, {
+        "Code": "MOLE HEAD",
+        "Description": "Mole head, nonspecific"
+      }, {
+        "Code": "MOLE HIP",
+        "Description": "Mole hip, nonspecific"
+      }, {
+        "Code": "MOLE KNEE",
+        "Description": "Mole knee, nonspecific"
+      }, {
+        "Code": "MOLE L ANK",
+        "Description": "Mole left ankle"
+      }, {
+        "Code": "MOLE L ARM",
+        "Description": "Mole left arm"
+      }, {
+        "Code": "MOLE L BUT",
+        "Description": "Mole left buttocks"
+      }, {
+        "Code": "MOLE L CHK",
+        "Description": "Mole left cheek (face)"
+      }, {
+        "Code": "MOLE L EAR",
+        "Description": "Mole left ear"
+      }, {
+        "Code": "MOLE L EYE",
+        "Description": "Mole left eyebrow or eye area"
+      }, {
+        "Code": "MOLE L FGR",
+        "Description": "Mole left fingers"
+      }, {
+        "Code": "MOLE L FT",
+        "Description": "Mole left foot"
+      }, {
+        "Code": "MOLE L HIP",
+        "Description": "Mole left hip"
+      }, {
+        "Code": "MOLE L HND",
+        "Description": "Mole left hand"
+      }, {
+        "Code": "MOLE L KNE",
+        "Description": "Mole left knee"
+      }, {
+        "Code": "MOLE L LEG",
+        "Description": "Mole left leg"
+      }, {
+        "Code": "MOLE L LIP",
+        "Description": "Mole lower lip"
+      }, {
+        "Code": "MOLE L SHD",
+        "Description": "Mole left shoulder"
+      }, {
+        "Code": "MOLE L THG",
+        "Description": "Mole left thigh"
+      }, {
+        "Code": "MOLE L WRS",
+        "Description": "Mole left wrist"
+      }, {
+        "Code": "MOLE LBRST",
+        "Description": "Mole left breast"
+      }, {
+        "Code": "MOLE LEG",
+        "Description": "Mole leg, nonspecific"
+      }, {
+        "Code": "MOLE LIP",
+        "Description": "Mole lip, nonspecific"
+      }, {
+        "Code": "MOLE NECK",
+        "Description": "Mole neck"
+      }, {
+        "Code": "MOLE NOSE",
+        "Description": "Mole nose"
+      }, {
+        "Code": "MOLE PENIS",
+        "Description": "Mole penis"
+      }, {
+        "Code": "MOLE R ANK",
+        "Description": "Mole right ankle"
+      }, {
+        "Code": "MOLE R ARM",
+        "Description": "Mole right arm"
+      }, {
+        "Code": "MOLE R BUT",
+        "Description": "Mole right buttocks"
+      }, {
+        "Code": "MOLE R CHK",
+        "Description": "Mole right cheek (face)"
+      }, {
+        "Code": "MOLE R EAR",
+        "Description": "Mole right ear"
+      }, {
+        "Code": "MOLE R EYE",
+        "Description": "Mole right eyebrow or eye area"
+      }, {
+        "Code": "MOLE R FGR",
+        "Description": "Mole right fingers"
+      }, {
+        "Code": "MOLE R FT",
+        "Description": "Mole right foot"
+      }, {
+        "Code": "MOLE R HIP",
+        "Description": "Mole right hip"
+      }, {
+        "Code": "MOLE R HND",
+        "Description": "Mole right hand"
+      }, {
+        "Code": "MOLE R KNE",
+        "Description": "Mole right knee"
+      }, {
+        "Code": "MOLE R LEG",
+        "Description": "Mole right leg"
+      }, {
+        "Code": "MOLE R SHD",
+        "Description": "Mole right shoulder"
+      }, {
+        "Code": "MOLE R THG",
+        "Description": "Mole right thigh"
+      }, {
+        "Code": "MOLE R WRS",
+        "Description": "Mole right wrist"
+      }, {
+        "Code": "MOLE RBRST",
+        "Description": "Mole right breast"
+      }, {
+        "Code": "MOLE SHLD",
+        "Description": "Mole shoulder, nonspecific"
+      }, {
+        "Code": "MOLE THGH",
+        "Description": "Mole thigh, nonspecific"
+      }, {
+        "Code": "MOLE U LIP",
+        "Description": "Mole upper lip"
+      }, {
+        "Code": "MUTE",
+        "Description": "Mute but not deaf"
+      }, {
+        "Code": "NM L ARM",
+        "Description": "Needle marks arm, left"
+      }, {
+        "Code": "NM L BUTTK",
+        "Description": "Needle marks buttock, left"
+      }, {
+        "Code": "NM L FGR",
+        "Description": "Needle marks fingers,left hand"
+      }, {
+        "Code": "NM L FOOT",
+        "Description": "Needle marks foot, left"
+      }, {
+        "Code": "NM L HND",
+        "Description": "Needle marks hand, left"
+      }, {
+        "Code": "NM L LEG",
+        "Description": "Needle marks leg, left"
+      }, {
+        "Code": "NM L THIGH",
+        "Description": "Needle marks thigh, left"
+      }, {
+        "Code": "NM L WRIST",
+        "Description": "Needle marks wrist, left"
+      }, {
+        "Code": "NM R ARM",
+        "Description": "Needle marks arm, right"
+      }, {
+        "Code": "NM R BUTTK",
+        "Description": "Needle marks buttock, right"
+      }, {
+        "Code": "NM R FGR",
+        "Description": "Needle marks fingers,right hnd"
+      }, {
+        "Code": "NM R FOOT",
+        "Description": "Needle marks foot, right"
+      }, {
+        "Code": "NM R HND",
+        "Description": "Needle marks hand, right"
+      }, {
+        "Code": "NM R LEG",
+        "Description": "Needle marks leg, right"
+      }, {
+        "Code": "NM R THIGH",
+        "Description": "Needle marks thigh, right"
+      }, {
+        "Code": "NM R WRIST",
+        "Description": "Needle marks wrist, right"
+      }, {
+        "Code": "ORTH NAIL",
+        "Description": "Orthopedic nail or pin"
+      }, {
+        "Code": "ORTH PLATE",
+        "Description": "Orthopedic plate"
+      }, {
+        "Code": "ORTH SCREW",
+        "Description": "Orthopedic screw"
+      }, {
+        "Code": "POCKMARKS",
+        "Description": "Pock marks"
+      }, {
+        "Code": "PRCD ABDMN",
+        "Description": "Pierced abdomen"
+      }, {
+        "Code": "PRCD BACK",
+        "Description": "Pierced back"
+      }, {
+        "Code": "PRCD EAR",
+        "Description": "Pierced ear (one) nonspecific"
+      }, {
+        "Code": "PRCD EARS",
+        "Description": "Pierced ears"
+      }, {
+        "Code": "PRCD EYE",
+        "Description": "Pierced eyebrow nonspecific"
+      }, {
+        "Code": "PRCD GNTLS",
+        "Description": "Pierced genitalia"
+      }, {
+        "Code": "PRCD L EAR",
+        "Description": "Pierced left ear"
+      }, {
+        "Code": "PRCD L EYE",
+        "Description": "Pierced left eyebrow"
+      }, {
+        "Code": "PRCD L NIP",
+        "Description": "Pierced left nipple"
+      }, {
+        "Code": "PRCD LIP",
+        "Description": "Pierced lip nonspecific"
+      }, {
+        "Code": "PRCD LLIP",
+        "Description": "Pierced lower lip"
+      }, {
+        "Code": "PRCD NIPPL",
+        "Description": "Pierced nipple, nonspecific"
+      }, {
+        "Code": "PRCD NOSE",
+        "Description": "Pierced nose"
+      }, {
+        "Code": "PRCD R EAR",
+        "Description": "Pierced right ear"
+      }, {
+        "Code": "PRCD R EYE",
+        "Description": "Pierced right eyebrow"
+      }, {
+        "Code": "PRCD R NIP",
+        "Description": "Pierced right nipple"
+      }, {
+        "Code": "PRCD TONGU",
+        "Description": "Pierced tongue"
+      }, {
+        "Code": "PRCD ULIP",
+        "Description": "Pierced upper lip"
+      }, {
+        "Code": "PROT L JAW",
+        "Description": "Protruding lower jaw"
+      }, {
+        "Code": "PROT U JAW",
+        "Description": "Protruding upper jaw"
+      }, {
+        "Code": "SHRT L LEG",
+        "Description": "Shorter left leg"
+      }, {
+        "Code": "SHRT R LEG",
+        "Description": "Shorter right leg"
+      }, {
+        "Code": "SHUNT ART",
+        "Description": "Shunt, arterial vascular"
+      }, {
+        "Code": "SHUNT CERB",
+        "Description": "Shunt, cerebral ventricle"
+      }, {
+        "Code": "SKL PLATE",
+        "Description": "Skull plate"
+      }, {
+        "Code": "SLVR TOOTH",
+        "Description": "Silver tooth"
+      }, {
+        "Code": "STAPLES",
+        "Description": "Staples"
+      }, {
+        "Code": "STUTTERS",
+        "Description": "Stutters"
+      }, {
+        "Code": "TD ACONVUL",
+        "Description": "Therapy drug, anticonvulsants"
+      }, {
+        "Code": "TD ADEPRES",
+        "Description": "Therapy drug, antidepressants"
+      }, {
+        "Code": "TD ANALGES",
+        "Description": "Therapy drug, analgesics"
+      }, {
+        "Code": "TD ANTBTCS",
+        "Description": "Therapy drug, antibiotics"
+      }, {
+        "Code": "TD ANTINFL",
+        "Description": "Therapy drug, anti-inflammator"
+      }, {
+        "Code": "TD BRNCHDL",
+        "Description": "Therapy drug, bronchial dilato"
+      }, {
+        "Code": "TD CARDIAC",
+        "Description": "Therapy drug, cardiac"
+      }, {
+        "Code": "TD HYPNOTI",
+        "Description": "Therapy drug, hypnotics"
+      }, {
+        "Code": "TD INSULIN",
+        "Description": "Therapy drug, insulin"
+      }, {
+        "Code": "TD OTHER",
+        "Description": "Therapy drug,  other"
+      }, {
+        "Code": "TD RITALEN",
+        "Description": "Therapy drug, ritalen"
+      }, {
+        "Code": "TD TRANQUI",
+        "Description": "Therapy drug, tranquilizers"
+      }, {
+        "Code": "TRANSSXL",
+        "Description": "Transsexual"
+      }, {
+        "Code": "TRANSVST",
+        "Description": "Transvestite"
+      }, {
+        "Code": "TUBE L EAR",
+        "Description": "Tube left ear"
+      }, {
+        "Code": "TUBE R EAR",
+        "Description": "Tube right ear"
+      }, {
+        "Code": "VASC PROTH",
+        "Description": "Vascular prosthesis"
+      }, {
+        "Code": "WHEELCHAIR",
+        "Description": "Wheelchair"
+      }, {
+        "Code": "WIRE SUTU",
+        "Description": "Wire sutures"
+      }, {
+        "Code": "SC ABDOM",
+        "Description": "Scar, Abdomen"
+      }, {
+        "Code": "SC ANKL",
+        "Description": "Scar, Ankle, nonspecific"
+      }, {
+        "Code": "SC L ANKL",
+        "Description": "Scar, Ankle, left"
+      }, {
+        "Code": "SC R ANK",
+        "Description": "Scar, Ankle, right"
+      }, {
+        "Code": "SC ARM",
+        "Description": "Scar, Arm, nonspecific"
+      }, {
+        "Code": "SC L ARM",
+        "Description": "Scar, Arm, left"
+      }, {
+        "Code": "SC R ARM",
+        "Description": "Scar, Arm, right"
+      }, {
+        "Code": "SC UL ARM",
+        "Description": "Scar, Arm, left upper"
+      }, {
+        "Code": "SC UR ARM",
+        "Description": "Scar, Arm, right upper"
+      }, {
+        "Code": "SC BACK",
+        "Description": "Scar, Back"
+      }, {
+        "Code": "SC BREAST",
+        "Description": "Scar, Breast, nonspecific"
+      }, {
+        "Code": "SC L BRST",
+        "Description": "Scar, Breast, left"
+      }, {
+        "Code": "SC R BRST",
+        "Description": "Scar, Breast, right"
+      }, {
+        "Code": "SC BUTTK",
+        "Description": "Scar, Buttock, nonspecific"
+      }, {
+        "Code": "SC L BUTTK",
+        "Description": "Scar, Buttock, left"
+      }, {
+        "Code": "SC R BUTTK",
+        "Description": "Scar, Buttock, right"
+      }, {
+        "Code": "SC CALF",
+        "Description": "Scar, Calf, nonspecific"
+      }, {
+        "Code": "SC L CALF",
+        "Description": "Scar, Calf, left"
+      }, {
+        "Code": "SC R CALF",
+        "Description": "Scar, Calf, right"
+      }, {
+        "Code": "SC CHK",
+        "Description": "Scar, Cheek (face), nonspecific"
+      }, {
+        "Code": "SC L CHK",
+        "Description": "Scar, Cheek (face), left"
+      }, {
+        "Code": "SC R CHK",
+        "Description": "Scar, Cheek (face), right"
+      }, {
+        "Code": "SC CHEST",
+        "Description": "Scar, Chest"
+      }, {
+        "Code": "SC CHIN",
+        "Description": "Scar, Chin"
+      }, {
+        "Code": "SC EAR",
+        "Description": "Scar, Ear, nonspecific"
+      }, {
+        "Code": "SC L EAR",
+        "Description": "Scar, Ear, left"
+      }, {
+        "Code": "SC R EAR",
+        "Description": "Scar, Ear, right"
+      }, {
+        "Code": "SC ELBOW",
+        "Description": "Scar, Elbow, nonspecific"
+      }, {
+        "Code": "SC L ELB",
+        "Description": "Scar, Elbow, left"
+      }, {
+        "Code": "SC R ELB",
+        "Description": "Scar, Elbow, right"
+      }, {
+        "Code": "SC EYE",
+        "Description": "Scar, Eyebrow, nonspecific"
+      }, {
+        "Code": "SC L EYE",
+        "Description": "Scar, Eyebrow, left/left eye area"
+      }, {
+        "Code": "SC  EYE",
+        "Description": "Scar, Eyebrow, right/right eye area"
+      }, {
+        "Code": "SC FACE",
+        "Description": "Scar, Face, nonspecific"
+      }, {
+        "Code": "SC FGR",
+        "Description": "Scar, Finger, nonspecific"
+      }, {
+        "Code": "SC L FGR",
+        "Description": "Scar, Finger(s), left hand"
+      }, {
+        "Code": "SC R FGR",
+        "Description": "Scar, Finger(s), right hand"
+      }, {
+        "Code": "SC ",
+        "Description": "Scar, Foot, nonspecific"
+      }, {
+        "Code": "SC L FT",
+        "Description": "Scar, Foot, left"
+      }, {
+        "Code": "SC R FT",
+        "Description": "Scar, Foot, right"
+      }, {
+        "Code": "SC F ARM",
+        "Description": "Scar, Forearm, nonspecific"
+      }, {
+        "Code": "SC LF ARM",
+        "Description": "Scar, Forearm, left"
+      }, {
+        "Code": "SC RF ARM",
+        "Description": "Scar, Forearm, right"
+      }, {
+        "Code": "SC FHD",
+        "Description": "Scar, Forehead"
+      }, {
+        "Code": "SC GROIN",
+        "Description": "Scar, Groin area"
+      }, {
+        "Code": "SC HAND",
+        "Description": "Scar, Hand, nonspecific"
+      }, {
+        "Code": "SC L HND",
+        "Description": "Scar, Hand, left"
+      }, {
+        "Code": "SC R HND",
+        "Description": "Scar, Hand, right"
+      }, {
+        "Code": "SC HEAD",
+        "Description": "Scar, Head, nonspecific"
+      }, {
+        "Code": "SC HIP",
+        "Description": "Scar, Hip, nonspecific"
+      }, {
+        "Code": "SC L HIP",
+        "Description": "Scar, Hip, left"
+      }, {
+        "Code": "SC R HIP",
+        "Description": "Scar, Hip, right"
+      }, {
+        "Code": "SC KNEE",
+        "Description": "Scar, Knee, nonspecific"
+      }, {
+        "Code": "SC L KNEE",
+        "Description": "Scar, Knee, left"
+      }, {
+        "Code": "SC R KNEE",
+        "Description": "Scar, Knee, right"
+      }, {
+        "Code": "SC LEG",
+        "Description": "Scar, Leg, nonspecific"
+      }, {
+        "Code": "SC L LEG",
+        "Description": "Scar, Leg, left, nonspecific"
+      }, {
+        "Code": "SC R LEG",
+        "Description": "Scar, Leg, right, nonspecific"
+      }, {
+        "Code": "SC LIP",
+        "Description": "Scar, Lip, nonspecific"
+      }, {
+        "Code": "SC LOW LIP",
+        "Description": "Scar, Lip, lower"
+      }, {
+        "Code": "SC UP LIP",
+        "Description": "Scar, Lip, upper"
+      }, {
+        "Code": "SC NECK",
+        "Description": "Scar, Neck"
+      }, {
+        "Code": "SC NOSE",
+        "Description": "Scar, Nose"
+      }, {
+        "Code": "SC PENIS",
+        "Description": "Scar, Penis"
+      }, {
+        "Code": "POCKMARKS",
+        "Description": "Scar, Pockmarks"
+      }, {
+        "Code": "SC SHLD",
+        "Description": "Scar, Shoulder, nonspecific"
+      }, {
+        "Code": "SC L SHLD",
+        "Description": "Scar, Shoulder, left"
+      }, {
+        "Code": "SC R SHLD",
+        "Description": "Scar, Shoulder, right"
+      }, {
+        "Code": "SC THGH",
+        "Description": "Scar, Thigh, nonspecific"
+      }, {
+        "Code": "SC L THGH",
+        "Description": "Scar, Thigh, left"
+      }, {
+        "Code": "SC R THGH",
+        "Description": "Scar, Thigh, right"
+      }, {
+        "Code": "SC WRIST",
+        "Description": "Scar, Wrist, nonspecific"
+      }, {
+        "Code": "SC L WRIST",
+        "Description": "Scar, Wrist, left"
+      }, {
+        "Code": "SC R WRIST",
+        "Description": "Scar, Wrist, right"
+      }, {
+        "Code": "TAT ABDOM",
+        "Description": "Tattoo, Abdomen"
+      }, {
+        "Code": "TAT ANKL",
+        "Description": "Tattoo, Ankle, nonspecific"
+      }, {
+        "Code": "TAT L ANKL",
+        "Description": "Tattoo, Ankle, left"
+      }, {
+        "Code": "TAT R ANK",
+        "Description": "Tattoo, Ankle, right"
+      }, {
+        "Code": "TAT ARM",
+        "Description": "Tattoo, Arm, nonspecific"
+      }, {
+        "Code": "TAT L ARM",
+        "Description": "Tattoo, Arm, left"
+      }, {
+        "Code": "TAT R ARM",
+        "Description": "Tattoo, Arm, right"
+      }, {
+        "Code": "TAT UL ARM",
+        "Description": "Tattoo, Arm, left upper"
+      }, {
+        "Code": "TAT UR ARM",
+        "Description": "Tattoo, Arm, right upper"
+      }, {
+        "Code": "TAT BACK",
+        "Description": "Tattoo, Back"
+      }, {
+        "Code": "TAT BREAST",
+        "Description": "Tattoo, Breast, nonspecific"
+      }, {
+        "Code": "TAT L BRST",
+        "Description": "Tattoo, Breast, left"
+      }, {
+        "Code": "TAT R BRST",
+        "Description": "Tattoo, Breast, right"
+      }, {
+        "Code": "TAT BUTTK",
+        "Description": "Tattoo, Buttocks, nonspecific"
+      }, {
+        "Code": "TAT L BUTK",
+        "Description": "Tattoo, Buttock, left"
+      }, {
+        "Code": "TAT R BUTK",
+        "Description": "Tattoo, Buttock, right"
+      }, {
+        "Code": "TAT CALF",
+        "Description": "Tattoo, Calf, nonspecific"
+      }, {
+        "Code": "TAT L CALF",
+        "Description": "Tattoo, Calf, left"
+      }, {
+        "Code": "TAT R CALF",
+        "Description": "Tattoo, Calf, right"
+      }, {
+        "Code": "TAT CHEEK",
+        "Description": "Tattoo, Cheek (face), nonspecific"
+      }, {
+        "Code": "TAT L CHK",
+        "Description": "Tattoo, Cheek (face), left"
+      }, {
+        "Code": "TAT R CHK",
+        "Description": "Tattoo, Cheek (face), right"
+      }, {
+        "Code": "TAT CHEST",
+        "Description": "Tattoo, Chest"
+      }, {
+        "Code": "TAT CHIN",
+        "Description": "Tattoo, Chin"
+      }, {
+        "Code": "TAT EAR",
+        "Description": "Tattoo, Ear, nonspecific"
+      }, {
+        "Code": "TAT L EAR",
+        "Description": "Tattoo, Ear, left"
+      }, {
+        "Code": "TAT R EAR",
+        "Description": "Tattoo, Ear, right"
+      }, {
+        "Code": "TAT ELBOW",
+        "Description": "Tattoo, Elbow, nonspecific"
+      }, {
+        "Code": "TAT L ELBOW",
+        "Description": "Tattoo, Elbow, left"
+      }, {
+        "Code": "TAT R ELBOW",
+        "Description": "Tattoo, Elbow, right"
+      }, {
+        "Code": "TAT FACE",
+        "Description": "Tattoo, Face, nonspecific"
+      }, {
+        "Code": "TAT FNGR",
+        "Description": "Tattoo, Finger, nonspecific"
+      }, {
+        "Code": "TAT L FGR",
+        "Description": "Tattoo, Finger(s), left hand"
+      }, {
+        "Code": "TAT R FGR",
+        "Description": "Tattoo, Finger(s), right hand"
+      }, {
+        "Code": "TAT FOOT",
+        "Description": "Tattoo, Foot, nonspecific"
+      }, {
+        "Code": "TAT L FOOT",
+        "Description": "Tattoo, Foot, left"
+      }, {
+        "Code": "TAT R FOOT",
+        "Description": "Tattoo, Foot, right"
+      }, {
+        "Code": "TAT F ARM",
+        "Description": "Tattoo, Forearm, nonspecific"
+      }, {
+        "Code": "TAT LF ARM",
+        "Description": "Tattoo, Forearm, left"
+      }, {
+        "Code": "TAT RF ARM",
+        "Description": "Tattoo, Forearm, right"
+      }, {
+        "Code": "TAT FHD",
+        "Description": "Tattoo, Forehead"
+      }, {
+        "Code": "TAT FLBODY",
+        "Description": "Tattoo, Full body"
+      }, {
+        "Code": "TAT GROIN",
+        "Description": "Tattoo, Groin area"
+      }, {
+        "Code": "TAT HAND",
+        "Description": "Tattoo, Hand, nonspecific"
+      }, {
+        "Code": "TAT L HND",
+        "Description": "Tattoo, Hand, left"
+      }, {
+        "Code": "TAT R HND",
+        "Description": "Tattoo, Hand, right"
+      }, {
+        "Code": "TAT HEAD",
+        "Description": "Tattoo, Head, nonspecific"
+      }, {
+        "Code": "TAT HIP",
+        "Description": "Tattoo, Hip, nonspecific"
+      }, {
+        "Code": "TAT L HIP",
+        "Description": "Tattoo, Hip, left"
+      }, {
+        "Code": "TAT R HIP",
+        "Description": "Tattoo, Hip, right"
+      }, {
+        "Code": "TAT KNEE",
+        "Description": "Tattoo, Knee, nonspecific"
+      }, {
+        "Code": "TAT L KNEE",
+        "Description": "Tattoo, Knee, left"
+      }, {
+        "Code": "TAT R KNEE",
+        "Description": "Tattoo, Knee, right"
+      }, {
+        "Code": "TAT LEG",
+        "Description": "Tattoo, Leg, nonspecific"
+      }, {
+        "Code": "TAT L LEG",
+        "Description": "Tattoo, Leg, left"
+      }, {
+        "Code": "TAT R LEG",
+        "Description": "Tattoo, Leg, right"
+      }, {
+        "Code": "TAT LIP",
+        "Description": "Tattoo, Lip, nonspecific"
+      }, {
+        "Code": "TAT LW LIP",
+        "Description": "Tattoo, Lip, lower"
+      }, {
+        "Code": "TAT UP LIP",
+        "Description": "Tattoo, Lip, upper"
+      }, {
+        "Code": "TAT NECK",
+        "Description": "Tattoo, Neck"
+      }, {
+        "Code": "TAT NOSE",
+        "Description": "Tattoo, Nose"
+      }, {
+        "Code": "TAT PENIS",
+        "Description": "Tattoo, Penis"
+      }, {
+        "Code": "TAT SHLD",
+        "Description": "Tattoo, Shoulder, nonspecific"
+      }, {
+        "Code": "TAT L SHLD",
+        "Description": "Tattoo, Shoulder, left"
+      }, {
+        "Code": "TAT R SHLD",
+        "Description": "Tattoo, Shoulder, right"
+      }, {
+        "Code": "TAT THGH",
+        "Description": "Tattoo, Thigh, nonspecific"
+      }, {
+        "Code": "TAT L THGH",
+        "Description": "Tattoo, Thigh, left"
+      }, {
+        "Code": "TAT R THGH",
+        "Description": "Tattoo, Thigh, right"
+      }, {
+        "Code": "TAT WRS",
+        "Description": "Tattoo, Wrist, nonspecific"
+      }, {
+        "Code": "TAT L WRS",
+        "Description": "Tattoo, Wrist, left"
+      }, {
+        "Code": "TAT R WRS",
+        "Description": "Tattoo, Wrist, right"
+      }]
+    }, {
+      "@name": "smt_description_pl",
+      "Item": {
+        "Code": "test",
+        "Description": "test"
+      }
+    }, {
+      "@name": "recordTypeMFD_pl",
+      "Item": [{
+        "Code": ["Hawaii Adult Criminal", "','", "American Samoa Adult Criminal", "','", "American Samoa Juvenile", "','", "Hawaii Juvenile"],
+        "Description": "Criminal"
+      }, {
+        "Code": ["American Samoa Sex Offender", "','", "Hawaii Sex Offender"],
+        "Description": "Sex Offender"
+      }, {
+        "Code": "Retired",
+        "Description": "Retired"
+      }, {
+        "Code": ["Hawaii Adult Criminal", "','", "American Samoa Adult Criminal", "','", "Civil Applicant", "','", "American Samoa Juvenile", "','", "American Samoa Sex Offender", "','", "Applicant", "','", "Firearms", "','", "Hawaii Juvenile", "','", "Hawaii Sex Offender", "','", "Training"],
+        "Description": "All"
+      }]
+    }, {
+      "@name": "recordType_pl",
+      "Item": [{
+        "Code": "C",
+        "Description": "Hawaii Adult Criminal"
+      }, {
+        "Code": "Q",
+        "Description": "American Samoa Adult Criminal"
+      }, {
+        "Code": "L",
+        "Description": "Civil Applicant"
+      }, {
+        "Code": "P",
+        "Description": "American Samoa Juvenile"
+      }, {
+        "Code": "S",
+        "Description": "American Samoa Sex Offender"
+      }, {
+        "Code": "A",
+        "Description": "Applicant"
+      }, {
+        "Code": "F",
+        "Description": "Firearms"
+      }, {
+        "Code": "J",
+        "Description": "Hawaii Juvenile"
+      }, {
+        "Code": "X",
+        "Description": "Hawaii Sex Offender"
+      }, {
+        "Code": "Z",
+        "Description": "Training"
+      }, {
+        "Code": "G",
+        "Description": "LEOSA"
+      }]
+    }, {
+      "@name": "sealed_pl",
+      "Item": {
+        "Code": "Sealed",
+        "Description": "Sealed"
+      }
+    }, {
+      "@name": "TF_pl",
+      "Item": [{
+        "Code": "true",
+        "Description": "Yes"
+      }, {
+        "Code": "false",
+        "Description": "No"
+      }]
+    }, {
+      "@name": "viewingOpinion_pl",
+      "Item": [{
+        "Code": "ID",
+        "Description": "Match"
+      }, {
+        "Code": "POS",
+        "Description": "Possible Match"
+      }, {
+        "Code": "R",
+        "Description": "No Match"
+      }, {
+        "Code": "U",
+        "Description": "Unviewed"
+      }]
+    }, {
+      "@name": "disclaimerStatus_pl",
+      "Item": [{
+        "Code": "U",
+        "Description": "Unanswered"
+      }, {
+        "Code": "Y",
+        "Description": "Agreed"
+      }, {
+        "Code": "N",
+        "Description": "Disagreed"
+      }]
+    }, {
+      "@name": "viewingTypes_pl",
+      "Item": [{
+        "Code": "I",
+        "Description": "Investigator"
+      }, {
+        "Code": "W",
+        "Description": "Witness"
+      }, {
+        "Code": "P",
+        "Description": "Printed Witness"
+      }]
+    }, {
+      "@name": "viewingStatus_pl",
+      "Item": [{
+        "Code": "N",
+        "Description": "New"
+      }, {
+        "Code": "C",
+        "Description": "Concluded"
+      }, {
+        "Code": "I",
+        "Description": "Interrupted"
+      }]
+    }, {
+      "@name": "FACE_pl",
+      "Item": [{
+        "Code": "F",
+        "Description": "Face Frontal"
+      }, {
+        "Code": "R",
+        "Description": "Face Right"
+      }, {
+        "Code": "L",
+        "Description": "Face Left"
+      }]
+    }, {
+      "@name": "race_pl",
+      "Item": [{
+        "Code": "A",
+        "Description": "Asian"
+      }, {
+        "Code": "B",
+        "Description": "Black"
+      }, {
+        "Code": "I",
+        "Description": "American Indian"
+      }, {
+        "Code": "W",
+        "Description": "White"
+      }, {
+        "Code": "U",
+        "Description": "Unknown"
+      }]
+    }, {
+      "@name": "organizations_pl",
+      "Item": {
+        "Code": "org_1",
+        "Description": "org_1"
+      }
+    }, {
+      "@name": "sex_pl",
+      "Item": [{
+        "Code": "M",
+        "Description": "Male"
+      }, {
+        "Code": "F",
+        "Description": "Female"
+      }, {
+        "Code": "X",
+        "Description": "Unknown (Livescans)"
+      }, {
+        "Code": "U",
+        "Description": "Unknown (Cardscans)"
+      }]
+    }, {
+      "@name": "eye_pl",
+      "Item": [{
+        "Code": "BRO",
+        "Description": "Brown"
+      }, {
+        "Code": "GRY",
+        "Description": "Gray"
+      }, {
+        "Code": "GRN",
+        "Description": "Green"
+      }, {
+        "Code": "HAZ",
+        "Description": "Hazel"
+      }, {
+        "Code": "BLK",
+        "Description": "Black"
+      }, {
+        "Code": "MAR",
+        "Description": "Maroon"
+      }, {
+        "Code": "BLU",
+        "Description": "Blue"
+      }, {
+        "Code": "MUL",
+        "Description": "Multicolored"
+      }, {
+        "Code": "PNK",
+        "Description": "Pink"
+      }, {
+        "Code": "XXX",
+        "Description": "Unknown"
+      }]
+    }, {
+      "@name": "eyetype_pl",
+      "Item": [{
+        "Code": "Aveugle",
+        "Description": "Aveugle (EN)"
+      }, {
+        "Code": "Louche",
+        "Description": "Louche (EN)"
+      }, {
+        "Code": "OeilDeVerreDroit",
+        "Description": "Oeil De Verre Droit (EN)"
+      }, {
+        "Code": "OeilDeVerreGauche",
+        "Description": "Oeil De Verre Gauche (EN)"
+      }, {
+        "Code": "YeuxExorbites",
+        "Description": "Yeux Exorbit�s (EN)"
+      }]
+    }, {
+      "@name": "HairColour_pl",
+      "Item": [{
+        "Code": "BAL",
+        "Description": "Bald"
+      }, {
+        "Code": "BLK",
+        "Description": "Black"
+      }, {
+        "Code": "BLN",
+        "Description": "Blond"
+      }, {
+        "Code": "BRO",
+        "Description": "Brown"
+      }, {
+        "Code": "GRN",
+        "Description": "Green"
+      }, {
+        "Code": "GRY",
+        "Description": "Gray"
+      }, {
+        "Code": "ORG",
+        "Description": "Orange"
+      }, {
+        "Code": "PNK",
+        "Description": "Pink"
+      }, {
+        "Code": "PLE",
+        "Description": "Purple"
+      }, {
+        "Code": "RED",
+        "Description": "Red"
+      }, {
+        "Code": "SDY",
+        "Description": "Sandy"
+      }, {
+        "Code": "WHI",
+        "Description": "White"
+      }, {
+        "Code": "XXX",
+        "Description": "Unknown"
+      }]
+    }, {
+      "@name": "HairLength_pl",
+      "Item": [{
+        "Code": "AU COU",
+        "Description": "AU COU (EN)"
+      }, {
+        "Code": "AUX EPAULES",
+        "Description": "AUX EPAULES (EN)"
+      }, {
+        "Code": "AUX OREILLES",
+        "Description": "AUX OREILLES (EN)"
+      }, {
+        "Code": "EN BAS DES EPAULES",
+        "Description": "EN BAS DES EPAULES (EN)"
+      }]
+    }, {
+      "@name": "HairNature_pl",
+      "Item": [{
+        "Code": "CREPUS",
+        "Description": "CREPUS (EN)"
+      }, {
+        "Code": "DROITS",
+        "Description": "DROITS (EN)"
+      }, {
+        "Code": "FRISES",
+        "Description": "FRISES (EN)"
+      }, {
+        "Code": "ONDULES",
+        "Description": "ONDULES (EN)"
+      }]
+    }, {
+      "@name": "HaircutType_pl",
+      "Item": [{
+        "Code": "PUNK",
+        "Description": "PUNK (EN)"
+      }, {
+        "Code": "QUEUE DE CHEVAL",
+        "Description": "QUEUE DE CHEVAL (EN)"
+      }, {
+        "Code": "RASE",
+        "Description": "RASE (EN)"
+      }, {
+        "Code": "TRESSE",
+        "Description": "TRESSE (EN)"
+      }]
+    }, {
+      "@name": "glasses_pl",
+      "Item": [{
+        "Code": "LENTILLES CORNEENNES",
+        "Description": "LENTILLES CORNEENNES (EN)"
+      }, {
+        "Code": "LUNETTES",
+        "Description": "LUNETTES (EN)"
+      }, {
+        "Code": "SANS LUNETTE",
+        "Description": "SANS LUNETTE (EN)"
+      }]
+    }, {
+      "@name": "Bald_pl",
+      "Item": [{
+        "Code": "CHAUVE",
+        "Description": "CHAUVE (EN)"
+      }, {
+        "Code": "PRESQUECHAUVE",
+        "Description": "PRESQUE CHAUVE (EN)"
+      }, {
+        "Code": "CALVITIEPRECOCE",
+        "Description": "CALVITIE PRECOCE (EN)"
+      }]
+    }, {
+      "@name": "Beard_pl",
+      "Item": [{
+        "Code": "BARBICHE EPAISSE",
+        "Description": "BARBICHE EPAISSE (EN)"
+      }, {
+        "Code": "BARBICHE MINCE",
+        "Description": "BARBICHE MINCE (EN)"
+      }, {
+        "Code": "BARBICHE MOYENNE",
+        "Description": "BARBICHE MOYENNE (EN)"
+      }, {
+        "Code": "EPAISSE",
+        "Description": "EPAISSE (EN)"
+      }, {
+        "Code": "MINCE",
+        "Description": "MINCE (EN)"
+      }, {
+        "Code": "MOYENNE",
+        "Description": "MOYENNE (EN)"
+      }, {
+        "Code": "PINCEAU",
+        "Description": "PINCEAU (EN)"
+      }, {
+        "Code": "SANS BARBE",
+        "Description": "SANS BARBE (EN)"
+      }]
+    }, {
+      "@name": "ChildSexOffender_pl",
+      "Item": [{
+        "Code": "C",
+        "Description": "Agression sexuelle D'Enfant"
+      }, {
+        "Code": "R",
+        "Description": "not defined"
+      }, {
+        "Code": "A",
+        "Description": "not defined"
+      }, {
+        "Code": "O",
+        "Description": "not defined"
+      }]
+    }, {
+      "@name": "Complexion_pl",
+      "Item": [{
+        "Code": "0001",
+        "Description": "MOYEN (EN)"
+      }, {
+        "Code": "0002",
+        "Description": "PALE (EN)"
+      }, {
+        "Code": "0003",
+        "Description": "FONCE (EN)"
+      }, {
+        "Code": "0004",
+        "Description": "ACNE (EN)"
+      }, {
+        "Code": "0005",
+        "Description": "ALBINOS (EN)"
+      }, {
+        "Code": "0006",
+        "Description": "TACHE DE ROUSSEUR (EN)"
+      }, {
+        "Code": "0007",
+        "Description": "GRAIN DE BEAUTE (EN)"
+      }, {
+        "Code": "0008",
+        "Description": "OLIVE (EN)"
+      }, {
+        "Code": "0009",
+        "Description": "VISAGE GRELE (EN)"
+      }, {
+        "Code": "0010",
+        "Description": "ROUGEATRE (EN)"
+      }, {
+        "Code": "0011",
+        "Description": "JAUNATRE (EN)"
+      }, {
+        "Code": "9999",
+        "Description": "INCONNU (EN)"
+      }]
+    }, {
+      "@name": "SexOffense_pl",
+      "Item": [{
+        "Code": "C",
+        "Description": "not defined"
+      }, {
+        "Code": "R",
+        "Description": "Sex Related"
+      }, {
+        "Code": "A",
+        "Description": "not defined"
+      }, {
+        "Code": "O",
+        "Description": "not defined"
+      }]
+    }, {
+      "@name": "Mustache_pl",
+      "Item": [{
+        "Code": "EN GUIDON",
+        "Description": "EN GUIDON (EN)"
+      }, {
+        "Code": "EPAISSE",
+        "Description": "EPAISSE (EN)"
+      }, {
+        "Code": "FU MANCHU",
+        "Description": "FU MANCHU (EN)"
+      }, {
+        "Code": "MINCE",
+        "Description": "MINCE (EN)"
+      }, {
+        "Code": "MOYENNE",
+        "Description": "MOYENNE (EN)"
+      }, {
+        "Code": "SANS MOUSTACHE",
+        "Description": "SANS MOUSTACHE (EN)"
+      }]
+    }, {
+      "@name": "NotConformBackground_pl",
+      "Item": [{
+        "Code": "OBJET SUR OREILLE",
+        "Description": "OBJET SUR OREILLE (EN)"
+      }, {
+        "Code": "OBJET SUR LA TETE",
+        "Description": "OBJET SUR LA TETE (EN)"
+      }, {
+        "Code": "OBJET SUR LE COU",
+        "Description": "OBJET SUR LE COU (EN)"
+      }, {
+        "Code": "OBJET SUR VISAGE",
+        "Description": "OBJET SUR VISAGE (EN)"
+      }, {
+        "Code": "BANDAGE",
+        "Description": "BANDAGE (EN)"
+      }, {
+        "Code": "BANDEAU",
+        "Description": "BANDEAU (EN)"
+      }, {
+        "Code": "BLESSE",
+        "Description": "BLESSE (EN)"
+      }, {
+        "Code": "CASQUETTE",
+        "Description": "CASQUETTE (EN)"
+      }, {
+        "Code": "CHAPEAU",
+        "Description": "CHAPEAU (EN)"
+      }, {
+        "Code": "CLIN DOEIL",
+        "Description": "CLIN DOEIL (EN)"
+      }, {
+        "Code": "FAUTEUIL ROULANT",
+        "Description": "FAUTEUIL ROULANT (EN)"
+      }, {
+        "Code": "FOULARD",
+        "Description": "Foulard (EN)"
+      }, {
+        "Code": "FNC",
+        "Description": "FNC (EN)"
+      }, {
+        "Code": "JUMEAU DE",
+        "Description": "Jumeau De (EN)"
+      }, {
+        "Code": "NE PAS CONFONDRE AVEC",
+        "Description": "Ne Pas Confondre Avec (EN)"
+      }, {
+        "Code": "Photo mauvaise qualite",
+        "Description": "Photo mauvaise qualit� (EN)"
+      }, {
+        "Code": "PROTHESE",
+        "Description": "Proth�se (EN)"
+      }, {
+        "Code": "TACHE DE VIN",
+        "Description": "Tache de Vin (EN)"
+      }, {
+        "Code": "TUQUE",
+        "Description": "Tugue (EN)"
+      }, {
+        "Code": "TURBAN",
+        "Description": "Turban (EN)"
+      }, {
+        "Code": "VISAGE PARTIELLEMENT CACHE",
+        "Description": "Visage Partiellement Cach� (EN)"
+      }, {
+        "Code": "YEUX FERME",
+        "Description": "Yeux Ferm� (EN)"
+      }]
+    }, {
+      "@name": "SMTCode_pl",
+      "Item": [{
+        "Code": "A",
+        "Description": "AMPUTATED"
+      }, {
+        "Code": "B",
+        "Description": "BREAK"
+      }, {
+        "Code": "D",
+        "Description": "DEFORMITY"
+      }, {
+        "Code": "F",
+        "Description": "FOREIGN SUBSTANCE"
+      }, {
+        "Code": "P",
+        "Description": "PECULIARITY"
+      }, {
+        "Code": "S",
+        "Description": "SCAR"
+      }, {
+        "Code": "M",
+        "Description": "MARK"
+      }, {
+        "Code": "T",
+        "Description": "TATTOO"
+      }]
+    }, {
+      "@name": "BodyLocationCode_pl",
+      "Item": [{
+        "Code": "430",
+        "Description": "ABDOMEN"
+      }, {
+        "Code": "520",
+        "Description": "ANKLE (LEFT)"
+      }, {
+        "Code": "620",
+        "Description": "ANKLE (RIGHT)"
+      }, {
+        "Code": "300",
+        "Description": "ARM LEFT (GENERAL)"
+      }, {
+        "Code": "311",
+        "Description": "UPPER ARM (LEFT)"
+      }, {
+        "Code": "200",
+        "Description": "ARM RIGHT (GENERAL)"
+      }, {
+        "Code": "211",
+        "Description": "UPPER ARM (RIGHT)"
+      }, {
+        "Code": "740",
+        "Description": "LOWER BACK"
+      }, {
+        "Code": "730",
+        "Description": "MIDDLE BACK"
+      }, {
+        "Code": "720",
+        "Description": "UPPER BACK"
+      }, {
+        "Code": "760",
+        "Description": "BUTTOCKS"
+      }, {
+        "Code": "515",
+        "Description": "CALF (LEFT)"
+      }, {
+        "Code": "615",
+        "Description": "CALF (RIGHT)"
+      }, {
+        "Code": "160",
+        "Description": "CHEEK"
+      }, {
+        "Code": "420",
+        "Description": "CHEST"
+      }, {
+        "Code": "170",
+        "Description": "CHIN"
+      }, {
+        "Code": "130",
+        "Description": "EARS"
+      }, {
+        "Code": "313",
+        "Description": "ELBOW (LEFT)"
+      }, {
+        "Code": "213",
+        "Description": "ELBOW (RIGHT)"
+      }, {
+        "Code": "120",
+        "Description": "EYES"
+      }, {
+        "Code": "342",
+        "Description": "INDEX FINGER (LEFT)"
+      }, {
+        "Code": "345",
+        "Description": "LITTLE FINGER (LEFT)"
+      }, {
+        "Code": "343",
+        "Description": "MIDDLE FINGER (LEFT)"
+      }, {
+        "Code": "344",
+        "Description": "RING FINGER (LEFT)"
+      }, {
+        "Code": "242",
+        "Description": "INDEX FINGER (RIGHT)"
+      }, {
+        "Code": "245",
+        "Description": "LITTLE FINGER (RIGHT)"
+      }, {
+        "Code": "243",
+        "Description": "MIDDLE FINGER (RIGHT)"
+      }, {
+        "Code": "244",
+        "Description": "RING FINGER (RIGHT)"
+      }, {
+        "Code": "530",
+        "Description": "FOOT (LEFT)"
+      }, {
+        "Code": "630",
+        "Description": "FOOT (RIGHT)"
+      }, {
+        "Code": "315",
+        "Description": "FOREARM (LEFT)"
+      }, {
+        "Code": "215",
+        "Description": "FOREARM (RIGHT)"
+      }, {
+        "Code": "110",
+        "Description": "FOREHEAD"
+      }, {
+        "Code": "461",
+        "Description": "GENITALS"
+      }, {
+        "Code": "330",
+        "Description": "HAND (LEFT)"
+      }, {
+        "Code": "230",
+        "Description": "HAND (RIGHT)"
+      }, {
+        "Code": "100",
+        "Description": "HEAD (GENERAL)"
+      }, {
+        "Code": "450",
+        "Description": "HIPS"
+      }, {
+        "Code": "175",
+        "Description": "JAW"
+      }, {
+        "Code": "513",
+        "Description": "KNEE (LEFT)"
+      }, {
+        "Code": "613",
+        "Description": "KNEE (RIGHT)"
+      }, {
+        "Code": "500",
+        "Description": "LEG - LEFT (GENERAL)"
+      }, {
+        "Code": "600",
+        "Description": "LEG - RIGHT (GENERAL)"
+      }, {
+        "Code": "150",
+        "Description": "MOUTH"
+      }, {
+        "Code": "180",
+        "Description": "NECK"
+      }, {
+        "Code": "000",
+        "Description": "NO BODY AREA INVOLVED"
+      }, {
+        "Code": "140",
+        "Description": "NOSe"
+      }, {
+        "Code": "460",
+        "Description": "PELVIS"
+      }, {
+        "Code": "761",
+        "Description": "RECTAL"
+      }, {
+        "Code": "410",
+        "Description": "SHOULDERS"
+      }, {
+        "Code": "511",
+        "Description": "THIGH (LEFT)"
+      }, {
+        "Code": "611",
+        "Description": "THIGH (RIGHT)"
+      }, {
+        "Code": "341",
+        "Description": "THUMB (LEFT)"
+      }, {
+        "Code": "241",
+        "Description": "THUMB (RIGHT)"
+      }, {
+        "Code": "541",
+        "Description": "LARGE TOE (LEFT)"
+      }, {
+        "Code": "542",
+        "Description": "TOE (LEFT) 2"
+      }, {
+        "Code": "543",
+        "Description": "TOE (LEFT) 3"
+      }, {
+        "Code": "544",
+        "Description": "TOE (LEFT) 4"
+      }, {
+        "Code": "545",
+        "Description": "SMALL TOE (LEFT) 5"
+      }, {
+        "Code": "642",
+        "Description": "TOE (RIGHT) 2"
+      }, {
+        "Code": "643",
+        "Description": "TOE (RIGHT) 3"
+      }, {
+        "Code": "644",
+        "Description": "TOE (RIGHT) 4"
+      }, {
+        "Code": "645",
+        "Description": "SMALL TOE (RIGHT) 5"
+      }, {
+        "Code": "641",
+        "Description": "LARGE TOE (RIGHT)"
+      }, {
+        "Code": "700",
+        "Description": "UPPER TORSO (BACK)"
+      }, {
+        "Code": "400",
+        "Description": "UPPER TORSO (FRONT)"
+      }, {
+        "Code": "440",
+        "Description": "WAIST"
+      }, {
+        "Code": "320",
+        "Description": "WRIST (LEFT)"
+      }, {
+        "Code": "220",
+        "Description": "WRIST (RIGHT)"
+      }]
+    }, {
+      "@name": "Description_pl",
+      "Item": [{
+        "Code": "AUTRES",
+        "Description": "OTHER"
+      }, {
+        "Code": "AILES",
+        "Description": "WINGS"
+      }, {
+        "Code": "AMOUR",
+        "Description": "LOVE"
+      }, {
+        "Code": "ANIMAUX (GENERAL)",
+        "Description": "ANIMAL (GENERAL)"
+      }, {
+        "Code": "ANIMAUX (PANTHERE)",
+        "Description": "ANIMAL (PANTHER)"
+      }, {
+        "Code": "ANIMAUX (SERPENT)",
+        "Description": "ANIMAL (SNAKE)"
+      }, {
+        "Code": "ANNEAU",
+        "Description": "RING"
+      }, {
+        "Code": "ARBRES",
+        "Description": "TREES"
+      }, {
+        "Code": "ARC",
+        "Description": "ARCH"
+      }, {
+        "Code": "ARME A FEU",
+        "Description": "FIREARM"
+      }, {
+        "Code": "ASTRE (ETOILE)",
+        "Description": "STAR"
+      }, {
+        "Code": "ASTRE (GENERAL)",
+        "Description": "PLANET"
+      }, {
+        "Code": "ASTRE (LUNE)",
+        "Description": "MOON"
+      }, {
+        "Code": "ASTRE (SOLEIL)",
+        "Description": "SUN"
+      }, {
+        "Code": "ASTRE (TERRE)",
+        "Description": "EARTH"
+      }, {
+        "Code": "AUREOLE",
+        "Description": "HALO"
+      }, {
+        "Code": "AVION FUSEE",
+        "Description": "ROCKET"
+      }, {
+        "Code": "BAGUE JONC",
+        "Description": "RING"
+      }, {
+        "Code": "BALANCE",
+        "Description": "BALANCE"
+      }, {
+        "Code": "BALLE DE REVOLVER",
+        "Description": "BULLET"
+      }, {
+        "Code": "BALUCHON",
+        "Description": "BUNDLE"
+      }, {
+        "Code": "BANDEROLE (AVEC INSC",
+        "Description": "SCROLL"
+      }, {
+        "Code": "BATEAU (ANCRE)",
+        "Description": "BOAT ANCRE"
+      }, {
+        "Code": "BATEAU (GENERAL)",
+        "Description": "BOAT"
+      }, {
+        "Code": "BATEAU (ROUE)",
+        "Description": "BOAT WHEEL"
+      }, {
+        "Code": "BATON BARRE",
+        "Description": "STICK"
+      }, {
+        "Code": "BEBE",
+        "Description": "BABY"
+      }, {
+        "Code": "BICYCLETTE",
+        "Description": "BICYCLE"
+      }, {
+        "Code": "BOMBE BOULET",
+        "Description": "BOMB"
+      }, {
+        "Code": "BORN TO",
+        "Description": "BORN TO"
+      }, {
+        "Code": "BOTTE BOTTINE",
+        "Description": "BOOT"
+      }, {
+        "Code": "BOUCHE LANGUE",
+        "Description": "MOUTH TONGUE"
+      }, {
+        "Code": "BOUCLE",
+        "Description": "BOW"
+      }, {
+        "Code": "BOUCLIER",
+        "Description": "SHIELD"
+      }, {
+        "Code": "BOULE DE BILLARD",
+        "Description": "POOL BALLS"
+      }, {
+        "Code": "BOURSE",
+        "Description": "PURSE"
+      }, {
+        "Code": "BOUTEILLE",
+        "Description": "BOTTLE"
+      }, {
+        "Code": "BOXEUR",
+        "Description": "BOXER"
+      }, {
+        "Code": "BRACELET",
+        "Description": "BRACELET"
+      }, {
+        "Code": "BUNNY (LAPIN)",
+        "Description": "RABBIT(BUNNY)"
+      }, {
+        "Code": "CADENAS",
+        "Description": "LOCK"
+      }, {
+        "Code": "CAGOULE",
+        "Description": "HOOD"
+      }, {
+        "Code": "CARRE",
+        "Description": "SQUARE"
+      }, {
+        "Code": "CARTES A JOUER",
+        "Description": "PLAYING CARDS"
+      }, {
+        "Code": "CASQUE ALLEMAND",
+        "Description": "GERMAN HELMET"
+      }, {
+        "Code": "CASQUE SOLDAT MARIN",
+        "Description": "SALORS CAP"
+      }, {
+        "Code": "CASQUETTE CHAPEAU",
+        "Description": "CAP HAT"
+      }, {
+        "Code": "CERCLE ROND",
+        "Description": "CIRCLE"
+      }, {
+        "Code": "CERCUEIL TOMBE",
+        "Description": "COFFIN"
+      }, {
+        "Code": "CHAINE",
+        "Description": "CHAIN"
+      }, {
+        "Code": "CHAMPIGNON",
+        "Description": "MUSHROOM"
+      }, {
+        "Code": "CHANDELLE",
+        "Description": "CANDLE"
+      }, {
+        "Code": "CHARDON",
+        "Description": "THISTLE"
+      }, {
+        "Code": "CHAUDIERE",
+        "Description": "BUCKET"
+      }, {
+        "Code": "CHEVAL LICORNES",
+        "Description": "UNICORN"
+      }, {
+        "Code": "CHEVALIER",
+        "Description": "KNIGHT"
+      }, {
+        "Code": "CHINOIS",
+        "Description": "CHINEESE"
+      }, {
+        "Code": "CHRIST",
+        "Description": "CHRIST"
+      }, {
+        "Code": "CIBLE",
+        "Description": "TARGET"
+      }, {
+        "Code": "CIGARE",
+        "Description": "CIGAR"
+      }, {
+        "Code": "CIGARETTE",
+        "Description": "CIGARETTE"
+      }, {
+        "Code": "CLES",
+        "Description": "KEYS"
+      }, {
+        "Code": "CLOCHE",
+        "Description": "BELL"
+      }, {
+        "Code": "CLOTURE",
+        "Description": "FENCE"
+      }, {
+        "Code": "COEUR (PLUSIEURS)",
+        "Description": "HEARTS"
+      }, {
+        "Code": "COEUR (UN)",
+        "Description": "HEART"
+      }, {
+        "Code": "COEUR AVEC BANDEROLE",
+        "Description": "HEART WITH A SCROLL"
+      }, {
+        "Code": "COEUR AVEC CROIX",
+        "Description": "HEART WITH CROSS"
+      }, {
+        "Code": "COEUR TR. FLECHE",
+        "Description": "HEART WITH ARROW"
+      }, {
+        "Code": "COEUR TR. GENERAL",
+        "Description": "HEART WITH GENERAL"
+      }, {
+        "Code": "COEUR TR. POIGNARD",
+        "Description": "HEART WITH DAGGER"
+      }, {
+        "Code": "CORDE",
+        "Description": "ROPE"
+      }, {
+        "Code": "CORNE",
+        "Description": "HORNS"
+      }, {
+        "Code": "COUPE AVEC FEMME",
+        "Description": "CUP WITH WOMAN"
+      }, {
+        "Code": "COUPE",
+        "Description": "CUP"
+      }, {
+        "Code": "COUPLE FAIT L'AMOUR",
+        "Description": "COUPLE MAKING LOVE"
+      }, {
+        "Code": "COURONNE",
+        "Description": "CROWN"
+      }, {
+        "Code": "COUSSIN",
+        "Description": "PILLOW"
+      }, {
+        "Code": "COUTEAU AVEC SERPENT",
+        "Description": "KNIFE WITH SNAKE"
+      }, {
+        "Code": "COUTEAU POIGNARD",
+        "Description": "DAGGER"
+      }, {
+        "Code": "COWBOY",
+        "Description": "COWBOY"
+      }, {
+        "Code": "CRAYON",
+        "Description": "PENCIL"
+      }, {
+        "Code": "CROCHET",
+        "Description": "HOOK"
+      }, {
+        "Code": "CROIX AVEC INRI",
+        "Description": "CROSS WITH INRI"
+      }, {
+        "Code": "CROIX GAMME",
+        "Description": "SWASTIKA"
+      }, {
+        "Code": "CROIX",
+        "Description": "CROSS"
+      }, {
+        "Code": "DAD",
+        "Description": "DAD"
+      }, {
+        "Code": "DAGGER",
+        "Description": "DAGGER"
+      }, {
+        "Code": "DEATH BEFORE DISHONO",
+        "Description": "DEATH BEFORE DISHONO"
+      }, {
+        "Code": "DEATH OR GLORY",
+        "Description": "DEATH OR GLORY"
+      }, {
+        "Code": "DEATH",
+        "Description": "DEATH"
+      }, {
+        "Code": "DES",
+        "Description": "DICE"
+      }, {
+        "Code": "DEVILS DISCIPLES",
+        "Description": "DEVILS DISCIPLES"
+      }, {
+        "Code": "DIABLE",
+        "Description": "DEVIL"
+      }, {
+        "Code": "DIAMANT",
+        "Description": "DIAMOND"
+      }, {
+        "Code": "DRAGON",
+        "Description": "DRAGON"
+      }, {
+        "Code": "DRAPEAU",
+        "Description": "FLAG"
+      }, {
+        "Code": "ECHELLE",
+        "Description": "LADDER"
+      }, {
+        "Code": "ECLAIR",
+        "Description": "LIGHTING"
+      }, {
+        "Code": "EMBLEME",
+        "Description": "EMBLEM"
+      }, {
+        "Code": "ESQUIMAU",
+        "Description": "ESKIMO"
+      }, {
+        "Code": "FANTOME",
+        "Description": "GHOST"
+      }, {
+        "Code": "FATHER",
+        "Description": "FATHER"
+      }, {
+        "Code": "FEMME NUE",
+        "Description": "NUDE FEMALE"
+      }, {
+        "Code": "FEMME",
+        "Description": "WOMAN"
+      }, {
+        "Code": "FER A CHEVAL",
+        "Description": "HORSE SHOE"
+      }, {
+        "Code": "FESSE JAMBE DE FEMME",
+        "Description": "WOMAN BUTTOCKS"
+      }, {
+        "Code": "FEUILLE",
+        "Description": "LEAF"
+      }, {
+        "Code": "FLAMBEAU",
+        "Description": "TORCH"
+      }, {
+        "Code": "FLAMME AVEC AILES",
+        "Description": "FLAME WITH WINGS"
+      }, {
+        "Code": "FLECHE",
+        "Description": "ARROW"
+      }, {
+        "Code": "FLEUR DE LIS",
+        "Description": "LILY"
+      }, {
+        "Code": "FLEURS (ROSE)",
+        "Description": "ROSE FLOWER"
+      }, {
+        "Code": "FLEURS",
+        "Description": "FLOWER"
+      }, {
+        "Code": "FOSSE",
+        "Description": "TRENCH"
+      }, {
+        "Code": "FOUET",
+        "Description": "WHIP"
+      }, {
+        "Code": "FOURCHE BECHE",
+        "Description": "PITCH FORK"
+      }, {
+        "Code": "FUCK",
+        "Description": "FUCK"
+      }, {
+        "Code": "GANT DE BOXE",
+        "Description": "BOXING GLOVE"
+      }, {
+        "Code": "GLOBE TERRESTRE",
+        "Description": "WORLD GLOBE"
+      }, {
+        "Code": "GOOD LUCK",
+        "Description": "GOOD LUCK"
+      }, {
+        "Code": "GOUTTE DE SANG",
+        "Description": "DROP OF BLOOD"
+      }, {
+        "Code": "GRAPPE",
+        "Description": "CLUSTER"
+      }, {
+        "Code": "GRENADE",
+        "Description": "GRENADE"
+      }, {
+        "Code": "HACHE",
+        "Description": "AXE"
+      }, {
+        "Code": "HATE",
+        "Description": "HATE"
+      }, {
+        "Code": "HELICES",
+        "Description": "PROPELLER"
+      }, {
+        "Code": "HOME WARD",
+        "Description": "HOME WARD"
+      }, {
+        "Code": "HORLOGE",
+        "Description": "CLOCK"
+      }, {
+        "Code": "I LOVE MY TRUE LOVE",
+        "Description": "I LOVE MY TRUE LOVE"
+      }, {
+        "Code": "IN MEMORY",
+        "Description": "IN MEMORY"
+      }, {
+        "Code": "INDIEN",
+        "Description": "INDIAN"
+      }, {
+        "Code": "INITIALE F.T.W.",
+        "Description": "INITIAL F.T.W."
+      }, {
+        "Code": "INITIALE",
+        "Description": "INITIAL"
+      }, {
+        "Code": "INSCRIPTION (GEN.)",
+        "Description": "INSCRIPTION"
+      }, {
+        "Code": "INSECTES (ABEILLE)",
+        "Description": "BEE"
+      }, {
+        "Code": "INSECTES (ARAIGNEE)",
+        "Description": "SPIDER"
+      }, {
+        "Code": "INSECTES (GENERAL)",
+        "Description": "INSECT"
+      }, {
+        "Code": "INSECTES (PAPILLON)",
+        "Description": "BUTTERFLY"
+      }, {
+        "Code": "J'AI AIME J'AI...",
+        "Description": "I LOVED I �"
+      }, {
+        "Code": "JAMBE",
+        "Description": "LEG"
+      }, {
+        "Code": "JUPE ECOSSAISE",
+        "Description": "KILT"
+      }, {
+        "Code": "LARMES",
+        "Description": "TEARS"
+      }, {
+        "Code": "LE SAINT",
+        "Description": "SAINT"
+      }, {
+        "Code": "LETTRE CHINOISE",
+        "Description": "CHINESE LETTER"
+      }, {
+        "Code": "LETTRE ENCERCLEE",
+        "Description": "ENCIRCLED LETTER"
+      }, {
+        "Code": "LIBERTY",
+        "Description": "LIBERTY"
+      }, {
+        "Code": "LIGNE",
+        "Description": "LINE"
+      }, {
+        "Code": "LIVRE",
+        "Description": "BOOK"
+      }, {
+        "Code": "LOSANGE",
+        "Description": "LOZENGE"
+      }, {
+        "Code": "LOVE",
+        "Description": "LOVE"
+      }, {
+        "Code": "LUCK",
+        "Description": "LUCK"
+      }, {
+        "Code": "LUNETTE",
+        "Description": "GLASS"
+      }, {
+        "Code": "MAINS (GENERALE)",
+        "Description": "HANDS"
+      }, {
+        "Code": "MAMAN",
+        "Description": "MOM"
+      }, {
+        "Code": "MARIJUANA",
+        "Description": "MARIJUANA"
+      }, {
+        "Code": "MARIN MATELOT",
+        "Description": "SAILOR"
+      }, {
+        "Code": "MEMOIRE DE...",
+        "Description": "MEMORY OF"
+      }, {
+        "Code": "MENOTTE",
+        "Description": "HANDCUFFS"
+      }, {
+        "Code": "MERE",
+        "Description": "MOTHER"
+      }, {
+        "Code": "MICKEY MOUSE",
+        "Description": "MICKEY MOUSE"
+      }, {
+        "Code": "MOINE AVEC FAUCILLE",
+        "Description": "DEATH"
+      }, {
+        "Code": "MOM DAD",
+        "Description": "MOM DAD"
+      }, {
+        "Code": "MOM",
+        "Description": "MOM"
+      }, {
+        "Code": "MOPPE VADROUILLE",
+        "Description": "MOP"
+      }, {
+        "Code": "MOTEUR",
+        "Description": "MOTOR"
+      }, {
+        "Code": "MOTHER",
+        "Description": "MOTHER"
+      }, {
+        "Code": "MOTO",
+        "Description": "MOTORCYCLE"
+      }, {
+        "Code": "NAVY",
+        "Description": "NAVY"
+      }, {
+        "Code": "NOEUD DE MARIN",
+        "Description": "SAILORS ODE"
+      }, {
+        "Code": "NOM DE PAYS VILLE",
+        "Description": "COUNTRY, CITY"
+      }, {
+        "Code": "NOM PROPRE",
+        "Description": "NAME"
+      }, {
+        "Code": "NUMERO 13",
+        "Description": "NUMBER 13"
+      }, {
+        "Code": "NUMERO 69",
+        "Description": "NUMBER 69"
+      }, {
+        "Code": "NUMEROS (GENERAL)",
+        "Description": "NUMBER"
+      }, {
+        "Code": "OBJET RELIGIEUX",
+        "Description": "RELIGIOUS OBJECT"
+      }, {
+        "Code": "OEIL",
+        "Description": "EYE"
+      }, {
+        "Code": "OISEAU (AIGLE)",
+        "Description": "EAGLE"
+      }, {
+        "Code": "OISEAU (GENERAL)",
+        "Description": "BIRD"
+      }, {
+        "Code": "OISEAU (HIRONDELLE)",
+        "Description": "SWALLOW"
+      }, {
+        "Code": "OS",
+        "Description": "BONE"
+      }, {
+        "Code": "OVALES",
+        "Description": "OVAL"
+      }, {
+        "Code": "PAIRE DE GANTS",
+        "Description": "GLOVES"
+      }, {
+        "Code": "PAIRE DE YEUX",
+        "Description": "EYES"
+      }, {
+        "Code": "PAPA",
+        "Description": "DAD"
+      }, {
+        "Code": "PARACHUTE",
+        "Description": "PARACHUTE"
+      }, {
+        "Code": "PARACHUTISTE",
+        "Description": "PARATROOPER"
+      }, {
+        "Code": "PARCHEMIN",
+        "Description": "PARCHMENT"
+      }, {
+        "Code": "PAYSAGE",
+        "Description": "LANDSCAPE"
+      }, {
+        "Code": "PETIT BONHOMME CUPID",
+        "Description": "LITTLE CUPID"
+      }, {
+        "Code": "PHALLUS",
+        "Description": "PHALLUS"
+      }, {
+        "Code": "PHARE",
+        "Description": "LIGHT"
+      }, {
+        "Code": "PIC",
+        "Description": "PICK"
+      }, {
+        "Code": "PIERRE TOMBALE",
+        "Description": "TOMBSTONE"
+      }, {
+        "Code": "PIPE",
+        "Description": "PIPE"
+      }, {
+        "Code": "PIRATE",
+        "Description": "PIRATE"
+      }, {
+        "Code": "PISTON",
+        "Description": "PISTON"
+      }, {
+        "Code": "PLUME",
+        "Description": "PEN"
+      }, {
+        "Code": "POIGNEE DE MAINS",
+        "Description": "HANDSHAKE"
+      }, {
+        "Code": "POINT",
+        "Description": "QUESTION MARK"
+      }, {
+        "Code": "POISSON",
+        "Description": "FISH"
+      }, {
+        "Code": "POPEYE",
+        "Description": "POPEYE"
+      }, {
+        "Code": "POTENCE ECHAFAUD",
+        "Description": "HANGMAN SCAFFOLD"
+      }, {
+        "Code": "PRENOM DE FEMME",
+        "Description": "WOMAN FIRST NAME"
+      }, {
+        "Code": "PRENOM D'HOMME",
+        "Description": "MAN FIRST NAME"
+      }, {
+        "Code": "RECTANGLE",
+        "Description": "RECTANGLE"
+      }, {
+        "Code": "REVOLVER",
+        "Description": "REVOLVER"
+      }, {
+        "Code": "ROAD RUNNER",
+        "Description": "ROAD RUNNER"
+      }, {
+        "Code": "ROCHE",
+        "Description": "ROCK"
+      }, {
+        "Code": "RONDELLE",
+        "Description": "PUCK"
+      }, {
+        "Code": "ROUE DE BICYCLETTE",
+        "Description": "BYCICLE WHEEL"
+      }, {
+        "Code": "ROUE DE CHARRUE",
+        "Description": "CART WHEEL"
+      }, {
+        "Code": "ROUE",
+        "Description": "WHEEL"
+      }, {
+        "Code": "RUBAN",
+        "Description": "TAPE"
+      }, {
+        "Code": "SABRE EPEE",
+        "Description": "SWORD"
+      }, {
+        "Code": "SAILORS INSCRIPTION",
+        "Description": "SAILORS INSCRIPTION"
+      }, {
+        "Code": "SATAN'S",
+        "Description": "SATAN'S"
+      }, {
+        "Code": "SERINGUE",
+        "Description": "SYRINGE"
+      }, {
+        "Code": "SIGNE (GENERAL)",
+        "Description": "SIGNS"
+      }, {
+        "Code": "SIGNE (RELIGIEUX)",
+        "Description": "RELIGIOUS SYMBOL"
+      }, {
+        "Code": "SIGNE (ZODIAQUE)",
+        "Description": "ZODIAK SIGNS"
+      }, {
+        "Code": "SIGNE DE PAIX",
+        "Description": "PEACE SIGN"
+      }, {
+        "Code": "SIRENE",
+        "Description": "MERMAID"
+      }, {
+        "Code": "SOBRIQUET",
+        "Description": "NICK NAME"
+      }, {
+        "Code": "SOLDAT",
+        "Description": "SOLDIER"
+      }, {
+        "Code": "SQUELETTE",
+        "Description": "SKELETON"
+      }, {
+        "Code": "STATUE",
+        "Description": "STATUE"
+      }, {
+        "Code": "TAMBOUR",
+        "Description": "DRUM"
+      }, {
+        "Code": "TETE (GENERALE)",
+        "Description": "HEAD"
+      }, {
+        "Code": "TETE D'ANIMAUX",
+        "Description": "HEAD ANIMAL"
+      }, {
+        "Code": "TETE DE BOULEDOGUE",
+        "Description": "BULLDOG HEAD"
+      }, {
+        "Code": "TETE DE FEMME",
+        "Description": "HEAD WOMAN"
+      }, {
+        "Code": "TETE DE MARIN",
+        "Description": "SAILOR HEAD"
+      }, {
+        "Code": "TETE DE MORT",
+        "Description": "SKULL HEAD"
+      }, {
+        "Code": "TETE D'ENFANT",
+        "Description": "CHILD HEAD"
+      }, {
+        "Code": "TETE D'HOMME",
+        "Description": "HEAD MAN"
+      }, {
+        "Code": "TETE D'INDIEN",
+        "Description": "INDIAN HEAD"
+      }, {
+        "Code": "TETE D'OISEAU",
+        "Description": "BIRDS HEAD"
+      }, {
+        "Code": "TOILE D'ARAIGNEE",
+        "Description": "SPIDERWEB"
+      }, {
+        "Code": "TOMAHAWK",
+        "Description": "TOMAHAWK"
+      }, {
+        "Code": "TREFLE",
+        "Description": "CLOVER"
+      }, {
+        "Code": "TRIANGLE",
+        "Description": "TRIANGLE"
+      }, {
+        "Code": "TRIBAL",
+        "Description": "TRIBAL"
+      }, {
+        "Code": "TWEETY BIRD",
+        "Description": "TWEETY BIRD"
+      }, {
+        "Code": "VERRE",
+        "Description": "GLASS"
+      }, {
+        "Code": "VERS",
+        "Description": "WORMS"
+      }]
+    }, {
+      "@name": "empty_pl"
+    }, {
+      "@name": "pob_pl",
+      "Item": [{
+        "Code": "AA",
+        "Description": "Albania"
+      }, {
+        "Code": "AB",
+        "Description": "Alberta (Canadian Province)"
+      }, {
+        "Code": "AD",
+        "Description": "Andorra"
+      }, {
+        "Code": "AE",
+        "Description": "Anguilla"
+      }, {
+        "Code": "AF",
+        "Description": "Afghanistan"
+      }, {
+        "Code": "AG",
+        "Description": "Aguascalientes (Mexican State)"
+      }, {
+        "Code": "AH",
+        "Description": "Ashmore/Cartier Islands"
+      }, {
+        "Code": "AI",
+        "Description": "Antigua and Barbuda (formerly Antigua)"
+      }, {
+        "Code": "AJ",
+        "Description": "Aruba"
+      }, {
+        "Code": "AK",
+        "Description": "Alaska"
+      }, {
+        "Code": "AL",
+        "Description": "Alabama"
+      }, {
+        "Code": "AM",
+        "Description": "American Samoa (Islands)"
+      }, {
+        "Code": "AN",
+        "Description": "Algeria"
+      }, {
+        "Code": "AO",
+        "Description": "Angola"
+      }, {
+        "Code": "AP",
+        "Description": "Armenia"
+      }, {
+        "Code": "AQ",
+        "Description": "Azores Islands"
+      }, {
+        "Code": "AR",
+        "Description": "Arkansas"
+      }, {
+        "Code": "AS",
+        "Description": "Australia"
+      }, {
+        "Code": "AT",
+        "Description": "Argentina"
+      }, {
+        "Code": "AU",
+        "Description": "Austria"
+      }, {
+        "Code": "AV",
+        "Description": "Azerbaijan"
+      }, {
+        "Code": "AX",
+        "Description": "Apache Tribe"
+      }, {
+        "Code": "AZ",
+        "Description": "Arizona"
+      }, {
+        "Code": "BA",
+        "Description": "Baja California (Northern Section) (Mexican State)"
+      }, {
+        "Code": "BB",
+        "Description": "Barbados"
+      }, {
+        "Code": "BC",
+        "Description": "British Columbia (Canadian Province)"
+      }, {
+        "Code": "BD",
+        "Description": "Bahamas, The"
+      }, {
+        "Code": "BE",
+        "Description": "Bahrain (Bahrein)"
+      }, {
+        "Code": "BF",
+        "Description": "Bassas Da India"
+      }, {
+        "Code": "BG",
+        "Description": "Belgium"
+      }, {
+        "Code": "BH",
+        "Description": "Belize (British Honduras)"
+      }, {
+        "Code": "BI",
+        "Description": "Burundi"
+      }, {
+        "Code": "BJ",
+        "Description": "Baja California (Southern Section) (Mexican State)"
+      }, {
+        "Code": "BK",
+        "Description": "Baker Island"
+      }, {
+        "Code": "BL",
+        "Description": "Bangladesh"
+      }, {
+        "Code": "BM",
+        "Description": "Bermuda"
+      }, {
+        "Code": "BN",
+        "Description": "Bhutan"
+      }, {
+        "Code": "BO",
+        "Description": "British Indian Ocean Territory"
+      }, {
+        "Code": "BP",
+        "Description": "Bosnia (Hercegovenia, for Reference only)"
+      }, {
+        "Code": "BQ",
+        "Description": "Bouvet Island"
+      }, {
+        "Code": "BR",
+        "Description": "Burma"
+      }, {
+        "Code": "BS",
+        "Description": "British Solomon Islands(Solomon Islands)"
+      }, {
+        "Code": "BT",
+        "Description": "Botswana"
+      }, {
+        "Code": "BU",
+        "Description": "Bulgaria"
+      }, {
+        "Code": "BV",
+        "Description": "Bolivia"
+      }, {
+        "Code": "BW",
+        "Description": "Balearic Islands"
+      }, {
+        "Code": "BX",
+        "Description": "Brunei"
+      }, {
+        "Code": "BY",
+        "Description": "Belarus"
+      }, {
+        "Code": "BZ",
+        "Description": "Brazil"
+      }, {
+        "Code": "CA",
+        "Description": "California"
+      }, {
+        "Code": "CB",
+        "Description": "Colombia"
+      }, {
+        "Code": "CC",
+        "Description": "Cuba"
+      }, {
+        "Code": "CD",
+        "Description": "Canada"
+      }, {
+        "Code": "CE",
+        "Description": "Campeche (Mexican State)"
+      }, {
+        "Code": "CF",
+        "Description": "Chad"
+      }, {
+        "Code": "CG",
+        "Description": "Caroline Islands"
+      }, {
+        "Code": "CH",
+        "Description": "Chihuahua (Mexican Border State)"
+      }, {
+        "Code": "CI",
+        "Description": "Chiapas (Mexican State)"
+      }, {
+        "Code": "CJ",
+        "Description": "Cambodia (Kampuchea)"
+      }, {
+        "Code": "CL",
+        "Description": "Colima (Mexican State)"
+      }, {
+        "Code": "CM",
+        "Description": "Cameroon"
+      }, {
+        "Code": "CO",
+        "Description": "Colorado"
+      }, {
+        "Code": "CP",
+        "Description": "Cayman Islands"
+      }, {
+        "Code": "CQ",
+        "Description": "Chile"
+      }, {
+        "Code": "CR",
+        "Description": "Costa Rica"
+      }, {
+        "Code": "CS",
+        "Description": "Cyprus"
+      }, {
+        "Code": "CT",
+        "Description": "Connecticut"
+      }, {
+        "Code": "CU",
+        "Description": "Coahuila (Mexican State)"
+      }, {
+        "Code": "CV",
+        "Description": "Cape Verde Islands"
+      }, {
+        "Code": "CW",
+        "Description": "Central African Republic"
+      }, {
+        "Code": "CY",
+        "Description": "Ceylon (now Sri Lanka)"
+      }, {
+        "Code": "CZ",
+        "Description": "Canal Zone (United States)"
+      }, {
+        "Code": "DA",
+        "Description": "Cheyenne &amp; Arapaho Tribes"
+      }, {
+        "Code": "DB",
+        "Description": "Clipperton Island"
+      }, {
+        "Code": "DC",
+        "Description": "Dist of Columbia"
+      }, {
+        "Code": "DD",
+        "Description": "Cocos (Keeling) Islands"
+      }, {
+        "Code": "DE",
+        "Description": "Delaware"
+      }, {
+        "Code": "DF",
+        "Description": "Distrito Federal (Mexico, D.F.)"
+      }, {
+        "Code": "DG",
+        "Description": "Comoros, Fed Islamic Rep"
+      }, {
+        "Code": "DH",
+        "Description": "Benin (formerly Dahomey)"
+      }, {
+        "Code": "DI",
+        "Description": "Cook Islands"
+      }, {
+        "Code": "DJ",
+        "Description": "Coral Sea Islands"
+      }, {
+        "Code": "DK",
+        "Description": "Denmark"
+      }, {
+        "Code": "DL",
+        "Description": "Devils Lake Sioux Tribe"
+      }, {
+        "Code": "DM",
+        "Description": "Dominica"
+      }, {
+        "Code": "DN",
+        "Description": "Djibouti"
+      }, {
+        "Code": "DO",
+        "Description": "Durango (Mexican State)"
+      }, {
+        "Code": "DQ",
+        "Description": "Ak Chin Indian Community of Maricopa Indian Rsvn, AZ"
+      }, {
+        "Code": "DP",
+        "Description": "Comanche Nation"
+      }, {
+        "Code": "DR",
+        "Description": "Dominican Rep"
+      }, {
+        "Code": "DS",
+        "Description": "Miami Tribe"
+      }, {
+        "Code": "DT",
+        "Description": "Muscogee (Creek Tribe)"
+      }, {
+        "Code": "DV",
+        "Description": "Seneca-Cayuga Tribes"
+      }, {
+        "Code": "DW",
+        "Description": "Citizen Potawatomi Nation"
+      }, {
+        "Code": "DX",
+        "Description": "Alabama-Coushatta Tribes of TX"
+      }, {
+        "Code": "DY",
+        "Description": "Alabama-Quassarte Tribal Town, OK"
+      }, {
+        "Code": "DZ",
+        "Description": "Arapahoe Tribe of the Wind River Rsvn, WY"
+      }, {
+        "Code": "EA",
+        "Description": "Aroostook Band of Micmac Indians of ME"
+      }, {
+        "Code": "EB",
+        "Description": "Bay Mills Indian Community, MI"
+      }, {
+        "Code": "EC",
+        "Description": "Blackfeet Tribe of the Blackfeet Indian Rsvn of MT"
+      }, {
+        "Code": "ED",
+        "Description": "Burns Paiute Tribe of the Burns Paiute Indian Colony of OR"
+      }, {
+        "Code": "EE",
+        "Description": "Absentee Shawnee"
+      }, {
+        "Code": "EF",
+        "Description": "Cayuga Nation of NY"
+      }, {
+        "Code": "EG",
+        "Description": "Cheyenne River Sioux Tribe of the Cheyenne River Rsvn, SD"
+      }, {
+        "Code": "EH",
+        "Description": "Chickasaw Nation, OK"
+      }, {
+        "Code": "EI",
+        "Description": "Chippewa-Cree Indians of the Rocky Boy’s Rsvn MT"
+      }, {
+        "Code": "EJ",
+        "Description": "Chitimacha Tribe of LA"
+      }, {
+        "Code": "EK",
+        "Description": "Equatorial Guinea"
+      }, {
+        "Code": "EL",
+        "Description": "El Salvador"
+      }, {
+        "Code": "EN",
+        "Description": "England"
+      }, {
+        "Code": "EO",
+        "Description": "Ethiopia"
+      }, {
+        "Code": "EP",
+        "Description": "Cocopah Tribe of AZ"
+      }, {
+        "Code": "EQ",
+        "Description": "Coeur D’Alene Tribe of the Coeur D’Alene Rsvn, ID"
+      }, {
+        "Code": "ER",
+        "Description": "Europa Island"
+      }, {
+        "Code": "ES",
+        "Description": "Estonia"
+      }, {
+        "Code": "ET",
+        "Description": "Eretria"
+      }, {
+        "Code": "EU",
+        "Description": "Ecuador"
+      }, {
+        "Code": "EV",
+        "Description": "Colorado River Indian Tribe of CO River Indian Rsvn, AZ &amp; CA"
+      }, {
+        "Code": "EW",
+        "Description": "Confederated Tribes of the Chehalis Rsvn, WA"
+      }, {
+        "Code": "EX",
+        "Description": "Confederated Tribes of the Colville Rsvn, WA"
+      }, {
+        "Code": "EY",
+        "Description": "Egypt"
+      }, {
+        "Code": "EZ",
+        "Description": "Czech Republic"
+      }, {
+        "Code": "FA",
+        "Description": "Falkland Islands"
+      }, {
+        "Code": "FB",
+        "Description": "Confederated Tribes of the Goshute RSVN, NV and UT"
+      }, {
+        "Code": "FC",
+        "Description": "Fond du Lac"
+      }, {
+        "Code": "FD",
+        "Description": "Finland"
+      }, {
+        "Code": "FE",
+        "Description": "Confederated Tribes of the Umatilla Rsvn, OR"
+      }, {
+        "Code": "FF",
+        "Description": "Confederated Tribes of the Warm Springs Rsvn of OR"
+      }, {
+        "Code": "FG",
+        "Description": "French Guiana"
+      }, {
+        "Code": "FH",
+        "Description": "Coushatta Tribe of LA"
+      }, {
+        "Code": "FJ",
+        "Description": "Fiji Islands"
+      }, {
+        "Code": "FK",
+        "Description": "Crow Creek Sioux Tribe of the Crow Creek Rsvn, SD"
+      }, {
+        "Code": "FL",
+        "Description": "Florida"
+      }, {
+        "Code": "FM",
+        "Description": "Crow Tribe of MT"
+      }, {
+        "Code": "FN",
+        "Description": "France"
+      }, {
+        "Code": "FO",
+        "Description": "Faroe Islands"
+      }, {
+        "Code": "FP",
+        "Description": "French Polynesia"
+      }, {
+        "Code": "FQ",
+        "Description": "Eastern Band of Cherokee Indians of NC"
+      }, {
+        "Code": "FR",
+        "Description": "Fr Southrn/Antartic Land"
+      }, {
+        "Code": "FS",
+        "Description": "Fed States of Micronesia"
+      }, {
+        "Code": "FT",
+        "Description": "Eastern Shosone Tribe WY"
+      }, {
+        "Code": "FU",
+        "Description": "Ely Shosone Tribe of NV"
+      }, {
+        "Code": "FV",
+        "Description": "Paiute-Shosone Tribe of the Fallon Rsvn and Colony, NV"
+      }, {
+        "Code": "FW",
+        "Description": "Flandreau Santee Sioux Tribe of SD"
+      }, {
+        "Code": "FX",
+        "Description": "Sac and Fox"
+      }, {
+        "Code": "FY",
+        "Description": "Fort Belknap Indian Community of Fort Belknap Rsvn of MT"
+      }, {
+        "Code": "FZ",
+        "Description": "Fort McDowell Yavapai Nation, AZ"
+      }, {
+        "Code": "GA",
+        "Description": "Georgia"
+      }, {
+        "Code": "GB",
+        "Description": "Gabon"
+      }, {
+        "Code": "GC",
+        "Description": "Greece"
+      }, {
+        "Code": "GD",
+        "Description": "Georgia/Gruzinskaya"
+      }, {
+        "Code": "GE",
+        "Description": "Germany (Also see EM and WG)"
+      }, {
+        "Code": "GF",
+        "Description": "Guernsey"
+      }, {
+        "Code": "GG",
+        "Description": "Ghana"
+      }, {
+        "Code": "GI",
+        "Description": "Guinea"
+      }, {
+        "Code": "GJ",
+        "Description": "Grenada"
+      }, {
+        "Code": "GK",
+        "Description": "Gambia"
+      }, {
+        "Code": "GM",
+        "Description": "Guam"
+      }, {
+        "Code": "GN",
+        "Description": "Greenland"
+      }, {
+        "Code": "GO",
+        "Description": "Glorioso Islands"
+      }, {
+        "Code": "GP",
+        "Description": "Guadeloupe"
+      }, {
+        "Code": "GQ",
+        "Description": "Fort Mojave Indian Tribe of AZ, CA &amp; NV"
+      }, {
+        "Code": "GR",
+        "Description": "Guerrero (Mexican State)"
+      }, {
+        "Code": "GS",
+        "Description": "S Georgia/S Sandwich Isl"
+      }, {
+        "Code": "GT",
+        "Description": "Guatemala"
+      }, {
+        "Code": "GU",
+        "Description": "Guanajuato (Mexican State)"
+      }, {
+        "Code": "GV",
+        "Description": "Assiniboine and Sioux Tribes of Fort Peck Indian Rsvn, MT"
+      }, {
+        "Code": "GX",
+        "Description": "Gila River Indian Community of Gila River Indian Rsvn, AZ"
+      }, {
+        "Code": "GY",
+        "Description": "Guyana (Includes French Guiana)"
+      }, {
+        "Code": "GZ",
+        "Description": "Gaza"
+      }, {
+        "Code": "HB",
+        "Description": "Grand Traverse Band of Ottawa and Chippewa Indians, MI"
+      }, {
+        "Code": "HD",
+        "Description": "Honduras"
+      }, {
+        "Code": "HE",
+        "Description": "Heard Isl/McDonald Isl"
+      }, {
+        "Code": "HF",
+        "Description": "Hannahville Indian Community, MI"
+      }, {
+        "Code": "HG",
+        "Description": "Havasupai Tribe if the Havasupai Rsvn, AZ"
+      }, {
+        "Code": "HI",
+        "Description": "Hawaii"
+      }, {
+        "Code": "HJ",
+        "Description": "Hoh Indian Tribe of the Hoh Indian Rsvn, WA"
+      }, {
+        "Code": "HK",
+        "Description": "Hong Kong"
+      }, {
+        "Code": "HL",
+        "Description": "Hidalgo (Mexican State)"
+      }, {
+        "Code": "HM",
+        "Description": "Hopi Tribe of Arizona"
+      }, {
+        "Code": "HN",
+        "Description": "New Hebrides (now Vanuata)"
+      }, {
+        "Code": "HO",
+        "Description": "Howland Island"
+      }, {
+        "Code": "HP",
+        "Description": "Hualapai Indian Tribe of Hualapai Indian Rsvn, AZ"
+      }, {
+        "Code": "HQ",
+        "Description": "Iowa Tribe of KS &amp; NB"
+      }, {
+        "Code": "HR",
+        "Description": "Christmas Island"
+      }, {
+        "Code": "HS",
+        "Description": "Saint Helena"
+      }, {
+        "Code": "HT",
+        "Description": "Haiti"
+      }, {
+        "Code": "HU",
+        "Description": "Hungary"
+      }, {
+        "Code": "HW",
+        "Description": "Jamestown S’Klallam Tribe of WA"
+      }, {
+        "Code": "HX",
+        "Description": "Jena Band Choctaw Indians, LA"
+      }, {
+        "Code": "HZ",
+        "Description": "Jicarilla Apache Nation, NM"
+      }, {
+        "Code": "IA",
+        "Description": "Iowa"
+      }, {
+        "Code": "IB",
+        "Description": "Man, Isle of"
+      }, {
+        "Code": "IC",
+        "Description": "Iceland"
+      }, {
+        "Code": "ID",
+        "Description": "Idaho"
+      }, {
+        "Code": "IE",
+        "Description": "Ireland"
+      }, {
+        "Code": "IF",
+        "Description": "Kaibab Band of Paiute Indians of the Kaibab Indian Rsvn, AZ"
+      }, {
+        "Code": "IG",
+        "Description": "Kalispel Indian Community of Kalispel Indian Rsvn WA"
+      }, {
+        "Code": "IH",
+        "Description": "Kaw Nation, OK"
+      }, {
+        "Code": "II",
+        "Description": "India"
+      }, {
+        "Code": "IK",
+        "Description": "Keweenaw Bay Indian Community, MI"
+      }, {
+        "Code": "IL",
+        "Description": "Illinois"
+      }, {
+        "Code": "IM",
+        "Description": "Madeira Islands"
+      }, {
+        "Code": "IN",
+        "Description": "Indiana"
+      }, {
+        "Code": "IO",
+        "Description": "Indonesia"
+      }, {
+        "Code": "IQ",
+        "Description": "Iraq"
+      }, {
+        "Code": "IR",
+        "Description": "Iran"
+      }, {
+        "Code": "IS",
+        "Description": "Israel"
+      }, {
+        "Code": "IT",
+        "Description": "Italy"
+      }, {
+        "Code": "IU",
+        "Description": "Niue"
+      }, {
+        "Code": "IV",
+        "Description": "Kickapoo Tribe of Indians of the Kickapoo Rsvn in KS"
+      }, {
+        "Code": "IW",
+        "Description": "Iowa Tribe"
+      }, {
+        "Code": "IX",
+        "Description": "Menominee Indian Nation"
+      }, {
+        "Code": "IY",
+        "Description": "Cote dIvoire (Ivory Coast)"
+      }, {
+        "Code": "IZ",
+        "Description": "Kotenai Tribe of ID"
+      }, {
+        "Code": "JA",
+        "Description": "Japan"
+      }, {
+        "Code": "JB",
+        "Description": "Lac Vieux Desert Band of Lake Superior Chippewa Indians, MI"
+      }, {
+        "Code": "JD",
+        "Description": "Little River Band of Ottawa Indians, MI"
+      }, {
+        "Code": "JE",
+        "Description": "Jersey"
+      }, {
+        "Code": "JF",
+        "Description": "Little Traverse Bay Bands of Odawa Indians, MI"
+      }, {
+        "Code": "JG",
+        "Description": "Lovelock Paiute Tribe of the Lovelock Indian Colony, NV"
+      }, {
+        "Code": "JH",
+        "Description": "Lower Brule Sioux Tribe of the Lower Elwha Rsvn, WA"
+      }, {
+        "Code": "JI",
+        "Description": "Johnston Island"
+      }, {
+        "Code": "JJ",
+        "Description": "Lower Elwha Tribal Community of the Lower Elwha Rsvn, WA"
+      }, {
+        "Code": "JK",
+        "Description": "Lummi Tribe of the Lummi Rsvn, WA"
+      }, {
+        "Code": "JL",
+        "Description": "Jalisco (Mexican State)"
+      }, {
+        "Code": "JM",
+        "Description": "Jamaica"
+      }, {
+        "Code": "JN",
+        "Description": "Jan Mayen"
+      }, {
+        "Code": "JO",
+        "Description": "Jordan"
+      }, {
+        "Code": "JP",
+        "Description": "Makah Indian Tribe of the Makah Indian Rsvn, WA"
+      }, {
+        "Code": "JQ",
+        "Description": "Mashantucket Pequot Tribe of CT"
+      }, {
+        "Code": "JR",
+        "Description": "Jarvis Island"
+      }, {
+        "Code": "JS",
+        "Description": "Match-E-Be-Nash-She-Wish Band of Pottawatomie Indians of MI"
+      }, {
+        "Code": "JT",
+        "Description": "Mescalero Apache Tribe of the Mescalero Rsvn, NM"
+      }, {
+        "Code": "JU",
+        "Description": "Juan de Nova Island"
+      }, {
+        "Code": "JV",
+        "Description": "Metlakatla Indian Community, Annette Island AK"
+      }, {
+        "Code": "JW",
+        "Description": "Miccosukee Tribe of Indians, FL"
+      }, {
+        "Code": "JX",
+        "Description": "Missisippi Band of Choctaw Indians"
+      }, {
+        "Code": "JY",
+        "Description": "Muckleshoot Indian Tribe of the Muckleshoot Rsvn, WA"
+      }, {
+        "Code": "JZ",
+        "Description": "Narragansett Indian Tribe of RI"
+      }, {
+        "Code": "KB",
+        "Description": "Gilbert Islands (now Kiribati)"
+      }, {
+        "Code": "KC",
+        "Description": "Croatia"
+      }, {
+        "Code": "KD",
+        "Description": "Navajo Nation, AZ, NM and UT"
+      }, {
+        "Code": "KE",
+        "Description": "Kenya"
+      }, {
+        "Code": "KF",
+        "Description": "Nez Perce Tribe, ID (Frmrly Listed Nez Perce Tribe of ID)"
+      }, {
+        "Code": "KG",
+        "Description": "Nisqually Indian Tribe of the Nisqually Rsvn, WA"
+      }, {
+        "Code": "KH",
+        "Description": "Manahiki Island"
+      }, {
+        "Code": "KI",
+        "Description": "Kingman Reef"
+      }, {
+        "Code": "KJ",
+        "Description": "Nooksack Indian Tribe of Washington"
+      }, {
+        "Code": "KK",
+        "Description": "Kickapoo Tribe"
+      }, {
+        "Code": "KL",
+        "Description": "Northern Cheyenne Tribe of the North. Chey. Indian Rsvn, MT"
+      }, {
+        "Code": "KM",
+        "Description": "Nottawaseppi Huron Band of Potawatomie, MI- Frmr Hur. Pot., Inc."
+      }, {
+        "Code": "KN",
+        "Description": "North Korea"
+      }, {
+        "Code": "KO",
+        "Description": "South Korea"
+      }, {
+        "Code": "KP",
+        "Description": "Shakopee"
+      }, {
+        "Code": "KQ",
+        "Description": "Ohkay Owingeh, NM (Foremerly the Pueblo of San Juan"
+      }, {
+        "Code": "KS",
+        "Description": "Kansas"
+      }, {
+        "Code": "KT",
+        "Description": "Kazakhstan"
+      }, {
+        "Code": "KU",
+        "Description": "Kuwait"
+      }, {
+        "Code": "KV",
+        "Description": "Kosovo"
+      }, {
+        "Code": "KW",
+        "Description": "Kiowa"
+      }, {
+        "Code": "KX",
+        "Description": "Omaha Tribe of NB"
+      }, {
+        "Code": "KY",
+        "Description": "Kentucky"
+      }, {
+        "Code": "KZ",
+        "Description": "Kyrgyzstan"
+      }, {
+        "Code": "LA",
+        "Description": "Louisiana"
+      }, {
+        "Code": "LB",
+        "Description": "Liberia"
+      }, {
+        "Code": "LC",
+        "Description": "Mille Lacs"
+      }, {
+        "Code": "LD",
+        "Description": "Moldova"
+      }, {
+        "Code": "LE",
+        "Description": "Lesotho"
+      }, {
+        "Code": "LF",
+        "Description": "Slovakia"
+      }, {
+        "Code": "LG",
+        "Description": "Onondaga Nation of NY"
+      }, {
+        "Code": "LH",
+        "Description": "Lithuania (Rep of the USSR)"
+      }, {
+        "Code": "LI",
+        "Description": "Liechtenstein"
+      }, {
+        "Code": "LJ",
+        "Description": "Pascua Yaqui Tribe of AZ"
+      }, {
+        "Code": "LK",
+        "Description": "Passamaquoddy Tribe of ME"
+      }, {
+        "Code": "LL",
+        "Description": "Leech Lake Band of Chippewa"
+      }, {
+        "Code": "LM",
+        "Description": "Penobscot Tribe of ME"
+      }, {
+        "Code": "LN",
+        "Description": "Lebanon"
+      }, {
+        "Code": "LO",
+        "Description": "Slovenia"
+      }, {
+        "Code": "LP",
+        "Description": "Lac du Flambeau"
+      }, {
+        "Code": "LQ",
+        "Description": "Poarch Band of Creek Indians of AL"
+      }, {
+        "Code": "LR",
+        "Description": "Pokagon Band of Potawatomi Indians, MI &amp; IN"
+      }, {
+        "Code": "LS",
+        "Description": "Laos"
+      }, {
+        "Code": "LT",
+        "Description": "Latvia (Rep of the USSR)"
+      }, {
+        "Code": "LU",
+        "Description": "Saint Lucia"
+      }, {
+        "Code": "LV",
+        "Description": "Port Gamble of Indian Community of the Port Gamble Rsvn, WA"
+      }, {
+        "Code": "LW",
+        "Description": "Prairie Band of Potawatomi Nation, KS"
+      }, {
+        "Code": "LX",
+        "Description": "Luxembourg"
+      }, {
+        "Code": "LY",
+        "Description": "Libya"
+      }, {
+        "Code": "LZ",
+        "Description": "Pueblo of Acoma, NM"
+      }, {
+        "Code": "MA",
+        "Description": "Massachusetts"
+      }, {
+        "Code": "MB",
+        "Description": "Manitoba (Canadian Province)"
+      }, {
+        "Code": "MC",
+        "Description": "Michoacan (Mexican State)"
+      }, {
+        "Code": "MD",
+        "Description": "Maryland"
+      }, {
+        "Code": "ME",
+        "Description": "Maine"
+      }, {
+        "Code": "MF",
+        "Description": "Malawi"
+      }, {
+        "Code": "MG",
+        "Description": "Mongolia"
+      }, {
+        "Code": "MH",
+        "Description": "Marshall Islands"
+      }, {
+        "Code": "MI",
+        "Description": "Michigan"
+      }, {
+        "Code": "MJ",
+        "Description": "Monaco"
+      }, {
+        "Code": "MK",
+        "Description": "Mariana Islands (U.S. Trust Territory-U.S.)"
+      }, {
+        "Code": "ML",
+        "Description": "Mali"
+      }, {
+        "Code": "MM",
+        "Description": "Mexico"
+      }, {
+        "Code": "MN",
+        "Description": "Minnesota"
+      }, {
+        "Code": "MO",
+        "Description": "Missouri"
+      }, {
+        "Code": "MP",
+        "Description": "Madagascar (included in Malagasy Republic)"
+      }, {
+        "Code": "MQ",
+        "Description": "Morocco"
+      }, {
+        "Code": "MR",
+        "Description": "Morelos (Mexican State)"
+      }, {
+        "Code": "MS",
+        "Description": "Mississippi"
+      }, {
+        "Code": "MT",
+        "Description": "Montana"
+      }, {
+        "Code": "MU",
+        "Description": "Mauritania"
+      }, {
+        "Code": "MV",
+        "Description": "Maldives"
+      }, {
+        "Code": "MW",
+        "Description": "Midway Islands"
+      }, {
+        "Code": "MX",
+        "Description": "Mexico (Mexican State)"
+      }, {
+        "Code": "MY",
+        "Description": "Malta"
+      }, {
+        "Code": "MZ",
+        "Description": "Malaysia"
+      }, {
+        "Code": "NA",
+        "Description": "Nayarit (Mexican State)"
+      }, {
+        "Code": "NB",
+        "Description": "Nebraska"
+      }, {
+        "Code": "NC",
+        "Description": "North Carolina"
+      }, {
+        "Code": "ND",
+        "Description": "North Dakota"
+      }, {
+        "Code": "NE",
+        "Description": "Holland (Netherlands)"
+      }, {
+        "Code": "NF",
+        "Description": "Newfoundland (Includes Labrador; Canadian Province)"
+      }, {
+        "Code": "NG",
+        "Description": "Nigeria"
+      }, {
+        "Code": "NH",
+        "Description": "New Hampshire"
+      }, {
+        "Code": "NI",
+        "Description": "Northern Ireland"
+      }, {
+        "Code": "NJ",
+        "Description": "New Jersey"
+      }, {
+        "Code": "NK",
+        "Description": "New Brunswick (Canadian Province)"
+      }, {
+        "Code": "NL",
+        "Description": "Nuevo Leon (Mexican State)"
+      }, {
+        "Code": "NM",
+        "Description": "New Mexico"
+      }, {
+        "Code": "NN",
+        "Description": "Niger"
+      }, {
+        "Code": "NO",
+        "Description": "New Guinea (now Papua New Guinea)"
+      }, {
+        "Code": "NP",
+        "Description": "Nepal"
+      }, {
+        "Code": "NQ",
+        "Description": "New Caledonia"
+      }, {
+        "Code": "NR",
+        "Description": "Nauru"
+      }, {
+        "Code": "NS",
+        "Description": "Nova Scotia (Canadian Province)"
+      }, {
+        "Code": "NT",
+        "Description": "Northwest Territories (Canadian Admin. Division)"
+      }, {
+        "Code": "NU",
+        "Description": "Nicaragua"
+      }, {
+        "Code": "NV",
+        "Description": "Nevada"
+      }, {
+        "Code": "NW",
+        "Description": "Norway"
+      }, {
+        "Code": "NX",
+        "Description": "Bonaire (Netherlands Antilles)"
+      }, {
+        "Code": "NY",
+        "Description": "New York"
+      }, {
+        "Code": "NZ",
+        "Description": "New Zealand"
+      }, {
+        "Code": "OA",
+        "Description": "Oaxaca (Mexican State)"
+      }, {
+        "Code": "OB",
+        "Description": "Pueblo of Cochiti, NM"
+      }, {
+        "Code": "OC",
+        "Description": "Macao (Macau)"
+      }, {
+        "Code": "OD",
+        "Description": "Pueblo of Isleta, NM"
+      }, {
+        "Code": "OE",
+        "Description": "Pueblo of Jemez, NM"
+      }, {
+        "Code": "OF",
+        "Description": "Norfolk Island"
+      }, {
+        "Code": "OG",
+        "Description": "Osage Nation"
+      }, {
+        "Code": "OH",
+        "Description": "Ohio"
+      }, {
+        "Code": "OI",
+        "Description": "Okinawa"
+      }, {
+        "Code": "OJ",
+        "Description": "Pueblo of of Laguna, NM"
+      }, {
+        "Code": "OK",
+        "Description": "Oklahoma"
+      }, {
+        "Code": "OL",
+        "Description": "Pueblo of Nambe, NM"
+      }, {
+        "Code": "OM",
+        "Description": "Oman"
+      }, {
+        "Code": "ON",
+        "Description": "Ontario (Canadian Province)"
+      }, {
+        "Code": "OO",
+        "Description": "Otoe-Missouria Tribe"
+      }, {
+        "Code": "OP",
+        "Description": "Pueblo of Picuris, NM"
+      }, {
+        "Code": "OQ",
+        "Description": "Pueblo of San Felipe, NM"
+      }, {
+        "Code": "OR",
+        "Description": "Oregon"
+      }, {
+        "Code": "OS",
+        "Description": "Oglala Sioux"
+      }, {
+        "Code": "OT",
+        "Description": "Oneida Tribe of Indians of Wisconsin"
+      }, {
+        "Code": "OU",
+        "Description": "Pueblo of San Ildefonso, NM"
+      }, {
+        "Code": "OV",
+        "Description": "Pueblo of Sandia, NM"
+      }, {
+        "Code": "OW",
+        "Description": "Pueblo of Santa Ana, NM"
+      }, {
+        "Code": "OX",
+        "Description": "Pueblo of Santa Clara, NM"
+      }, {
+        "Code": "OY",
+        "Description": "Kewa Pueblo. NM (Formerly Pueblo of Santa Domingo, NM)"
+      }, {
+        "Code": "OZ",
+        "Description": "Oneida Nation of NY"
+      }, {
+        "Code": "PA",
+        "Description": "Pennsylvania"
+      }, {
+        "Code": "PB",
+        "Description": "Puebla (Mexican State)"
+      }, {
+        "Code": "PC",
+        "Description": "Pitcairn, Henderson, Ducie, and Oeno Island"
+      }, {
+        "Code": "PD",
+        "Description": "Republic of Palau"
+      }, {
+        "Code": "PE",
+        "Description": "Prince Edward Island (Canadian Province)"
+      }, {
+        "Code": "PF",
+        "Description": "Paracel Islands"
+      }, {
+        "Code": "PG",
+        "Description": "Guinea-Bissau (formerly Portuguese Guinea)"
+      }, {
+        "Code": "PH",
+        "Description": "Pueblo of Taos, NM"
+      }, {
+        "Code": "PI",
+        "Description": "Philippines"
+      }, {
+        "Code": "PJ",
+        "Description": "Pueblo of Tesuque, NM"
+      }, {
+        "Code": "PK",
+        "Description": "Pakistan"
+      }, {
+        "Code": "PL",
+        "Description": "Palmyra Atoll"
+      }, {
+        "Code": "PM",
+        "Description": "Panama"
+      }, {
+        "Code": "PN",
+        "Description": "Ponca Tribe"
+      }, {
+        "Code": "PO",
+        "Description": "Poland"
+      }, {
+        "Code": "PP",
+        "Description": "Pueblo of Zia, NM"
+      }, {
+        "Code": "PQ",
+        "Description": "Quebec (Canadian Province)"
+      }, {
+        "Code": "PR",
+        "Description": "Puerto Rico"
+      }, {
+        "Code": "PS",
+        "Description": "St Pierre and Miquelon"
+      }, {
+        "Code": "PT",
+        "Description": "Portugal"
+      }, {
+        "Code": "PU",
+        "Description": "Peru"
+      }, {
+        "Code": "PV",
+        "Description": "Paraguay"
+      }, {
+        "Code": "PW",
+        "Description": "Pawnee Tribe"
+      }, {
+        "Code": "PX",
+        "Description": "Pueblo of Zuni, NM"
+      }, {
+        "Code": "PY",
+        "Description": "Puyallup Tribe of the Puyallup Rsvn, WA"
+      }, {
+        "Code": "PZ",
+        "Description": "Pyramid Lake Paiute Tribe of the Pyramid Lake Rsvn, NV"
+      }, {
+        "Code": "QA",
+        "Description": "Qatar"
+      }, {
+        "Code": "QB",
+        "Description": "Quechan Tribe of the Fort Yuma Indian Rsvn CA &amp; AZ"
+      }, {
+        "Code": "QC",
+        "Description": "Quileute Tribe of the Quileute Rsvn, WA"
+      }, {
+        "Code": "QD",
+        "Description": "Quinault Tribe of the Quinault Rsvn, WA"
+      }, {
+        "Code": "QE",
+        "Description": "Reno-Sparks Indian Colony, NV"
+      }, {
+        "Code": "QF",
+        "Description": "Rosebud Sioux Tribe of the Rosebud Indian Rsvn, SD"
+      }, {
+        "Code": "QG",
+        "Description": "Sac and Fox Nation of Missouri in KS and NB"
+      }, {
+        "Code": "QH",
+        "Description": "Sac and Fox Tribe of the MS in IA"
+      }, {
+        "Code": "QI",
+        "Description": "Saginaw Chippewa Indian Tribe of MI"
+      }, {
+        "Code": "QJ",
+        "Description": "St Regis Mohawk Tribe, NY- Frmr St Reg. Band Mohawk Indians"
+      }, {
+        "Code": "QK",
+        "Description": "Salt River Pima-Maricopa Indian Comm. Of Salt River Rsvn, AZ"
+      }, {
+        "Code": "QL",
+        "Description": "Samish Indian Tribe, WA"
+      }, {
+        "Code": "QM",
+        "Description": "San Carlos Apache Tribe of the San Carlos Rsvn, AZ"
+      }, {
+        "Code": "QN",
+        "Description": "Santee Sioux Nation, NB"
+      }, {
+        "Code": "QO",
+        "Description": "Sauk- Suiattle Indian Tribe of WA"
+      }, {
+        "Code": "QP",
+        "Description": "Sault Sainte Maire Tribe of Chippewa Indians of MI"
+      }, {
+        "Code": "QQ",
+        "Description": "Seminole Tribe of FL-Dan, Big Cyp, Brghtn, Hllywd &amp; Tmp Rsvns"
+      }, {
+        "Code": "QR",
+        "Description": "Quintana Roo (Mexican State)"
+      }, {
+        "Code": "QS",
+        "Description": "Seneca Nation of New York"
+      }, {
+        "Code": "QT",
+        "Description": "Shoalwater Bay Tribe of the Shoalwater Bay Indian Rsvn, WA"
+      }, {
+        "Code": "QU",
+        "Description": "Queretaro (Mexican State)"
+      }, {
+        "Code": "QV",
+        "Description": "Shosone-Bannock Tribes of the Fort Hall Rsvn of ID"
+      }, {
+        "Code": "QW",
+        "Description": "Shosone-Paiute Tribes of the Duck Valley Rsvn of NV"
+      }, {
+        "Code": "QX",
+        "Description": "Sisseton-Wahpeton Oyate of the Lake Traverse Rsvn, SD"
+      }, {
+        "Code": "QY",
+        "Description": "Skokomish Indian Tribe of the Skokomish Rsvn, WA"
+      }, {
+        "Code": "QZ",
+        "Description": "Skull Valley Band of Goshute Indians of UT"
+      }, {
+        "Code": "RA",
+        "Description": "Russia"
+      }, {
+        "Code": "RB",
+        "Description": "Republic of Congo, Brazzaville"
+      }, {
+        "Code": "RC",
+        "Description": "Peoples Republic of China"
+      }, {
+        "Code": "RD",
+        "Description": "Snoqualmie Tribe, WA"
+      }, {
+        "Code": "RE",
+        "Description": "Reunion"
+      }, {
+        "Code": "RF",
+        "Description": "Russian Federation"
+      }, {
+        "Code": "RG",
+        "Description": "Gibraltar"
+      }, {
+        "Code": "RH",
+        "Description": "Rhodesia (now Zimbabwe)"
+      }, {
+        "Code": "RI",
+        "Description": "Rhode Island"
+      }, {
+        "Code": "RJ",
+        "Description": "Southern Ute Indian Tribe of CO"
+      }, {
+        "Code": "RK",
+        "Description": "Spirit Lake Tribe of the Spokane Rsvn, WA"
+      }, {
+        "Code": "RL",
+        "Description": "Red Lake"
+      }, {
+        "Code": "RM",
+        "Description": "Spokane Tribe of the Spokane Rsvn, WA"
+      }, {
+        "Code": "RN",
+        "Description": "Squaxin Island Tribe of Squaxin Island Rsvn, WA"
+      }, {
+        "Code": "RO",
+        "Description": "Standing Rock Sioux Tribe of North&amp;South Dakota"
+      }, {
+        "Code": "RP",
+        "Description": "Summit Lake Paiute Tribe of NV"
+      }, {
+        "Code": "RQ",
+        "Description": "Suquamish Indian Tribe of the Port Madison Rsvn, WA"
+      }, {
+        "Code": "RR",
+        "Description": "Montserrat"
+      }, {
+        "Code": "RS",
+        "Description": "Spanish Sahara (now Western Sahara)"
+      }, {
+        "Code": "RT",
+        "Description": "Swinomish Indians of the Swinomish Rsvn, WA"
+      }, {
+        "Code": "RU",
+        "Description": "Romania/Rumania"
+      }, {
+        "Code": "RV",
+        "Description": "Socialist Republic of Vietnam"
+      }, {
+        "Code": "RW",
+        "Description": "Rwanda"
+      }, {
+        "Code": "RX",
+        "Description": "Te-Moak Tribe of W. Shosone Indians of NV"
+      }, {
+        "Code": "RY",
+        "Description": "Republic of Yemen"
+      }, {
+        "Code": "RZ",
+        "Description": "Three Affiliated Tribes of the Fort Berthold Rsvn, ND"
+      }, {
+        "Code": "SA",
+        "Description": "Sierra Leone"
+      }, {
+        "Code": "SB",
+        "Description": "Saudi Arabia"
+      }, {
+        "Code": "SC",
+        "Description": "South Carolina"
+      }, {
+        "Code": "SD",
+        "Description": "South Dakota"
+      }, {
+        "Code": "SE",
+        "Description": "Seychelles"
+      }, {
+        "Code": "SF",
+        "Description": "South Africa"
+      }, {
+        "Code": "SG",
+        "Description": "Senegal"
+      }, {
+        "Code": "SH",
+        "Description": "San Marino"
+      }, {
+        "Code": "SI",
+        "Description": "Sinaloa (Mexican State)"
+      }, {
+        "Code": "SJ",
+        "Description": "South-Wst Africa (Namibia)"
+      }, {
+        "Code": "SK",
+        "Description": "Seminole Nation"
+      }, {
+        "Code": "SL",
+        "Description": "San Luis Potosi (Mexican State)"
+      }, {
+        "Code": "SM",
+        "Description": "Somalia"
+      }, {
+        "Code": "SN",
+        "Description": "Saskatchewan (Canadian Province)"
+      }, {
+        "Code": "SO",
+        "Description": "Sonora (Mexican State)"
+      }, {
+        "Code": "SP",
+        "Description": "Spain"
+      }, {
+        "Code": "SQ",
+        "Description": "Sweden"
+      }, {
+        "Code": "SR",
+        "Description": "Singapore"
+      }, {
+        "Code": "SS",
+        "Description": "Scotland"
+      }, {
+        "Code": "SU",
+        "Description": "Sudan"
+      }, {
+        "Code": "SV",
+        "Description": "Svalbard"
+      }, {
+        "Code": "SW",
+        "Description": "Swaziland"
+      }, {
+        "Code": "SY",
+        "Description": "Syria"
+      }, {
+        "Code": "SZ",
+        "Description": "Switzerland"
+      }, {
+        "Code": "TA",
+        "Description": "Tamaulipas (Mexican State)"
+      }, {
+        "Code": "TB",
+        "Description": "Tabasco (Mexican State)"
+      }, {
+        "Code": "TC",
+        "Description": "Trucial States (now United Arab Emirates)"
+      }, {
+        "Code": "TD",
+        "Description": "Trust Territory of Pacific Islands"
+      }, {
+        "Code": "TE",
+        "Description": "Spratly Islands"
+      }, {
+        "Code": "TF",
+        "Description": "Tuamontu Archipelago"
+      }, {
+        "Code": "TG",
+        "Description": "Tonga"
+      }, {
+        "Code": "TH",
+        "Description": "Thailand"
+      }, {
+        "Code": "TJ",
+        "Description": "Tajikistan"
+      }, {
+        "Code": "TK",
+        "Description": "Tokelau"
+      }, {
+        "Code": "TL",
+        "Description": "Tlaxcala (Mexican State)"
+      }, {
+        "Code": "TM",
+        "Description": "Tromelin Island"
+      }, {
+        "Code": "TN",
+        "Description": "Tennessee"
+      }, {
+        "Code": "TO",
+        "Description": "Togo"
+      }, {
+        "Code": "TP",
+        "Description": "Sao Tome and Principe"
+      }, {
+        "Code": "TQ",
+        "Description": "Tongareva"
+      }, {
+        "Code": "TR",
+        "Description": "Turks and Caicos Islands"
+      }, {
+        "Code": "TS",
+        "Description": "Nevis and Saint Christopher Kitts"
+      }, {
+        "Code": "TT",
+        "Description": "Trinidad / Tobago"
+      }, {
+        "Code": "TU",
+        "Description": "Tunisia"
+      }, {
+        "Code": "TV",
+        "Description": "Ellice Islands (now Tuvalu)"
+      }, {
+        "Code": "TW",
+        "Description": "Taiwan, Republic of China"
+      }, {
+        "Code": "TX",
+        "Description": "Texas"
+      }, {
+        "Code": "TY",
+        "Description": "Turkey"
+      }, {
+        "Code": "TZ",
+        "Description": "Tanzania, United Republic of"
+      }, {
+        "Code": "UB",
+        "Description": "Tohono O’OOdham Nation of AZ"
+      }, {
+        "Code": "UC",
+        "Description": "Turtle Mt Bnd of Chipewa"
+      }, {
+        "Code": "UD",
+        "Description": "Tonawanda Band of Seneca Indians of NY"
+      }, {
+        "Code": "UE",
+        "Description": "Tonkawa Tribe of Indians of OK"
+      }, {
+        "Code": "UF",
+        "Description": "Tonto Apache Tribe of AZ"
+      }, {
+        "Code": "UG",
+        "Description": "Uganda"
+      }, {
+        "Code": "UH",
+        "Description": "Tulalip Tribes of the Tulalip Rsvn, WA"
+      }, {
+        "Code": "UI",
+        "Description": "Yunica-Biloxi Indian Tribe of LA"
+      }, {
+        "Code": "UJ",
+        "Description": "Tuscarora Nation of NY"
+      }, {
+        "Code": "UK",
+        "Description": "Ukraine"
+      }, {
+        "Code": "UL",
+        "Description": "Upper Skagit Indian Tribe of WA"
+      }, {
+        "Code": "UM",
+        "Description": "Mauritius"
+      }, {
+        "Code": "UN",
+        "Description": "United Kingdom"
+      }, {
+        "Code": "UO",
+        "Description": "Ute Indian Tribe of the Uintah &amp; Ouray Rsvn, UT"
+      }, {
+        "Code": "UP",
+        "Description": "Ute Mountain Tribe of the Ute Mountain Rsvn, CO, NM &amp; UT"
+      }, {
+        "Code": "UQ",
+        "Description": "Walker River Paiute Tribe of the Walker River Rsvn, NV"
+      }, {
+        "Code": "UR",
+        "Description": "Turkmenistan"
+      }, {
+        "Code": "US",
+        "Description": "United States"
+      }, {
+        "Code": "UT",
+        "Description": "Utah"
+      }, {
+        "Code": "UU",
+        "Description": "Wampanoaq Tribe of Gay Head (Aquinnah) of MA"
+      }, {
+        "Code": "UV",
+        "Description": "Burkina Faso/Upper Volta"
+      }, {
+        "Code": "UW",
+        "Description": "Washoe Tribe of NV&amp;CA-Carson, Drsslrvll,Woodfrds, Stewrt, Wash"
+      }, {
+        "Code": "UX",
+        "Description": "White Mountain Apache Tribe of the Ft Apache Rsvn, AZ"
+      }, {
+        "Code": "UY",
+        "Description": "Uruguay"
+      }, {
+        "Code": "UZ",
+        "Description": "Uzbekistan"
+      }, {
+        "Code": "VA",
+        "Description": "Virginia"
+      }, {
+        "Code": "VB",
+        "Description": "British Virgin Islands"
+      }, {
+        "Code": "VC",
+        "Description": "Veracruz (Mexican State)"
+      }, {
+        "Code": "VD",
+        "Description": "Winnebago Tribe of NB"
+      }, {
+        "Code": "VE",
+        "Description": "Wyandotte Nation, OK"
+      }, {
+        "Code": "VF",
+        "Description": "Vakama Nation, OK"
+      }, {
+        "Code": "VG",
+        "Description": "Yakton Sioux Tribe of SD"
+      }, {
+        "Code": "VH",
+        "Description": "Yavapai-Apache Nation of the Camp Verde Indian Rsvn, AZ"
+      }, {
+        "Code": "VI",
+        "Description": "U S Virgin Islands"
+      }, {
+        "Code": "VJ",
+        "Description": "Yavapai-Prescott Tribe of the Yavapai Rsvn, AZ"
+      }, {
+        "Code": "VK",
+        "Description": "Yerington Paiute Tribe of Yerington Colony&amp;Cambell Rnch, NV"
+      }, {
+        "Code": "VL",
+        "Description": "Navassa Island"
+      }, {
+        "Code": "VO",
+        "Description": "Yomba Shosone Tribe of the Yomba Rsvn, NV"
+      }, {
+        "Code": "VP",
+        "Description": "Catawba Indian Nation, SC (AKA Catawba Tribe of    SC)"
+      }, {
+        "Code": "VQ",
+        "Description": "Confederated Salish&amp;Kootenai Tribes of the Flathead Rsvn, MT"
+      }, {
+        "Code": "VR",
+        "Description": "Conf. Tribes of the Coos, Lower Umpqua and Siuslaw Indians of OR"
+      }, {
+        "Code": "VT",
+        "Description": "Vermont"
+      }, {
+        "Code": "VU",
+        "Description": "Confederated Tribes of the Grand Ronde Community of OR"
+      }, {
+        "Code": "VV",
+        "Description": "St. Vincent and the Grenadines"
+      }, {
+        "Code": "VW",
+        "Description": "Confederated Tribes of Siletz Indians-OR(Conf. Tribes Siletz Rsvn)"
+      }, {
+        "Code": "VX",
+        "Description": "Confederated Tribes &amp; Bands of the Yakama Nation, WA"
+      }, {
+        "Code": "VY",
+        "Description": "Vatican City"
+      }, {
+        "Code": "VZ",
+        "Description": "Venezuela"
+      }, {
+        "Code": "WA",
+        "Description": "Washington"
+      }, {
+        "Code": "WB",
+        "Description": "West Bank"
+      }, {
+        "Code": "WC",
+        "Description": "Coquille Tribe of OR"
+      }, {
+        "Code": "WD",
+        "Description": "Wyandotte Tribe"
+      }, {
+        "Code": "WE",
+        "Description": "White Earth"
+      }, {
+        "Code": "WF",
+        "Description": "Wallis and Futuna"
+      }, {
+        "Code": "WH",
+        "Description": "Cow Creek Band of Umpqua Indians of OR"
+      }, {
+        "Code": "WI",
+        "Description": "Wisconsin"
+      }, {
+        "Code": "WJ",
+        "Description": "Cowlitz Indian TRIBE&lt; WA"
+      }, {
+        "Code": "WK",
+        "Description": "Wake Island"
+      }, {
+        "Code": "WL",
+        "Description": "Wales"
+      }, {
+        "Code": "WM",
+        "Description": "Duckwater Shosone Tribe of the Duckwater Rsvn, NV"
+      }, {
+        "Code": "WN",
+        "Description": "West Indies"
+      }, {
+        "Code": "WO",
+        "Description": "Forest County Potawatomi Community of WI"
+      }, {
+        "Code": "WP",
+        "Description": "Fort McDermitt Paiute&amp; Shosone Tribes of F.M. Indians Rsvn, NV &amp; OR"
+      }, {
+        "Code": "WQ",
+        "Description": "Fort Sill Apache Tribe of OK"
+      }, {
+        "Code": "WR",
+        "Description": "Houlton Band of Maliseet Indians of ME"
+      }, {
+        "Code": "WS",
+        "Description": "Western Samoa"
+      }, {
+        "Code": "WT",
+        "Description": "Wichita Tribe"
+      }, {
+        "Code": "WU",
+        "Description": "Kickapoo Traditional Tribe of TX"
+      }, {
+        "Code": "WV",
+        "Description": "West Virginia"
+      }, {
+        "Code": "WX",
+        "Description": "Klamath Tribes, OR"
+      }, {
+        "Code": "WY",
+        "Description": "Wyoming"
+      }, {
+        "Code": "WZ",
+        "Description": "Lac Courte Oreilles Band of Lake Superior Chippewa Indians, WI"
+      }, {
+        "Code": "XA",
+        "Description": "Serbia"
+      }, {
+        "Code": "XB",
+        "Description": "Montenegro"
+      }, {
+        "Code": "XC",
+        "Description": "Bad River Band of Lake Superior Tribe of Chippewa Indians"
+      }, {
+        "Code": "XD",
+        "Description": "Caddo Tribe"
+      }, {
+        "Code": "XE",
+        "Description": "Cherokee Nation"
+      }, {
+        "Code": "XF",
+        "Description": "Delaware Nation"
+      }, {
+        "Code": "XG",
+        "Description": "Eastern Shawnee Tribe"
+      }, {
+        "Code": "XH",
+        "Description": "Modoc Tribe"
+      }, {
+        "Code": "XI",
+        "Description": "Ottawa Tribe"
+      }, {
+        "Code": "XJ",
+        "Description": "Peoria Tribe"
+      }, {
+        "Code": "XK",
+        "Description": "Quapaw Tribe"
+      }, {
+        "Code": "XL",
+        "Description": "United Keetoowah Band of Cherokee Indians"
+      }, {
+        "Code": "XM",
+        "Description": "Western Delaware Tribe"
+      }, {
+        "Code": "XN",
+        "Description": "Nunavut (Canadian Territory)"
+      }, {
+        "Code": "XO",
+        "Description": "Grand Portage Band of Lake Superior Chippewa"
+      }, {
+        "Code": "XP",
+        "Description": "Bois Forte Band of Chippewa"
+      }, {
+        "Code": "XQ",
+        "Description": "Delaware Tribe of OK"
+      }, {
+        "Code": "XR",
+        "Description": "Las Vegas Tribe of Paiute Indians of Las Vegas Indian Clny, NV"
+      }, {
+        "Code": "XS",
+        "Description": "Lower Sioux Indian Community in the State of MN"
+      }, {
+        "Code": "XT",
+        "Description": "Mashpee Wampanoag Tribe of MA"
+      }, {
+        "Code": "XU",
+        "Description": "Minnesota Chippewa Tribe, MN"
+      }, {
+        "Code": "XV",
+        "Description": "Moapa Band of Paiute Indians of NV"
+      }, {
+        "Code": "XW",
+        "Description": "Mohegan Indian Tribe of CT"
+      }, {
+        "Code": "XX",
+        "Description": "Unknown"
+      }, {
+        "Code": "XZ",
+        "Description": "Paiute Indian Tribe of UT"
+      }, {
+        "Code": "YB",
+        "Description": "Ponca Tribe of NB"
+      }, {
+        "Code": "YC",
+        "Description": "Prairie Band of Potawatomi Nation, KS"
+      }, {
+        "Code": "YD",
+        "Description": "Prairie Island Indian Community in the State of MN"
+      }, {
+        "Code": "YF",
+        "Description": "Pueblo of Pojoaque, NM"
+      }, {
+        "Code": "YG",
+        "Description": "Yugoslavia"
+      }, {
+        "Code": "YH",
+        "Description": "Red Cliff Band of Lake Superior Chippewa Indians    WI"
+      }, {
+        "Code": "YO",
+        "Description": "Mayotte"
+      }, {
+        "Code": "YT",
+        "Description": "Yukon (Canadian Territory)"
+      }, {
+        "Code": "YU",
+        "Description": "Yucatan (Mexican State)"
+      }, {
+        "Code": "YY",
+        "Description": "Unlisted cntry (Any foreign country not included in the list)"
+      }, {
+        "Code": "YZ",
+        "Description": "Northwestern Band of Shosoni Nation of UT (Washakie)"
+      }, {
+        "Code": "ZA",
+        "Description": "Zacatecas (Mexican State)"
+      }, {
+        "Code": "ZB",
+        "Description": "Martinique"
+      }, {
+        "Code": "ZC",
+        "Description": "Suriname"
+      }, {
+        "Code": "ZD",
+        "Description": "Macedonia"
+      }, {
+        "Code": "ZE",
+        "Description": "Kialegee Tribe Town, OK"
+      }, {
+        "Code": "ZI",
+        "Description": "Canary Islands"
+      }, {
+        "Code": "ZM",
+        "Description": "Zambia"
+      }, {
+        "Code": "ZO",
+        "Description": "Mozambique"
+      }, {
+        "Code": "ZR",
+        "Description": "Congo Kinshasa (now Zaire)"
+      }]
+    }, {
+      "@name": "citizen_pl",
+      "Item": [{
+        "Code": "AF",
+        "Description": "AF - Afghanistan"
+      }, {
+        "Code": "AA",
+        "Description": "AA - Albania"
+      }, {
+        "Code": "AN",
+        "Description": "AN - Algeria"
+      }, {
+        "Code": "AD",
+        "Description": "AD - Andorra"
+      }, {
+        "Code": "AO",
+        "Description": "AO - Angola"
+      }, {
+        "Code": "AE",
+        "Description": "AE - Anguilla"
+      }, {
+        "Code": "AI",
+        "Description": "AI - Antigua and Barbuda"
+      }, {
+        "Code": "AT",
+        "Description": "AT - Argentina"
+      }, {
+        "Code": "AP",
+        "Description": "AP - Armenia"
+      }, {
+        "Code": "AJ",
+        "Description": "AJ - Aruba (now independent)"
+      }, {
+        "Code": "AS",
+        "Description": "AS - Australia"
+      }, {
+        "Code": "AU",
+        "Description": "AU - Austria"
+      }, {
+        "Code": "AV",
+        "Description": "AV - Azerbaijan"
+      }, {
+        "Code": "AQ",
+        "Description": "AQ - Azores (Islands)"
+      }, {
+        "Code": "BD",
+        "Description": "BD - Bahamas The"
+      }, {
+        "Code": "BE",
+        "Description": "BE - Bahrain/Bahrein"
+      }, {
+        "Code": "BW",
+        "Description": "BW - Balearic Islands"
+      }, {
+        "Code": "BL",
+        "Description": "BL - Bangladesh"
+      }, {
+        "Code": "BB",
+        "Description": "BB - Barbados"
+      }, {
+        "Code": "BF",
+        "Description": "BF - Bassas Da India"
+      }, {
+        "Code": "BG",
+        "Description": "BG - Belgium"
+      }, {
+        "Code": "BH",
+        "Description": "BH - Belize (formerly British Honduras)"
+      }, {
+        "Code": "DH",
+        "Description": "DH - Benin (formerly Dahomey)"
+      }, {
+        "Code": "BM",
+        "Description": "BM - Bermuda"
+      }, {
+        "Code": "BN",
+        "Description": "BN - Bhutan"
+      }, {
+        "Code": "BV",
+        "Description": "BV - Bolivia"
+      }, {
+        "Code": "BP",
+        "Description": "BP - Bosnia"
+      }, {
+        "Code": "BT",
+        "Description": "BT - Botswana"
+      }, {
+        "Code": "BQ",
+        "Description": "BQ - Bouvet Island"
+      }, {
+        "Code": "BZ",
+        "Description": "Brizil"
+      }, {
+        "Code": "BH",
+        "Description": "British Honduras (Now Belize)"
+      }, {
+        "Code": "BO",
+        "Description": "British Indian Ocean Territory"
+      }, {
+        "Code": "BS",
+        "Description": "British Solomon Islands (now Solomon Islands)"
+      }, {
+        "Code": "VB",
+        "Description": "British Virgin Islands"
+      }, {
+        "Code": "BX",
+        "Description": "Brunei"
+      }, {
+        "Code": "BU",
+        "Description": "Bulgaria"
+      }, {
+        "Code": "UV",
+        "Description": "Burkina Faso (known as Burkina formerly Upper Volta)"
+      }, {
+        "Code": "BR",
+        "Description": "Burma"
+      }, {
+        "Code": "BI",
+        "Description": "Burundi"
+      }, {
+        "Code": "BY",
+        "Description": "Byelarus"
+      }, {
+        "Code": "CJ",
+        "Description": "Cambodia (formerly Khmer Republic and Kampuchea)"
+      }, {
+        "Code": "CM",
+        "Description": "Cameroon"
+      }, {
+        "Code": "CD",
+        "Description": "Canada (Province unknown)"
+      }, {
+        "Code": "province_pl",
+        "Description": "Canadian province"
+      }, {
+        "Code": "ZI",
+        "Description": "Canary Islands"
+      }, {
+        "Code": "CV",
+        "Description": "Cape Verde Islands"
+      }, {
+        "Code": "CP",
+        "Description": "Cayman Islands"
+      }, {
+        "Code": "CW",
+        "Description": "Central African Republic"
+      }, {
+        "Code": "CY",
+        "Description": "Ceylon (now Sri Lanka)"
+      }, {
+        "Code": "CF",
+        "Description": "Chad"
+      }, {
+        "Code": "CQ",
+        "Description": "Chile"
+      }, {
+        "Code": "RC",
+        "Description": "China People's Republic of"
+      }, {
+        "Code": "TW",
+        "Description": "China Taiwan Republic of"
+      }, {
+        "Code": "DB",
+        "Description": "Clipperton Island"
+      }, {
+        "Code": "DD",
+        "Description": "Cocos (Keeling) Islands"
+      }, {
+        "Code": "CB",
+        "Description": "Colombia"
+      }, {
+        "Code": "DG",
+        "Description": "Comoros (or Comoros Islands)"
+      }, {
+        "Code": "RB",
+        "Description": "Congo Republic of Brazzaville"
+      }, {
+        "Code": "ZR",
+        "Description": "Congo Kinshasa now Zaire"
+      }, {
+        "Code": "DI",
+        "Description": "Cook Islands"
+      }, {
+        "Code": "DJ",
+        "Description": "Coral Sea Islands"
+      }, {
+        "Code": "CR",
+        "Description": "Costa Rica"
+      }, {
+        "Code": "IY",
+        "Description": "Cote d'Ivoire Republic of (Ivory Coast)"
+      }, {
+        "Code": "KC",
+        "Description": "Croatia"
+      }, {
+        "Code": "CC",
+        "Description": "Cuba"
+      }, {
+        "Code": "CS",
+        "Description": "Cyprus"
+      }, {
+        "Code": "EZ",
+        "Description": "Czech Republic"
+      }, {
+        "Code": "DH",
+        "Description": "Dahomey (now Benin)"
+      }, {
+        "Code": "DK",
+        "Description": "Denmark"
+      }, {
+        "Code": "DN",
+        "Description": "Djibouti"
+      }, {
+        "Code": "DM",
+        "Description": "Dominica"
+      }, {
+        "Code": "DR",
+        "Description": "Dominican Republic"
+      }, {
+        "Code": "EU",
+        "Description": "Ecuador"
+      }, {
+        "Code": "EY",
+        "Description": "Egypt (United Arab Republic)"
+      }, {
+        "Code": "EL",
+        "Description": "El Salvador"
+      }, {
+        "Code": "EN",
+        "Description": "England"
+      }, {
+        "Code": "EK",
+        "Description": "Equatorial Guinea"
+      }, {
+        "Code": "ES",
+        "Description": "Estonia"
+      }, {
+        "Code": "EO",
+        "Description": "Ethiopia"
+      }, {
+        "Code": "ER",
+        "Description": "Europa Island"
+      }, {
+        "Code": "FA",
+        "Description": "Falkland Islands"
+      }, {
+        "Code": "FO",
+        "Description": "Faroe Islands"
+      }, {
+        "Code": "FJ",
+        "Description": "Fiji"
+      }, {
+        "Code": "FD",
+        "Description": "Finland"
+      }, {
+        "Code": "FN",
+        "Description": "France"
+      }, {
+        "Code": "FG",
+        "Description": "French Guiana"
+      }, {
+        "Code": "FP",
+        "Description": "French Polynesia"
+      }, {
+        "Code": "FR",
+        "Description": "French Southern and Antarctic Lands Territory of the(French overseas territory)"
+      }, {
+        "Code": "GB",
+        "Description": "Gabon"
+      }, {
+        "Code": "GK",
+        "Description": "Gambia The"
+      }, {
+        "Code": "GD",
+        "Description": "Georgia"
+      }, {
+        "Code": "GE",
+        "Description": "Germany"
+      }, {
+        "Code": "GG",
+        "Description": "Ghana"
+      }, {
+        "Code": "RG",
+        "Description": "Gibraltar"
+      }, {
+        "Code": "GO",
+        "Description": "Glorioso Islands"
+      }, {
+        "Code": "GC",
+        "Description": "Greece"
+      }, {
+        "Code": "GN",
+        "Description": "Greenland"
+      }, {
+        "Code": "GJ",
+        "Description": "Grenada"
+      }, {
+        "Code": "GP",
+        "Description": "Guadeloupe"
+      }, {
+        "Code": "GT",
+        "Description": "Guatemala"
+      }, {
+        "Code": "GF",
+        "Description": "Guernsey"
+      }, {
+        "Code": "FG",
+        "Description": "Guiana French"
+      }, {
+        "Code": "GI",
+        "Description": "Guinea"
+      }, {
+        "Code": "PG",
+        "Description": "Guinea Bissau (formerly Portuguese Guinea)"
+      }, {
+        "Code": "GY",
+        "Description": "Guyana"
+      }, {
+        "Code": "HT",
+        "Description": "Haiti"
+      }, {
+        "Code": "BP",
+        "Description": "Hercegovina"
+      }, {
+        "Code": "NE",
+        "Description": "Holland (Netherlands)"
+      }, {
+        "Code": "HD",
+        "Description": "Honduras"
+      }, {
+        "Code": "HK",
+        "Description": "Hong Kong"
+      }, {
+        "Code": "HU",
+        "Description": "Hungary"
+      }, {
+        "Code": "IC",
+        "Description": "Iceland"
+      }, {
+        "Code": "II",
+        "Description": "India"
+      }, {
+        "Code": "IO",
+        "Description": "Indonesia"
+      }, {
+        "Code": "IR",
+        "Description": "Iran"
+      }, {
+        "Code": "IQ",
+        "Description": "Iraq"
+      }, {
+        "Code": "IE",
+        "Description": "Ireland (does not include Northern Ireland)"
+      }, {
+        "Code": "IS",
+        "Description": "Israel"
+      }, {
+        "Code": "IT",
+        "Description": "Italy (includes Sicily and Sardinia)"
+      }, {
+        "Code": "IY",
+        "Description": "Ivory Coast"
+      }, {
+        "Code": "JM",
+        "Description": "Jamaica"
+      }, {
+        "Code": "JN",
+        "Description": "Jan Mayen"
+      }, {
+        "Code": "JA",
+        "Description": "Japan"
+      }, {
+        "Code": "JE",
+        "Description": "Jersey"
+      }, {
+        "Code": "JO",
+        "Description": "Jordan"
+      }, {
+        "Code": "JU",
+        "Description": "Juan de Nova Island"
+      }, {
+        "Code": "KT",
+        "Description": "Kazakhstan"
+      }, {
+        "Code": "KE",
+        "Description": "Kenya"
+      }, {
+        "Code": "CJ",
+        "Description": "Khmer Republic (now Cambodia)"
+      }, {
+        "Code": "KB",
+        "Description": "Kiribati (formerly Gilbert Islands)"
+      }, {
+        "Code": "KN",
+        "Description": "Korea North"
+      }, {
+        "Code": "KO",
+        "Description": "Korea South"
+      }, {
+        "Code": "KU",
+        "Description": "Kuwait"
+      }, {
+        "Code": "KY",
+        "Description": "Kyrgyzstan"
+      }, {
+        "Code": "LS",
+        "Description": "Laos"
+      }, {
+        "Code": "LN",
+        "Description": "Lebanon"
+      }, {
+        "Code": "LE",
+        "Description": "Lesotho"
+      }, {
+        "Code": "LB",
+        "Description": "Liberia"
+      }, {
+        "Code": "LY",
+        "Description": "Libya"
+      }, {
+        "Code": "LI",
+        "Description": "Liechtenstein"
+      }, {
+        "Code": "LX",
+        "Description": "Luxembourg"
+      }, {
+        "Code": "IM",
+        "Description": "Madeira Islands"
+      }, {
+        "Code": "OC",
+        "Description": "Macau (formerly spelled macao)"
+      }, {
+        "Code": "MP",
+        "Description": "Malagasy Republic (includes Madagascar)"
+      }, {
+        "Code": "MF",
+        "Description": "Malawi"
+      }, {
+        "Code": "MZ",
+        "Description": "Malaysia"
+      }, {
+        "Code": "MV",
+        "Description": "Maldives"
+      }, {
+        "Code": "ML",
+        "Description": "Mali"
+      }, {
+        "Code": "MY",
+        "Description": "Malta"
+      }, {
+        "Code": "IB",
+        "Description": "Man Isle of"
+      }, {
+        "Code": "KH",
+        "Description": "Manahiki Island"
+      }, {
+        "Code": "ZB",
+        "Description": "Martinique"
+      }, {
+        "Code": "MU",
+        "Description": "Mauritania"
+      }, {
+        "Code": "UM",
+        "Description": "Mauritius"
+      }, {
+        "Code": "YO",
+        "Description": "Mayotte Territorial Collectivity of"
+      }, {
+        "Code": "MM",
+        "Description": "Mexico (state unknown)"
+      }, {
+        "Code": "mexican_state_pl",
+        "Description": "Mexican state"
+      }, {
+        "Code": "LD",
+        "Description": "Moldova"
+      }, {
+        "Code": "MJ",
+        "Description": "Monaco"
+      }, {
+        "Code": "MG",
+        "Description": "Mongolia"
+      }, {
+        "Code": "RR",
+        "Description": "Montserrat"
+      }, {
+        "Code": "MQ",
+        "Description": "Morocco"
+      }, {
+        "Code": "ZO",
+        "Description": "Mozambique"
+      }, {
+        "Code": "SJ",
+        "Description": "Namibia (South West Africa)"
+      }, {
+        "Code": "NR",
+        "Description": "Nauru"
+      }, {
+        "Code": "NP",
+        "Description": "Nepal"
+      }, {
+        "Code": "NE",
+        "Description": "Netherlands (Holland)"
+      }, {
+        "Code": "NX",
+        "Description": "Netherlands Antilles"
+      }, {
+        "Code": "NQ",
+        "Description": "New Caledonia"
+      }, {
+        "Code": "HN",
+        "Description": "New Hebrides (now Vanuatu)"
+      }, {
+        "Code": "NO",
+        "Description": "New Guinea (now Papua New Guinea)"
+      }, {
+        "Code": "NZ",
+        "Description": "New Zealand"
+      }, {
+        "Code": "NU",
+        "Description": "Nicaragua"
+      }, {
+        "Code": "NN",
+        "Description": "Niger"
+      }, {
+        "Code": "NG",
+        "Description": "Nigeria"
+      }, {
+        "Code": "IU",
+        "Description": "Niue"
+      }, {
+        "Code": "OF",
+        "Description": "Norfolk Island"
+      }, {
+        "Code": "KN",
+        "Description": "North Korea"
+      }, {
+        "Code": "NI",
+        "Description": "Northern Ireland"
+      }, {
+        "Code": "NW",
+        "Description": "Norway"
+      }, {
+        "Code": "OI",
+        "Description": "Okinawa"
+      }, {
+        "Code": "OM",
+        "Description": "Oman"
+      }, {
+        "Code": "PK",
+        "Description": "Pakistan"
+      }, {
+        "Code": "PD",
+        "Description": "Palau Republic of"
+      }, {
+        "Code": "PM",
+        "Description": "Panama"
+      }, {
+        "Code": "NO",
+        "Description": "Papua New Guinea (formerly New Guinea)"
+      }, {
+        "Code": "PV",
+        "Description": "Paraguay"
+      }, {
+        "Code": "PU",
+        "Description": "Peru"
+      }, {
+        "Code": "PI",
+        "Description": "Philippines"
+      }, {
+        "Code": "PC",
+        "Description": "Pitcairn Henderson Ducie and Oeno Islands (Dependent territory of United Kingdom)"
+      }, {
+        "Code": "PO",
+        "Description": "Poland"
+      }, {
+        "Code": "FP",
+        "Description": "Polynesia French"
+      }, {
+        "Code": "PT",
+        "Description": "Portugal"
+      }, {
+        "Code": "PG",
+        "Description": "Portuguese Guinea (now Guinea Bissau)"
+      }, {
+        "Code": "QA",
+        "Description": "Qatar"
+      }, {
+        "Code": "RY",
+        "Description": "Republic of Yemen"
+      }, {
+        "Code": "RE",
+        "Description": "Reunion"
+      }, {
+        "Code": "RH",
+        "Description": "Rhodesia (now Zimbabwe)"
+      }, {
+        "Code": "RU",
+        "Description": "Romania/Rumania"
+      }, {
+        "Code": "RA",
+        "Description": "Russia"
+      }, {
+        "Code": "SX",
+        "Description": "Russia (USSR)"
+      }, {
+        "Code": "RF",
+        "Description": "Russia Federation"
+      }, {
+        "Code": "RW",
+        "Description": "Rwanda"
+      }, {
+        "Code": "TS",
+        "Description": "Saint Christopher (or St. Kitts) and Nevis"
+      }, {
+        "Code": "HS",
+        "Description": "Saint Helena"
+      }, {
+        "Code": "LU",
+        "Description": "Saint Lucia"
+      }, {
+        "Code": "PS",
+        "Description": "Saint Pierre and Miquelon"
+      }, {
+        "Code": "VV",
+        "Description": "Saint Vincent and the Grenadines"
+      }, {
+        "Code": "SH",
+        "Description": "San Marino"
+      }, {
+        "Code": "TP",
+        "Description": "Sao Tome and Principe"
+      }, {
+        "Code": "SB",
+        "Description": "Saudi Arabia"
+      }, {
+        "Code": "SS",
+        "Description": "Scotland"
+      }, {
+        "Code": "SG",
+        "Description": "Senegal"
+      }, {
+        "Code": "SE",
+        "Description": "Seychelles"
+      }, {
+        "Code": "SA",
+        "Description": "Sierra Leone"
+      }, {
+        "Code": "II",
+        "Description": "Sikkim (SK for reference only now code Sikkim as India)"
+      }, {
+        "Code": "SR",
+        "Description": "Singapore"
+      }, {
+        "Code": "LF",
+        "Description": "Slovakia"
+      }, {
+        "Code": "LO",
+        "Description": "Slovenia"
+      }, {
+        "Code": "RV",
+        "Description": "Socialist Republic of Vietnam"
+      }, {
+        "Code": "BS",
+        "Description": "Solomon Islands (formerly British Solomon Islands)"
+      }, {
+        "Code": "SM",
+        "Description": "Somalia"
+      }, {
+        "Code": "SF",
+        "Description": "South Africa"
+      }, {
+        "Code": "GS",
+        "Description": "South Georgia and the South Sandwich Islands"
+      }, {
+        "Code": "KO",
+        "Description": "South Korea"
+      }, {
+        "Code": "SJ",
+        "Description": "South West Africa (Namibia)"
+      }, {
+        "Code": "SX",
+        "Description": "Soviet Union (USSR)"
+      }, {
+        "Code": "SP",
+        "Description": "Spain"
+      }, {
+        "Code": "RS",
+        "Description": "Spanish Sahara (now Western Sahara)"
+      }, {
+        "Code": "TE",
+        "Description": "Spratly Islands"
+      }, {
+        "Code": "CY",
+        "Description": "Sri Lanka (now Ceylon)"
+      }, {
+        "Code": "SU",
+        "Description": "Sudan"
+      }, {
+        "Code": "ZC",
+        "Description": "Surinam"
+      }, {
+        "Code": "SV",
+        "Description": "Svalbard"
+      }, {
+        "Code": "SW",
+        "Description": "Swaziland"
+      }, {
+        "Code": "SQ",
+        "Description": "Sweden"
+      }, {
+        "Code": "SZ",
+        "Description": "Switzerland"
+      }, {
+        "Code": "SY",
+        "Description": "Syria"
+      }, {
+        "Code": "TW",
+        "Description": "Taiwan (Republic of China)"
+      }, {
+        "Code": "TJ",
+        "Description": "Tajikistan"
+      }, {
+        "Code": "TZ",
+        "Description": "Tanzania United Republic of"
+      }, {
+        "Code": "TH",
+        "Description": "Thailand"
+      }, {
+        "Code": "TI",
+        "Description": "Timor Portuguese"
+      }, {
+        "Code": "TO",
+        "Description": "Togo"
+      }, {
+        "Code": "TK",
+        "Description": "Tokelau"
+      }, {
+        "Code": "TG",
+        "Description": "Tonga"
+      }, {
+        "Code": "TQ",
+        "Description": "Tongareva Island"
+      }, {
+        "Code": "TT",
+        "Description": "Trinidad and Tabago"
+      }, {
+        "Code": "TM",
+        "Description": "Tromelin Island"
+      }, {
+        "Code": "TC",
+        "Description": "Trucial States (now United Arab Emirates)"
+      }, {
+        "Code": "TF",
+        "Description": "Tuamotu Archipelago"
+      }, {
+        "Code": "TU",
+        "Description": "Tunisia"
+      }, {
+        "Code": "TY",
+        "Description": "Turkey"
+      }, {
+        "Code": "UR",
+        "Description": "Turkmenistan"
+      }, {
+        "Code": "TR",
+        "Description": "Turks and Caicos Islands"
+      }, {
+        "Code": "TV",
+        "Description": "Tuvalu (formerly Ellice Islands)"
+      }, {
+        "Code": "UG",
+        "Description": "Uganda"
+      }, {
+        "Code": "UK",
+        "Description": "Ukraine"
+      }, {
+        "Code": "TC",
+        "Description": "United Arab Emirates (formerly Trucial States)"
+      }, {
+        "Code": "EY",
+        "Description": "United Arab Republic (now Egypt)"
+      }, {
+        "Code": "UV",
+        "Description": "Upper Volta (now Burkina Faso)"
+      }, {
+        "Code": "UY",
+        "Description": "Uruguay"
+      }, {
+        "Code": "US",
+        "Description": "USA (United States of America)"
+      }, {
+        "Code": "SX",
+        "Description": "USSR (Soviet Union)"
+      }, {
+        "Code": "UZ",
+        "Description": "Uzberistan"
+      }, {
+        "Code": "HN",
+        "Description": "Vanuatu (formerly New Hebrides)"
+      }, {
+        "Code": "VY",
+        "Description": "Vatican City"
+      }, {
+        "Code": "VZ",
+        "Description": "Venezuela"
+      }, {
+        "Code": "VN",
+        "Description": "Vietnam North"
+      }, {
+        "Code": "VS",
+        "Description": "Vietnam South"
+      }, {
+        "Code": "WL",
+        "Description": "Wales"
+      }, {
+        "Code": "WF",
+        "Description": "Wallis and Futuna"
+      }, {
+        "Code": "WN",
+        "Description": "West Indies (for West Indies Islands not separately listed)"
+      }, {
+        "Code": "RS",
+        "Description": "Western Sahara (formerly Spanish Sahara)"
+      }, {
+        "Code": "WS",
+        "Description": "Western Samoa"
+      }, {
+        "Code": "YG",
+        "Description": "Yugoslavia"
+      }, {
+        "Code": "ZR",
+        "Description": "Zaire (formerly Congo Kinshasa)"
+      }, {
+        "Code": "ZM",
+        "Description": "Zambia"
+      }, {
+        "Code": "RH",
+        "Description": "Zimbabwe (formerly Rhodesia)"
+      }, {
+        "Code": "YY",
+        "Description": "All others"
+      }]
+    }, {
+      "@name": "eyes_pl",
+      "Item": [{
+        "Code": "BLK",
+        "Description": "Black"
+      }, {
+        "Code": "BLU",
+        "Description": "Blue"
+      }, {
+        "Code": "BRO",
+        "Description": "Brown"
+      }, {
+        "Code": "GRY",
+        "Description": "Gray"
+      }, {
+        "Code": "GRN",
+        "Description": "Green"
+      }, {
+        "Code": "HAZ",
+        "Description": "Hazel"
+      }, {
+        "Code": "MAR",
+        "Description": "Maroon"
+      }, {
+        "Code": "MUL",
+        "Description": "Multicolored"
+      }, {
+        "Code": "PNK",
+        "Description": "Pink"
+      }, {
+        "Code": "XXX",
+        "Description": "Unknown"
+      }]
+    }, {
+      "@name": "state_pl",
+      "Item": [{
+        "Code": "AK",
+        "Description": "Alaska"
+      }, {
+        "Code": "AL",
+        "Description": "Alabama"
+      }, {
+        "Code": "AR",
+        "Description": "Arkansas"
+      }, {
+        "Code": "AZ",
+        "Description": "Arizona"
+      }, {
+        "Code": "CA",
+        "Description": "California"
+      }, {
+        "Code": "CO",
+        "Description": "Colorado"
+      }, {
+        "Code": "CT",
+        "Description": "Connecticut"
+      }, {
+        "Code": "DE",
+        "Description": "Delaware"
+      }, {
+        "Code": "FL",
+        "Description": "Florida"
+      }, {
+        "Code": "GA",
+        "Description": "Georgia"
+      }, {
+        "Code": "HI",
+        "Description": "Hawaii"
+      }, {
+        "Code": "IA",
+        "Description": "Iowa"
+      }, {
+        "Code": "ID",
+        "Description": "Idaho"
+      }, {
+        "Code": "IL",
+        "Description": "Illinois"
+      }, {
+        "Code": "IN",
+        "Description": "Indiana"
+      }, {
+        "Code": "KY",
+        "Description": "Kentucky"
+      }, {
+        "Code": "LA",
+        "Description": "Louisiana"
+      }, {
+        "Code": "MA",
+        "Description": "Massachusetts"
+      }, {
+        "Code": "MD",
+        "Description": "Maryland"
+      }, {
+        "Code": "ME",
+        "Description": "Maine"
+      }, {
+        "Code": "MI",
+        "Description": "Michigan"
+      }, {
+        "Code": "MN",
+        "Description": "Minnesota"
+      }, {
+        "Code": "MO",
+        "Description": "Missouri"
+      }, {
+        "Code": "MS",
+        "Description": "Mississippi"
+      }, {
+        "Code": "MT",
+        "Description": "Montana"
+      }, {
+        "Code": "NB",
+        "Description": "Nebraska"
+      }, {
+        "Code": "NC",
+        "Description": "North Carolina"
+      }, {
+        "Code": "ND",
+        "Description": "North Dakota"
+      }, {
+        "Code": "NH",
+        "Description": "New Hampshire"
+      }, {
+        "Code": "NJ",
+        "Description": "New Jersey"
+      }, {
+        "Code": "NM",
+        "Description": "New Mexico"
+      }, {
+        "Code": "NV",
+        "Description": "Nevada"
+      }, {
+        "Code": "NY",
+        "Description": "New York"
+      }, {
+        "Code": "OH",
+        "Description": "Ohio"
+      }, {
+        "Code": "OK",
+        "Description": "Oklahoma"
+      }, {
+        "Code": "OR",
+        "Description": "Oregon"
+      }, {
+        "Code": "PA",
+        "Description": "Pennsylvania"
+      }, {
+        "Code": "RI",
+        "Description": "Rhode Island"
+      }, {
+        "Code": "SC",
+        "Description": "South Carolina"
+      }, {
+        "Code": "SD",
+        "Description": "South Dakota"
+      }, {
+        "Code": "TN",
+        "Description": "Tennessee"
+      }, {
+        "Code": "TX",
+        "Description": "Texas"
+      }, {
+        "Code": "UT",
+        "Description": "Utah"
+      }, {
+        "Code": "VA",
+        "Description": "Virginia"
+      }, {
+        "Code": "VT",
+        "Description": "Vermont"
+      }, {
+        "Code": "WA",
+        "Description": "Washington"
+      }, {
+        "Code": "WI",
+        "Description": "Wisconsin"
+      }, {
+        "Code": "WV",
+        "Description": "West Virginia"
+      }, {
+        "Code": "WY",
+        "Description": "Wyoming"
+      }]
+    }, {
+      "@name": "day_pl",
+      "Item": [{
+        "Code": "MON",
+        "Description": "MON"
+      }, {
+        "Code": "TUE",
+        "Description": "TUE"
+      }, {
+        "Code": "WED",
+        "Description": "WED"
+      }, {
+        "Code": "THU",
+        "Description": "THU"
+      }, {
+        "Code": "FRI",
+        "Description": "FRI"
+      }, {
+        "Code": "SAT",
+        "Description": "SAT"
+      }, {
+        "Code": "SUN",
+        "Description": "SUN"
+      }]
+    }, {
+      "@name": "crimecode_pl",
+      "Item": [{
+        "Code": "1",
+        "Description": "1 - ARSN Arson"
+      }, {
+        "Code": "2",
+        "Description": "2 - ASLT Assault"
+      }, {
+        "Code": "3",
+        "Description": "3 - BRIB Bribery"
+      }, {
+        "Code": "4",
+        "Description": "4 - BURG Burglary"
+      }, {
+        "Code": "5",
+        "Description": "5 - DRUG Drug Abuse Crimes"
+      }, {
+        "Code": "6",
+        "Description": "6 - MBZL Embezzlement"
+      }, {
+        "Code": "7",
+        "Description": "7 - XTRT Extortion"
+      }, {
+        "Code": "8",
+        "Description": "8 - FORG Forgery"
+      }, {
+        "Code": "9",
+        "Description": "9 - FROD Fraud"
+      }, {
+        "Code": "10",
+        "Description": "10 - GMBL Gambling"
+      }, {
+        "Code": "11",
+        "Description": "11 - HRUN Hit and Run"
+      }, {
+        "Code": "12",
+        "Description": "12 - KILL Homocide"
+      }, {
+        "Code": "13",
+        "Description": "13 - KNAP Kidnapping"
+      }, {
+        "Code": "14",
+        "Description": "14 - LARC Larceny/Theft"
+      }, {
+        "Code": "15",
+        "Description": "15 - MISC Miscellaneous"
+      }, {
+        "Code": "16",
+        "Description": "16 - PORN Pornography"
+      }, {
+        "Code": "17",
+        "Description": "17 - PROP Porperty Crimes"
+      }, {
+        "Code": "18",
+        "Description": "18 - PROS Prostitution and Comm Vice"
+      }, {
+        "Code": "19",
+        "Description": "19 - ROB Robbery"
+      }, {
+        "Code": "20",
+        "Description": "20 - RAPE Rape (forcible)"
+      }, {
+        "Code": "21",
+        "Description": "21 - SEX Sex (non-forcible)"
+      }, {
+        "Code": "22",
+        "Description": "22 - SPRO Stolen Property"
+      }, {
+        "Code": "23",
+        "Description": "23 - SVEH Stolen Vehicle"
+      }, {
+        "Code": "24",
+        "Description": "24 - WEPN (Weapons (carry poss)"
+      }, {
+        "Code": "25",
+        "Description": "25 - OTHR All Others"
+      }, {
+        "Code": "26",
+        "Description": "26 - UEMV Unlawful Entry of a Motor Vehicle"
+      }, {
+        "Code": "27",
+        "Description": "27 - UCPV Unauth Control Propelled Motor Vehicle"
+      }, {
+        "Code": "28",
+        "Description": "28 - SEX6 Sexual Assault (6 yr.)"
+      }, {
+        "Code": "29",
+        "Description": "29 - SEX3 Sexual Assault (3 yr.)"
+      }, {
+        "Code": "0",
+        "Description": "0 - UNKN Unknown"
+      }]
+    }, {
+      "@name": "booking_record_type_pl",
+      "Item": [{
+        "Code": "N",
+        "Description": "New Booking"
+      }, {
+        "Code": "M",
+        "Description": "Manual Booking"
+      }, {
+        "Code": "B",
+        "Description": "Multiple Warrant"
+      }]
+    }]
+  }
+}

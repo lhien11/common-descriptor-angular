@@ -1,0 +1,45 @@
+{
+  "descriptors": {
+    "PersonID": "XY123456",
+    "DateOfBirth": {
+      "Group": {
+        "V1": "19111111"
+      }
+    },
+    "NameSubfields": {
+      "Group": {
+        "V1": "REYNOR",
+        "V2": "JIM",
+        "V3": "XAVIER"
+      }
+    },
+    "Gender": "M",
+    "Race": "W",
+    "Charges": {
+      "Group": {
+        "V1": "001",
+        "V2": "2.532-1",
+        "V3": "DRV UNDER INFLUENCE",
+        "V4": "001",
+        "V5": "F",
+        "V6": "002",
+        "V7": "011-0213",
+        "V8": "CAMPAGIN RPTS",
+        "V9": "AC",
+        "V10": "MD",
+        "V11": "HO12345",
+        "V12": "BKG123456789",
+        "V13": "500",
+        "V14": "500",
+        "V15": "SMOTIH,GEORGE",
+        "V16": "234423",
+        "V17": "OTH",
+        "V18": "SYNOPSYS TITLE",
+        "V19": "THE FOLLOWING SYNOPSYS",
+        "V20": "002",
+        "V21": "20010329",
+        "V22": "TUE"
+      }
+    }
+  }
+}

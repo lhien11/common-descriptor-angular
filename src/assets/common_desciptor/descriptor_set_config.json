@@ -1,0 +1,164 @@
+{
+  "DescriptorSet": {
+    "@pickListFile": "type2_en.pld",
+    "Descriptor": [{
+      "@tag": "Id",
+      "Item": {
+        "@displayName": "IncidentID",
+        "@readOnly": "true",
+        "@lfeSearchType": "ID",
+        "@lfeQueryType": "ID",
+        "@lfeQueryTag": "INCIDENT",
+        "@lfeSearchFilter": "id"
+      }
+    }, {
+      "@tag": "PersonID",
+      "Item": {
+        "@displayName": "PersonID",
+        "@readOnly": "true",
+        "@lfeSearchType": "ID",
+        "@lfeQueryType": "ID",
+        "@lfeQueryTag": "PERSON",
+        "@lfeSearchFilter": "id"
+      }
+    }, {
+      "@tag": "NameSubfields",
+      "Item": [{
+        "@displayName": "Last Name",
+        "@forceCase": "true",
+        "@lfeQueryType": "TEXT",
+        "@lfeSearchType": "SINGLE",
+        "@tag": "V1",
+        "@lfeQueryTag": "LastName",
+        "@lfeSearchFilter": "demo",
+        "Pattern": "^([A-Z -,&amp;]{1,30})$"
+      }, {
+        "@displayName": "First Name",
+        "@forceCase": "true",
+        "@lfeQueryType": "TEXT",
+        "@lfeSearchType": "SINGLE",
+        "@tag": "V2",
+        "@lfeQueryTag": "FirstName",
+        "@lfeSearchFilter": "demo",
+        "Pattern": "^([A-Z -,&amp;]{1,30})$"
+      }, {
+        "@displayName": "Middle Name",
+        "@forceCase": "true",
+        "@lfeQueryType": "TEXT",
+        "@lfeSearchType": "SINGLE",
+        "@tag": "V3",
+        "@lfeQueryTag": "MiddleName",
+        "@lfeSearchFilter": "demo",
+        "Pattern": "^([A-Z -,&amp;]{1,30})$"
+      }]
+    }, {
+      "@tag": "DateOfBirth",
+      "@maxOccurrences": "5",
+      "Item": {
+        "@displayName": "Date of Birth",
+        "@readOnly": "true",
+        "@tag": "V1",
+        "@lfeSearchType": "SINGLE",
+        "@lfeQueryType": "TEXT",
+        "@lfeSearchFilter": "demo",
+        "@lfeConverter": "com.morpho.lfe.query.converter.DateOfBirthSQConverter",
+        "DateEntry": {
+          "@allowFuture": "false",
+          "@format": "YYYYMMDD"
+        }
+      }
+    }, {
+      "@tag": "SocialSecurityNumber",
+      "@maxOccurrences": "4",
+      "Item": {
+        "@displayName": "SSN",
+        "@tag": "V1",
+        "@forceCase": "true",
+        "@readOnly": "true",
+        "@lfeSearchType": "SINGLE",
+        "@lfeQueryType": "TEXT",
+        "@required": "true",
+        "@lfeSearchFilter": "demo",
+        "Pattern": "^([0-9]{9})$"
+      }
+    }, {
+      "@tag": "StateIdentificationNumber",
+      "Item": {
+        "@displayName": "SID",
+        "@lfeSearchType": "SINGLE",
+        "@readOnly": "true",
+        "@lfeQueryType": "TEXT",
+        "@lfeSearchFilter": "demo",
+        "Pattern": "^([A-Z0-9]{8})$"
+      }
+    }, {
+      "@tag": "FBINumber",
+      "@maxOccurrences": "5",
+      "Item": {
+        "@displayName": "FBI Number",
+        "@readOnly": "true",
+        "@tag": "V1",
+        "@lfeQueryTag": "FBINumber_V1",
+        "@forceCase": "true",
+        "@lfeSearchType": "SINGLE",
+        "@lfeQueryType": "TEXT",
+        "@lfeSearchFilter": "demo",
+        "Pattern": "^([A-Z0-9]{9})$"
+      }
+    }, {
+      "@tag": "Gender",
+      "Item": {
+        "@displayName": "Sex",
+        "@lfeSearchType": "MULTIPLE",
+        "@lfeQueryType": "TEXT",
+        "@lfeSearchFilter": "face,demo",
+        "PickList": {
+          "@multi": "true",
+          "#text": "sex_pl"
+        }
+      }
+    }, {
+      "@tag": "Race",
+      "Item": {
+        "@displayName": "Race",
+        "@lfeSearchType": "MULTIPLE",
+        "@lfeQueryType": "TEXT",
+        "@lfeSearchFilter": "demo",
+        "PickList": {
+          "@multi": "false",
+          "#text": "race_pl"
+        }
+      }
+    }, {
+      "@tag": "Height",
+      "Item": {
+        "@displayName": "Height",
+        "@lfeSearchType": "SINGLE",
+        "@lfeQueryType": "NUM",
+        "@lfeSearchFilter": "demo",
+        "Pattern": "^[0-9]{1,3}$"
+      }
+    }, {
+      "@tag": "Weight",
+      "Item": {
+        "@displayName": "Weight",
+        "@lfeSearchType": "RANGE",
+        "@lfeQueryType": "NUM",
+        "@lfeSearchFilter": "demo",
+        "Pattern": "^[0-9]{1,3}$"
+      }
+    },
+    {
+      "@tag": "FatId",
+      "Item": {
+        "@displayName": "FatId",
+        "@readOnly": "true",
+        "@lfeSearchType": "ID",
+        "@lfeQueryType": "ID",
+        "@lfeQueryTag": "PERSON",
+        "@lfeSearchFilter": "id"
+      }
+    }],
+    "#comment": [{}, {}, {}, {}, {}, {}, {}]
+  }
+}

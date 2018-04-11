@@ -1,5 +1,7 @@
 const layout = [
-    { "type": "flex", "flex-flow": "row wrap", "items": [ "IncidentID", "PersonID" ]},
+    // { "type": "flex", "flex-flow": "row wrap", "items": [ "IncidentID", "PersonID" ]},
+    { "key": "IncidentID", "title": "Incident ID"},
+    { "key": "PersonID", "title": "PersonID"},
     { "key": "Last Name", "title": "Last Name" },
     { "key": "First Name", "title": "First Name" },
     { "key": "Middle Name", "title": "Middle Name" },

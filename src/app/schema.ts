@@ -37,7 +37,7 @@ const schema = {
           "enum": [ "Male", "Female", "Unknown (Livescans)", "Unknown (Cardscans)" ]
         }
       }
-    },
+    }
   }
 
 };
