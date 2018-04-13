@@ -147,17 +147,6 @@
         "@lfeSearchFilter": "demo",
         "Pattern": "^[0-9]{1,3}$"
       }
-    },
-    {
-      "@tag": "FatId",
-      "Item": {
-        "@displayName": "FatId",
-        "@readOnly": "true",
-        "@lfeSearchType": "ID",
-        "@lfeQueryType": "ID",
-        "@lfeQueryTag": "PERSON",
-        "@lfeSearchFilter": "id"
-      }
     }],
     "#comment": [{}, {}, {}, {}, {}, {}, {}]
   }

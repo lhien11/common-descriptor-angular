@@ -1,8 +1,7 @@
+import { element } from 'protractor';
 import { Component, OnInit, Input } from '@angular/core';
 
-import * as schemas from '../schema';
-import * as data from '../data';
-import * as layout from '../layout';
+
 import { DataService } from '../data.service';
 
 
@@ -14,12 +13,20 @@ import { DataService } from '../data.service';
 export class DescriptorsComponent implements OnInit {
   title = 'Angular JSON Schema Form Material Design Seed App';
   //layout = layout.default;
-  schemas = schemas.default;
-  schema; 
-  data = data.default;
-  sampleData = {"type": "object", "properties": {}};
-  layout; 
-
+  schema;
+  sampleData = { "type": "object", "properties": {} };
+  sampleLayout = [];
+  dataOutput = {
+    "PersonID": "XY123456",
+    "Last Name": "REYNOR",
+    "First Name": "JIM",
+    "Middle Name": "XAVIER",
+    "Date of Birth": "1911-11-11",
+    "Sex": [
+      "Male"
+    ],
+    "Race": "White"
+  }
   displayData: any = null;
 
   exampleOnSubmitFn(formData) {
@@ -60,50 +67,114 @@ export class DescriptorsComponent implements OnInit {
     let descriptors = this._descriptorSchema.DescriptorSet.Descriptor;
     let picklistDefinition = this._descriptorDefinition.PickListDef.PickList;
 
-    
     let pickListMap = {};
     picklistDefinition.forEach(
       pl => pickListMap[pl["@name"]] = pl
     );
-    
-    console.log(pickListMap);
-    console.log(pickListMap['yesNo_pl']);
+    //console.log(pickListMap);
+    let descriptorMap = {};
+    descriptors.map(dm => {
+      descriptorMap[dm["@tag"]] = dm
+    });
 
-    for (let i = 0; i < descriptors.length; i++) {
-      if (descriptors[i]["@tag"]) {
-        // console.log(descriptors[i]["Item"]);
-        console.log("@tag ", descriptors[i]["@tag"]);
-      
-        this.sampleData.properties[descriptors[i]["@tag"]] = {
-          "type":"string"
-        } ; 
-        if (descriptors[i]["Item"]["PickList"]) {
-          // console.log("Picklist: ", typeof (descriptors[i]["Item"]["PickList"]["#text"]));
-
-          // for (let indexPick = 0; indexPick < picklistDefinition.length; indexPick++) {
-          //   //console.log("picklistDefinition ", picklistDefinition[indexPick]["@name"]);
-          //   if (descriptors[i]["Item"]["PickList"]["#text"] === picklistDefinition[indexPick]["@name"]) {
-          //     // console.log(picklistDefinition[indexPick]["Item"]);
-
-          //   }
-          // }
-            if (pickListMap[descriptors[i]["Item"]["PickList"]["#text"]]) {
-              console.log("I am here");
+    for (let item in descriptorMap) {
+      let data = descriptorMap[item];
+      let displayName = data["Item"]["@displayName"];
+      if (data["Item"] instanceof Array) {
+        let innerData = data["Item"];
+        innerData.forEach(element => {
+          if (element["Pattern"]) {
+            this.sampleData.properties[element["@displayName"]] = {
+              "type": "string",
+              "pattern": element["Pattern"]
             }
-          // this._pickListItem.push(descriptors[i]["Item"]["PickList"]);
+          } else {
+            this.sampleData.properties[element["@displayName"]] = {
+              "type": "string",
+            }
+          }
+          this.sampleLayout.push({
+            "key": element["@displayName"],
+            "title": element["@displayName"]
+          })
+        });
+      }
+      else if (data["Item"]["DateEntry"]) {
+        this.sampleData.properties[displayName] = {
+          "type": "string",
+        }
+        this.sampleLayout.push({
+          "key": displayName,
+          "title": displayName,
+          "type": "date"
+        })
+      }
+      else if (data["Item"]["PickList"]) {
+        let pickListArray = pickListMap[data["Item"]["PickList"]["#text"]];
+        //console.log(data["Item"]["PickList"]["@multi"]);
+        let multiSelect = data["Item"]["PickList"]["@multi"];
+        let enumArray = [];
+        let selectDescription = {};
+        pickListArray["Item"].forEach(element => {
+          enumArray.push(element.Description);
+        });
+        if (multiSelect === "true") {
+
+          this.sampleData.properties[displayName] = {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": enumArray
+            }
+
+          }
+          this.sampleLayout.push({
+            "key": displayName,
+            "title": displayName,
+            "type": "checkboxes",
+            "titleMap": enumArray
+
+          })
+        }
+        else {
+          this.sampleData.properties[displayName] = {
+            "type": "string",
+            "enum": enumArray
+          }
+          this.sampleLayout.push({
+            "key": displayName,
+            "title": displayName,
+            "type": "select",
+            "titleMap": enumArray
+
+          })
 
         }
-
       }
+      else {
+        let regxPattern = data["Item"]["Pattern"];
+        if (regxPattern) {
+          this.sampleData.properties[displayName] = {
+            "type": "string",
+            "pattern": regxPattern
+          }
+        } else {
+          this.sampleData.properties[displayName] = {
+            "type": "string",
+          }
+        }
+        this.sampleLayout.push({
+          "key": data["Item"]["@displayName"],
+          "title": data["Item"]["@displayName"],
+        })
+      }
+
+
     }
 
     this.schema = this.sampleData;
-    console.log("Json: ", this.schema);
-
-
-
-
-
+    // console.log("Json: ", JSON.stringify(this.schema, null, 2));
+    // console.log("Sample Layout: ", JSON.stringify(this.sampleLayout, null, 2));
 
   }
   get descriptorDefinition() {
@@ -127,7 +198,6 @@ export class DescriptorsComponent implements OnInit {
         return;
       }
       this.descriptorDefinition = results;
-      //console.log("desciptors Definition: ", this.descriptorDefinition);
 
     })
 
@@ -136,15 +206,7 @@ export class DescriptorsComponent implements OnInit {
         return;
       }
       this.descriptorSchema = results;
-      //console.log("desriptors Schema: ", this.descriptorSchema);
     })
-
-
-
-
-   // console.log("Json: ", this.schemas);
-    //console.log("mySchema: ", this.schema);
-
   }
 
 
