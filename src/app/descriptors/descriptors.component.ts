@@ -1,9 +1,6 @@
 import { element } from 'protractor';
 import { Component, OnInit, Input } from '@angular/core';
-
-
 import { DataService } from '../data.service';
-
 
 @Component({
   selector: 'app-descriptors',
@@ -16,17 +13,8 @@ export class DescriptorsComponent implements OnInit {
   schema;
   sampleData = { "type": "object", "properties": {} };
   sampleLayout = [];
-  dataOutput = {
-    "PersonID": "XY123456",
-    "Last Name": "REYNOR",
-    "First Name": "JIM",
-    "Middle Name": "XAVIER",
-    "Date of Birth": "1911-11-11",
-    "Sex": [
-      "Male"
-    ],
-    "Race": "White"
-  }
+  data = {};
+
   displayData: any = null;
 
   exampleOnSubmitFn(formData) {
@@ -66,6 +54,7 @@ export class DescriptorsComponent implements OnInit {
 
     let descriptors = this._descriptorSchema.DescriptorSet.Descriptor;
     let picklistDefinition = this._descriptorDefinition.PickListDef.PickList;
+    let descriptorsMetaData = this._descriptorData["descriptors"];
 
     let pickListMap = {};
     picklistDefinition.forEach(
@@ -172,10 +161,63 @@ export class DescriptorsComponent implements OnInit {
 
     }
 
+
+    // let descriptorMap = {};
+    // descriptors.map(dm => {
+    //   descriptorMap[dm["@tag"]] = dm
+    // });
+
+    //console.log("this descriptor data ", descriptorsMetaData);
+    let descriptorDataMap = {};
+    let basicObject = {};
+    for(let prop in this._descriptorData){
+      // console.log("descriptorData: Key: ", Object.keys(this.descriptorData[prop]));
+      let tempString = String(Object.keys(this.descriptorData[prop]));
+      // console.log("descriptorData: Value: ", this._descriptorData[prop]);
+      if(this._descriptorData[prop] instanceof Object){
+        console.log(this._descriptorData[prop]);
+      }
+
+      //basicObject[tempString] = this._descriptorData[prop];
+      // console.log(this._descriptorData[prop]);
+      // console.log(tempString);
+      
+
+    }
+    // console.log("basicObject ", basicObject);
+
+    // let sampleWork = this._descriptorSchema["DescriptorSet"];
+    // // for(let prop in sampleWork){
+    // //   console.log("descriptorMap: ", Object.keys(sampleWork[prop]));
+    // // }
+    // // console.log(Object.keys(descriptorMap));
+    // // console.log(sampleWork);
+
+    // for (let item in descriptorMap) {
+    //   let data = descriptorMap[item];
+    //   let displayName = data["Item"]["@displayName"];
+    //   if (data["Item"] instanceof Array) {
+
+    //   }
+    //   console.log(displayName);
+    // }
+
+
+
     this.schema = this.sampleData;
     // console.log("Json: ", JSON.stringify(this.schema, null, 2));
     // console.log("Sample Layout: ", JSON.stringify(this.sampleLayout, null, 2));
-
+    this.data = {
+      "PersonID": "XY123456",
+      "Last Name": "REYNOR",
+      "First Name": "JIM",
+      "Middle Name": "XAVIER",
+      "Date of Birth": "1911-11-11",
+      "Sex": [
+        "Male"
+      ],
+      "Race": "White"      
+    }
   }
   get descriptorDefinition() {
     return this._descriptorDefinition;
